@@ -1,0 +1,177 @@
+{
+  "products": [
+    {
+      "id": "frame-01",
+      "name": "Meteor65 Pro Frame",
+      "brand": "BetaFPV",
+      "category": "Frame",
+      "subCategory": "65mm",
+      "weight": "3.2g",
+      "description": "Ultra-light 65mm frame for 35mm props. Durable and rigid for racing.",
+      "price": 5.99,
+      "isRecommended": true,
+      "amazonLink": "https://amazon.com/dp/B09VPH7K1J",
+      "imageUrl": "/images/parts/frame-meteor65.png",
+      "specs": {
+        "Material": "Plastic",
+        "Motor Mounting": "3-hole",
+        "Prop Size": "35mm"
+      }
+    },
+    {
+      "id": "frame-02",
+      "name": "Fractal 65 Micro Frame",
+      "brand": "Fractal Engineering",
+      "category": "Frame",
+      "subCategory": "65mm",
+      "weight": "2.1g",
+      "description": "The lightest carbon fiber frameset for 65mm whoops. Precision engineering.",
+      "price": 24.99,
+      "amazonLink": "https://www.fractal-engineering.com",
+      "imageUrl": "/images/parts/frame-fractal65.png",
+      "specs": {
+        "Material": "Carbon Fiber",
+        "Prop Size": "31mm",
+        "Mounting": "Whoop pattern"
+      }
+    },
+    {
+      "id": "motor-01",
+      "name": "0802SE 19500KV Motors",
+      "brand": "BetaFPV",
+      "category": "Motors",
+      "subCategory": "Brushless",
+      "weight": "1.8g",
+      "description": "High-efficiency brushless motors for 1S builds. Classic whoop reliability.",
+      "price": 38.99,
+      "isRecommended": true,
+      "amazonLink": "https://amazon.com/dp/B08GP8KWTS",
+      "imageUrl": "/images/parts/motor-0802se.png",
+      "specs": {
+        "KV": "19500",
+        "Stator": "0802",
+        "Shaft": "1.0mm"
+      }
+    },
+    {
+      "id": "motor-02",
+      "name": "RS0802 20000KV Motors",
+      "brand": "EMAX",
+      "category": "Motors",
+      "subCategory": "Brushless",
+      "weight": "1.9g",
+      "description": "Legendary TinyHawk performance motors. Smooth and powerful.",
+      "price": 42.00,
+      "amazonLink": "https://amazon.com/dp/product/B08C9T9Z8M",
+      "imageUrl": "/images/parts/motor-emax.png",
+      "specs": {
+        "KV": "20000",
+        "Stator": "0802",
+        "Shaft": "1.5mm"
+      }
+    },
+    {
+      "id": "fc-01",
+      "name": "F4 1S 5A AIO FC",
+      "brand": "BetaFPV",
+      "category": "Flight Controllers",
+      "subCategory": "AIO",
+      "weight": "2.9g",
+      "description": "Integrated FC, ESC, and ELRS RX. The standard for 1S whoops.",
+      "price": 49.99,
+      "isRecommended": true,
+      "amazonLink": "https://amazon.com/dp/B0B5G8X8L1",
+      "imageUrl": "/images/parts/fc-f4-5a.png",
+      "specs": {
+        "MCU": "STM32F411",
+        "ESC Amps": "5A",
+        "Receiver": "ELRS 2.4G"
+      }
+    },
+    {
+      "id": "fc-02",
+      "name": "SuperBee F4 Lite",
+      "brand": "Happymodel",
+      "category": "Flight Controllers",
+      "subCategory": "AIO",
+      "weight": "2.8g",
+      "description": "High performance AIO with improved 5V regulator and ELRS SPI RX.",
+      "price": 54.00,
+      "amazonLink": "https://amazon.com/dp/product/B0BS6KWN79",
+      "imageUrl": "/images/parts/fc-superbee.png",
+      "specs": {
+        "MCU": "STM32F411",
+        "ESC Amps": "5A",
+        "Gyro": "BMI270"
+      }
+    },
+    {
+      "id": "vtx-01",
+      "name": "M03 350mW VTX",
+      "brand": "BetaFPV",
+      "category": "VTX",
+      "subCategory": "Analog",
+      "weight": "1.1g",
+      "description": "Tiny 5.8GHz VTX with adjustable power from 25mW to 350mW.",
+      "price": 18.99,
+      "amazonLink": "https://amazon.com/dp/B09C5R8W9B",
+      "imageUrl": "/images/parts/vtx-m03.webp",
+      "specs": {
+        "Frequency": "5.8GHz",
+        "Power": "350mW",
+        "Protocol": "SmartAudio"
+      }
+    },
+    {
+      "id": "camera-01",
+      "name": "C03 FPV Camera",
+      "brand": "BetaFPV",
+      "category": "Camera",
+      "subCategory": "Analog",
+      "weight": "1.4g",
+      "description": "1200TVL resolution with global shutter. Best in class for whoops.",
+      "price": 16.99,
+      "amazonLink": "https://amazon.com/dp/B0B2W5B2L5",
+      "imageUrl": "/images/parts/camera-c03.webp",
+      "specs": {
+        "Resolution": "1200TVL",
+        "Sensor": "1/3 CMOS",
+        "FOV": "160°"
+      }
+    },
+    {
+      "id": "prop-01",
+      "name": "Gemfan 35mm 3-Blade",
+      "brand": "Gemfan",
+      "category": "Propellers",
+      "subCategory": "35mm",
+      "weight": "0.4g",
+      "description": "Smooth and quiet 3-blade props for 65mm Pro frames.",
+      "price": 2.99,
+      "amazonLink": "https://amazon.com/dp/B09VPH7K1J",
+      "imageUrl": "/images/parts/prop-gemfan.png",
+      "specs": {
+        "Blades": "3",
+        "Pitch": "1.0",
+        "Shaft": "1.0mm"
+      }
+    },
+    {
+      "id": "battery-01",
+      "name": "300mAh 1S BT2.0",
+      "brand": "BetaFPV",
+      "category": "Batteries",
+      "subCategory": "1S LiHV",
+      "weight": "8.2g",
+      "description": "Reliable 1S power with high discharge BT2.0 connectors.",
+      "price": 26.00,
+      "amazonLink": "https://amazon.com/dp/B08218LB8U",
+      "imageUrl": "/images/parts/battery-300mah.webp",
+      "specs": {
+        "Capacity": "300mAh",
+        "Voltage": "3.8V/4.35V",
+        "Connector": "BT2.0"
+      }
+    }
+  ]
+}
