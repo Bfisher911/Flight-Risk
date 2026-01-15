@@ -75,7 +75,7 @@ export default function PartPickerPage() {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     {productsData.products
                                         .filter(p => p.category === cat.key)
-                                        .map((product) => (
+                                        .map((product: any) => (
                                             <TechnicalCard
                                                 key={product.id}
                                                 className={`transition-all cursor-pointer ${selections[cat.key] === product.id ? 'border-accent-amber bg-accent-amber/10 animate-shimmer shadow-[0_0_20px_rgba(245,158,11,0.15)]' : 'hover:border-accent-blue/50'}`}
@@ -103,7 +103,7 @@ export default function PartPickerPage() {
                                                             {product.description}
                                                         </p>
                                                         <div className="flex items-center justify-between">
-                                                            <span className="text-accent-amber font-mono font-bold text-xs">{product.priceRange}</span>
+                                                            <span className="text-accent-amber font-mono font-bold text-xs">${product.price.toFixed(2)}</span>
                                                             <a href={product.amazonLink} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
                                                                 <TechnicalButton variant="secondary" className="px-2 py-1 text-[8px]">
                                                                     View on Amazon
@@ -127,7 +127,7 @@ export default function PartPickerPage() {
                             <div className="space-y-4 mb-6">
                                 {categories.map((cat) => {
                                     const selectedId = selections[cat.key];
-                                    const product = productsData.products.find(p => p.id === selectedId);
+                                    const product = productsData.products.find((p: any) => p.id === selectedId) as any;
 
                                     return (
                                         <div key={cat.key} className="flex justify-between items-start gap-2 border-b border-white/5 pb-2 min-h-12">

@@ -147,7 +147,7 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {trendingParts.map((product) => (
+          {trendingParts.map((product: any) => (
             <TechnicalCard key={product.id} title={product.category} subtitle={`ID: ${product.id}`}>
               <div className="aspect-video relative mb-4 flex items-center justify-center overflow-hidden border border-accent-blue/10 bg-slate-800/50">
                 {product.imageUrl && product.imageUrl.endsWith('.png') ? (
@@ -168,7 +168,7 @@ export default function Home() {
                 {product.description}
               </p>
               <div className="flex items-center justify-between mt-auto">
-                <span className="text-accent-amber font-mono font-bold">{product.priceRange}</span>
+                <span className="text-accent-amber font-mono font-bold">${product.price.toFixed(2)}</span>
                 <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
                   <TechnicalButton variant="secondary" className="px-3 py-1 text-[10px]">
                     Check Price
