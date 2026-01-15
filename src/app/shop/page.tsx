@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, Suspense } from 'react';
 import productsData from "@/data/products.json";
 import { ProductCard } from "@/components/ui/ProductCard";
 import { Search, Tag, ChevronRight, BarChart3 } from "lucide-react";
@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
-export default function ShopPage() {
+function ShopContent() {
     const searchParams = useSearchParams();
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedCategory, setSelectedCategory] = useState("All");
@@ -19,29 +19,29 @@ export default function ShopPage() {
         if (cat) setSelectedCategory(cat);
     }, [searchParams]);
 
-    const categories = ["All", ...new Set(productsData.products.map(p => p.category))];
-    const brands = ["All", ...new Set(productsData.products.map(p => p.brand))];
+    const categories = ["All", ...new Set(productsData.products.map((p: any) => p.category))];
+    const brands = ["All", ...new Set(productsData.products.map((p: any) => p.brand))];
 
-    const filteredProducts = useMemo(() => {
-        return productsData.products.filter(p => {
-            const matchesSearch = p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                p.description.toLowerCase().includes(searchQuery.toLowerCase());
-            const matchesCategory = selectedCategory === "All" || p.category === selectedCategory;
-            const matchesBrand = selectedBrand === "All" || p.brand === selectedBrand;
-            return matchesSearch && matchesCategory && matchesBrand;
-        });
-    }, [searchQuery, selectedCategory, selectedBrand]);
+    const filteredProducts = productsData.products.filter((product: any) => {
+        const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            product.description.toLowerCase().includes(searchQuery.toLowerCase());
+        const matchesCategory = selectedCategory === "All" || product.category === selectedCategory;
+        const matchesBrand = selectedBrand === "All" || product.brand === selectedBrand;
+        return matchesSearch && matchesCategory && matchesBrand;
+    });
 
     return (
         <div className="container mx-auto px-4 py-8">
             {/* HUD Header */}
             <div className="mb-12 border-b border-accent-blue/20 pb-8 flex flex-col md:flex-row justify-between items-end gap-6">
                 <div>
-                    <h1 className="text-4xl md:text-6xl font-bold mb-2 tracking-tighter">STORE_CATALOG</h1>
+                    <h1 className="text-4xl md:text-6xl font-bold mb-2 tracking-tighter uppercase flex items-center gap-4">
+                        <BarChart3 className="text-accent-blue animate-pulse" /> SYSTEM_CATALOG
+                    </h1>
                     <div className="flex items-center gap-4 text-xs font-mono text-slate-500 uppercase">
-                        <span>Items_Detected: {filteredProducts.length}</span>
-                        <span className="text-accent-blue/40">//</span>
-                        <span>System: Ready</span>
+                        <span>ACTIVE_RESOURCES: {filteredProducts.length}/{productsData.products.length}</span>
+                        <span className="hidden md:inline text-accent-blue/40">//</span>
+                        <span className="hidden md:inline">ENCRYPTION: AES-256_ACTIVE</span>
                     </div>
                 </div>
 
@@ -76,43 +76,44 @@ export default function ShopPage() {
             <div className="flex flex-col lg:flex-row gap-8">
                 {/* Sidebar Filters */}
                 <aside className="w-full lg:w-64 shrink-0 space-y-8">
+                    {/* Category Filter */}
                     <div>
-                        <div className="flex items-center gap-2 mb-4 text-xs font-mono text-accent-blue font-bold tracking-widest uppercase">
-                            <Tag className="w-3 h-3" /> CATEGORIES
+                        <div className="flex items-center gap-2 mb-4 text-[10px] font-mono text-accent-blue uppercase tracking-widest font-bold">
+                            <Tag className="w-3 h-3" /> CATEGORY_SELECT
                         </div>
                         <div className="space-y-1">
                             {categories.map(cat => (
                                 <button
                                     key={cat}
                                     onClick={() => setSelectedCategory(cat)}
-                                    className={`w-full text-left px-3 py-2 text-[10px] font-mono uppercase transition-all flex items-center justify-between group ${selectedCategory === cat ? 'bg-accent-blue/10 text-accent-blue border-l-2 border-accent-blue' : 'text-slate-500 hover:text-slate-300'}`}
+                                    className={`w-full text-left px-3 py-2 text-xs font-mono transition-all flex items-center justify-between group ${selectedCategory === cat ? 'bg-accent-blue/20 text-accent-blue border-l-2 border-accent-blue pl-4' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}
                                 >
-                                    {cat}
-                                    <ChevronRight className={`w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity ${selectedCategory === cat ? 'opacity-100' : ''}`} />
+                                    <span>{cat.replace(/\s+/g, '_').toUpperCase()}</span>
+                                    {selectedCategory === cat && <ChevronRight className="w-3 h-3 animate-pulse" />}
                                 </button>
                             ))}
                         </div>
                     </div>
 
+                    {/* Brand Filter */}
                     <div>
-                        <div className="flex items-center gap-2 mb-4 text-xs font-mono text-accent-amber font-bold tracking-widest uppercase">
-                            <BarChart3 className="w-3 h-3" /> BRANDS
+                        <div className="flex items-center gap-2 mb-4 text-[10px] font-mono text-accent-amber uppercase tracking-widest font-bold">
+                            <BarChart3 className="w-3 h-3" /> BRAND_AUTH
                         </div>
                         <div className="space-y-1">
                             {brands.map(brand => (
                                 <button
                                     key={brand}
                                     onClick={() => setSelectedBrand(brand)}
-                                    className={`w-full text-left px-3 py-2 text-[10px] font-mono uppercase transition-all flex items-center justify-between group ${selectedBrand === brand ? 'bg-accent-amber/10 text-accent-amber border-l-2 border-accent-amber' : 'text-slate-500 hover:text-slate-300'}`}
+                                    className={`w-full text-left px-3 py-2 text-xs font-mono transition-all flex items-center justify-between ${selectedBrand === brand ? 'bg-accent-amber/20 text-accent-amber border-l-2 border-accent-amber pl-4' : 'text-slate-500 hover:text-slate-300 hover:bg-white/5'}`}
                                 >
-                                    {brand}
-                                    <ChevronRight className={`w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity ${selectedBrand === brand ? 'opacity-100' : ''}`} />
+                                    <span>{brand.toUpperCase()}</span>
                                 </button>
                             ))}
                         </div>
                     </div>
 
-                    <div className="p-4 border border-accent-blue/10 bg-accent-blue/5 rounded-sm">
+                    <div className="pt-8 border-t border-white/5">
                         <div className="text-[10px] font-mono text-accent-blue/60 uppercase mb-2">// SYSTEM_UPDATE</div>
                         <p className="text-[9px] font-mono text-slate-500 leading-tight">
                             Filter by category or brand to isolate specific components for your build sequence.
@@ -138,5 +139,17 @@ export default function ShopPage() {
                 </div>
             </div>
         </div>
+    );
+}
+
+export default function ShopPage() {
+    return (
+        <Suspense fallback={
+            <div className="container mx-auto px-4 py-20 text-center font-mono text-accent-blue animate-pulse">
+                INITIALIZING_CATALOG_STREAM...
+            </div>
+        }>
+            <ShopContent />
+        </Suspense>
     );
 }
