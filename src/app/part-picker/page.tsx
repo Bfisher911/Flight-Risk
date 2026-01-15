@@ -1,12 +1,13 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { AdBanner } from "@/components/ads/AdBanner";
 import { TechnicalCard } from "@/components/ui/TechnicalCard";
 import { TechnicalButton } from "@/components/ui/TechnicalButton";
-import { Cpu, Settings, Camera, Zap, Radio, Battery, Info, CheckCircle2 } from "lucide-react";
+import { Cpu, Settings, Camera, Zap, Radio, Battery, Info, CheckCircle2, Share2, Copy } from "lucide-react";
 import productsData from "@/data/products.json";
 import Image from "next/image";
+import { useSearchParams, useRouter, usePathname } from 'next/navigation';
 
 const Typewriter = ({ text, delay = 30 }: { text: string; delay?: number }) => {
     const [displayText, setDisplayText] = React.useState('');
@@ -35,21 +36,61 @@ const categories = [
     { name: "Battery", icon: Battery, key: "Batteries" },
 ];
 
-export default function PartPickerPage() {
-    const [selections, setSelections] = useState<Record<string, string | null>>({
-        Frame: null,
-        Motors: null,
-        "Flight Controllers": null,
-        Camera: null,
-        VTX: null,
-        Batteries: null,
+function PartPickerContent() {
+    const searchParams = useSearchParams();
+    const router = useRouter();
+    const pathname = usePathname();
+
+    // Initialize state from URL
+    const [selections, setSelections] = useState<Record<string, string | null>>(() => {
+        const initialSelections: Record<string, string | null> = {
+            Frame: null,
+            Motors: null,
+            "Flight Controllers": null,
+            Camera: null,
+            VTX: null,
+            Batteries: null,
+        };
+
+        categories.forEach(cat => {
+            const paramValue = searchParams.get(cat.key);
+            if (paramValue) initialSelections[cat.key] = paramValue;
+        });
+
+        return initialSelections;
     });
 
+    const [isCopied, setIsCopied] = useState(false);
+
+    // Update URL when selections change
+    const updateUrl = (newSelections: Record<string, string | null>) => {
+        const params = new URLSearchParams();
+        Object.entries(newSelections).forEach(([key, value]) => {
+            if (value) params.set(key, value);
+        });
+        router.replace(`${pathname}?${params.toString()}`, { scroll: false });
+    };
+
     const handleSelect = (category: string, productId: string) => {
-        setSelections(prev => ({
-            ...prev,
-            [category]: prev[category] === productId ? null : productId
-        }));
+        setSelections(prev => {
+            const next = {
+                ...prev,
+                [category]: prev[category] === productId ? null : productId
+            };
+            updateUrl(next);
+            return next;
+        });
+    };
+
+    const handleShare = () => {
+        const params = new URLSearchParams();
+        Object.entries(selections).forEach(([key, value]) => {
+            if (value) params.set(key, value);
+        });
+        const url = `${window.location.origin}${pathname}?${params.toString()}`;
+        navigator.clipboard.writeText(url);
+        setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 2000);
     };
 
     return (
@@ -156,8 +197,9 @@ export default function PartPickerPage() {
                                 <div className="absolute bottom-0 left-0 h-[1px] bg-accent-blue transition-all duration-1000 w-0 group-hover:w-full" />
                             </div>
 
-                            <TechnicalButton className="w-full justify-center">
-                                Copy Build List
+                            <TechnicalButton className="w-full justify-center gap-2 group" onClick={handleShare}>
+                                {isCopied ? <CheckCircle2 className="w-4 h-4 text-green-500" /> : <Share2 className="w-4 h-4 group-hover:text-accent-blue" />}
+                                {isCopied ? "LINK_COPIED_TO_CLIPBOARD" : "SHARE_SYSTEM_CONFIG"}
                             </TechnicalButton>
                         </TechnicalCard>
 
@@ -173,5 +215,17 @@ export default function PartPickerPage() {
                 </aside>
             </div>
         </div>
+    );
+}
+
+export default function PartPickerPage() {
+    return (
+        <Suspense fallback={
+            <div className="container mx-auto px-4 py-20 text-center font-mono text-accent-amber animate-pulse">
+                INITIALIZING_CONFIGURATOR_MODULE...
+            </div>
+        }>
+            <PartPickerContent />
+        </Suspense>
     );
 }
