@@ -27,7 +27,7 @@
       "weight": "2.1g",
       "description": "The lightest carbon fiber frameset for 65mm whoops. Precision engineering.",
       "price": 24.99,
-      "amazonLink": "https://www.fractal-engineering.com",
+      "amazonLink": "https://amazon.com/s?k=Fractal+65+micro+frame&tag=sparkfish-20",
       "imageUrl": "/images/parts/frame-fractal65.png",
       "specs": {
         "Material": "Carbon Fiber",
@@ -183,7 +183,7 @@
       "description": "The gold standard for 5-inch freestyle drones. Features the DeadCat geometry for no props in view, powerful XING-E motors, and the robust SucceX-E flight stack. Perfect for cinematic cruising and high-speed freestyle.",
       "price": 429.99,
       "amazonLink": "https://www.amazon.com/s?k=iFlight+Nazgul+Evoque+series&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/drone-nazgul.png",
       "specs": {
         "Size": "5 Inch",
         "Geometry": "DeadCat",
@@ -200,7 +200,7 @@
       "description": "Specifically designed for freestyle, featuring spread-X arm design for stable flight and shock-absorbing structure to protect professional camera gear.",
       "price": 389.99,
       "amazonLink": "https://www.amazon.com/s?k=GEPRC+Mark5&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/drone-geprc.png",
       "specs": {
         "Size": "5 Inch",
         "Carbon": "7075 Aluminum",
@@ -217,7 +217,7 @@
       "description": "The ultimate starter drone. Extremely durable frame, integrated camera, and beginner-friendly flight modes. Perfect for indoor learning before moving to bigger quads.",
       "price": 179.99,
       "amazonLink": "https://www.amazon.com/s?k=EMAX+Tinyhawk+series&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/drone-tinyhawk.png",
       "specs": {
         "Size": "76mm",
         "Voltage": "1S-2S",
@@ -234,7 +234,7 @@
       "description": "Complete beginner kit including goggles, radio, and drone. Features altitude hold and emergency landing modes to make learning FPV easier than ever.",
       "price": 229.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Cetus+kits&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/drone-cetus.png",
       "specs": {
         "Type": "Brushless Whoop",
         "Includes": "VR02 Goggles",
@@ -251,7 +251,7 @@
       "description": "The king of Sub-250g long range. Capable of flight times up to 30 minutes on Li-Ion batteries. Perfect for mountain surfing and cinematic exploration.",
       "price": 359.99,
       "amazonLink": "https://www.amazon.com/s?k=Flywoo+Explorer+LR&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/drone-flywoo.png",
       "specs": {
         "Range": "4km+",
         "Duration": "20-30mins",
@@ -338,7 +338,7 @@
       "description": "Next-gen digital FPV goggles with Micro-OLED screens, 1080p transmission, and head tracking. The immersive experience for O3 Air Unit fleets.",
       "price": 649.00,
       "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+2&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/goggles-dji2.png",
       "specs": {
         "Resolution": "1080p Micro-OLED",
         "Refresh": "100Hz",
@@ -355,7 +355,7 @@
       "description": "Walksnail Avatar compatible digital goggles offering 1080p OLED clarity and high refresh rates. Trusted form factor with modern tech.",
       "price": 599.00,
       "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+Dominator+HD&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/goggles-fatshark.png",
       "specs": {
         "System": "Walksnail Avatar",
         "Displays": "OLED",
@@ -372,7 +372,7 @@
       "description": "Top-tier analog goggles with 1280x960 OLED displays and the legendary SteadyView receiver for breakup-free analog video.",
       "price": 469.00,
       "amazonLink": "https://www.amazon.com/s?k=Skyzone+SKY04X&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/goggles-skyzone.png",
       "specs": {
         "Receiver": "SteadyView Fusion",
         "Screens": "OLED",
@@ -389,7 +389,7 @@
       "description": "The best value starter goggles. Box style screen detaches to become a standalone monitor. True diversity reception for solid signal.",
       "price": 99.99,
       "amazonLink": "https://www.amazon.com/s?k=Eachine+EV800D&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/goggles-eachine.png",
       "specs": {
         "Style": "Box Goggle",
         "Feature": "Detachable Screen",
@@ -406,7 +406,7 @@
       "description": "The industry standard. EdgeTX pre-installed, hall effect gimbals, huge color touch screen, and internal ELRS module options.",
       "price": 199.99,
       "amazonLink": "https://www.amazon.com/s?k=Radiomaster+TX16S&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/radio-tx16s.png",
       "specs": {
         "Channel": "16CH",
         "OS": "EdgeTX",
@@ -423,7 +423,7 @@
       "description": "Perfect balance of size and ergonomics. Features 1W internal ELRS for extreme range and full-size gimbals in a compact form factor.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=Radiomaster+Boxer&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/radio-boxer.png",
       "specs": {
         "Power": "1 Watt ELRS",
         "Processor": "STM32VGT6",
@@ -440,7 +440,7 @@
       "description": "Ultra-portable gamepad style radio with folding sticks. Fits in your pocket but packs full EdgeTX power and ELRS.",
       "price": 64.99,
       "amazonLink": "https://www.amazon.com/s?k=Radiomaster+Pocket&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/radio-pocket.png",
       "specs": {
         "Style": "Gamepad",
         "Portable": "Folding Sticks",
@@ -457,7 +457,7 @@
       "description": "The remote that changed the game. Integrated Crossfire for reliable long-range control. Premium build quality and super compact folding antenna.",
       "price": 159.95,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Tango+2&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/radio-tango2.png",
       "specs": {
         "Protocol": "Crossfire",
         "Battery": "Internal 1S LiPo",
@@ -474,7 +474,7 @@
       "description": "Versatile smart charger with detachable AC power supply. Charges up to 6S batteries. A must-have for the field bench.",
       "price": 59.99,
       "amazonLink": "https://www.amazon.com/s?k=ISDT+charger&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/charger-isdt.png",
       "specs": {
         "Power": "AC 50W / DC 200W",
         "Cells": "1S-6S",
@@ -491,7 +491,7 @@
       "description": "Portable RISC-V soldering iron. Heats up in seconds via USB-C or LiPo power. Essential for field repairs.",
       "price": 25.99,
       "amazonLink": "https://www.amazon.com/s?k=soldering+station+Pinecil+Hakko+TS101&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/tool-pinecil.png",
       "specs": {
         "Power": "USB-C PD",
         "Temp": "100-400°C",
@@ -508,7 +508,7 @@
       "description": "The standard analysis kit. Contains every bit you need for drone repair including Torx, Hex (1.5mm, 2.0mm, 2.5mm), and Phillips.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=iFixit+tool+kit&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/tool-ifixit.png",
       "specs": {
         "Bits": "64 Precision Bits",
         "Handle": "Magnetic Aluminum",
@@ -525,7 +525,7 @@
       "description": "Water-resistant hard shell backpack with customizable dividers. Fits goggles, radio, and multiple drones safely.",
       "price": 89.99,
       "amazonLink": "https://www.amazon.com/s?k=drone+backpack+Lykus+PGYTECH+Lowepro&tag=sparkfish-20",
-      "imageUrl": "",
+      "imageUrl": "/images/parts/gear-backpack.png",
       "specs": {
         "Protection": "Hard Shell",
         "Dividers": "Velcro Adjustable",
