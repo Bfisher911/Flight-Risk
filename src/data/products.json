@@ -10,7 +10,7 @@
       "description": "Ultra-light 65mm frame for 35mm props. Durable and rigid for racing.",
       "price": 5.99,
       "isRecommended": true,
-      "amazonLink": "https://amazon.com/dp/B09VPH7K1J",
+      "amazonLink": "https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20",
       "imageUrl": "/images/parts/frame-meteor65.png",
       "specs": {
         "Material": "Plastic",
@@ -45,7 +45,7 @@
       "description": "High-efficiency brushless motors for 1S builds. Classic whoop reliability.",
       "price": 38.99,
       "isRecommended": true,
-      "amazonLink": "https://amazon.com/dp/B08GP8KWTS",
+      "amazonLink": "https://amazon.com/dp/B08GP8KWTS?tag=sparkfish-20",
       "imageUrl": "/images/parts/motor-0802se.png",
       "specs": {
         "KV": "19500",
@@ -62,7 +62,7 @@
       "weight": "1.9g",
       "description": "Legendary TinyHawk performance motors. Smooth and powerful.",
       "price": 42.00,
-      "amazonLink": "https://amazon.com/dp/product/B08C9T9Z8M",
+      "amazonLink": "https://amazon.com/dp/product/B08C9T9Z8M?tag=sparkfish-20",
       "imageUrl": "/images/parts/motor-emax.png",
       "specs": {
         "KV": "20000",
@@ -80,7 +80,7 @@
       "description": "Integrated FC, ESC, and ELRS RX. The standard for 1S whoops.",
       "price": 49.99,
       "isRecommended": true,
-      "amazonLink": "https://amazon.com/dp/B0B5G8X8L1",
+      "amazonLink": "https://amazon.com/dp/B0B5G8X8L1?tag=sparkfish-20",
       "imageUrl": "/images/parts/fc-f4-5a.png",
       "specs": {
         "MCU": "STM32F411",
@@ -97,7 +97,7 @@
       "weight": "2.8g",
       "description": "High performance AIO with improved 5V regulator and ELRS SPI RX.",
       "price": 54.00,
-      "amazonLink": "https://amazon.com/dp/product/B0BS6KWN79",
+      "amazonLink": "https://amazon.com/dp/product/B0BS6KWN79?tag=sparkfish-20",
       "imageUrl": "/images/parts/fc-superbee.png",
       "specs": {
         "MCU": "STM32F411",
@@ -114,7 +114,7 @@
       "weight": "1.1g",
       "description": "Tiny 5.8GHz VTX with adjustable power from 25mW to 350mW.",
       "price": 18.99,
-      "amazonLink": "https://amazon.com/dp/B09C5R8W9B",
+      "amazonLink": "https://amazon.com/dp/B09C5R8W9B?tag=sparkfish-20",
       "imageUrl": "/images/parts/vtx-m03.webp",
       "specs": {
         "Frequency": "5.8GHz",
@@ -131,7 +131,7 @@
       "weight": "1.4g",
       "description": "1200TVL resolution with global shutter. Best in class for whoops.",
       "price": 16.99,
-      "amazonLink": "https://amazon.com/dp/B0B2W5B2L5",
+      "amazonLink": "https://amazon.com/dp/B0B2W5B2L5?tag=sparkfish-20",
       "imageUrl": "/images/parts/camera-c03.webp",
       "specs": {
         "Resolution": "1200TVL",
@@ -148,7 +148,7 @@
       "weight": "0.4g",
       "description": "Smooth and quiet 3-blade props for 65mm Pro frames.",
       "price": 2.99,
-      "amazonLink": "https://amazon.com/dp/B09VPH7K1J",
+      "amazonLink": "https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20",
       "imageUrl": "/images/parts/prop-gemfan.png",
       "specs": {
         "Blades": "3",
@@ -165,7 +165,7 @@
       "weight": "8.2g",
       "description": "Reliable 1S power with high discharge BT2.0 connectors.",
       "price": 26.00,
-      "amazonLink": "https://amazon.com/dp/B08218LB8U",
+      "amazonLink": "https://amazon.com/dp/B08218LB8U?tag=sparkfish-20",
       "imageUrl": "/images/parts/battery-300mah.webp",
       "specs": {
         "Capacity": "300mAh",
@@ -256,6 +256,76 @@
         "Range": "4km+",
         "Duration": "20-30mins",
         "GPS": "Included"
+      }
+    },
+    {
+      "id": "charger-02",
+      "name": "VIFLY WhoopStor V3",
+      "brand": "VIFLY",
+      "category": "Tools",
+      "subCategory": "Charger",
+      "weight": "120g",
+      "description": "The ultimate 1S charger. Automatically brings batteries to storage voltage to extend their life. Supports PD3.0 and has a built-in fan.",
+      "price": 32.99,
+      "amazonLink": "https://www.amazon.com/s?k=VIFLY+WhoopStor+V3&tag=sparkfish-20",
+      "imageUrl": "/images/parts/charger-whoopstor.png",
+      "isRecommended": true,
+      "specs": {
+        "Ports": "6 Ports",
+        "Function": "Charge/Discharge",
+        "Input": "Type-C PD"
+      }
+    },
+    {
+      "id": "tool-03",
+      "name": "VIFLY ShortSaver 2",
+      "brand": "VIFLY",
+      "category": "Tools",
+      "subCategory": "Safety",
+      "weight": "20g",
+      "description": "Essential smart smoke stopper. Completely cuts off power if a short is detected, saving your expensive electronics during the build process.",
+      "price": 14.99,
+      "amazonLink": "https://www.amazon.com/s?k=VIFLY+ShortSaver+2&tag=sparkfish-20",
+      "imageUrl": "/images/parts/tool-shortsaver.png",
+      "specs": {
+        "Type": "Electronic Fuse",
+        "Switch": "1A/2A",
+        "Connector": "XT30/XT60"
+      }
+    },
+    {
+      "id": "goggles-05",
+      "name": "Walksnail Avatar Goggles X",
+      "brand": "Caddx",
+      "category": "Goggles",
+      "subCategory": "Digital HD",
+      "weight": "290g",
+      "description": "The latest in HD digital FPV. 1080p 100fps transmission with H.265 encoding. Compatible with Walksnail, Analog, and HDZero (via HDMI).",
+      "price": 459.00,
+      "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+Goggles+X&tag=sparkfish-20",
+      "imageUrl": "/images/parts/goggles-avatar-x.png",
+      "isRecommended": true,
+      "specs": {
+        "Resolution": "1080p OLED",
+        "Refresh": "100Hz",
+        "FOV": "50°"
+      }
+    },
+    {
+      "id": "tool-04",
+      "name": "TS101 Smart Soldering Iron",
+      "brand": "SEQURE/Miniware",
+      "category": "Tools",
+      "subCategory": "Soldering",
+      "weight": "33g",
+      "description": "Upgraded version of the legendary TS100. DC and PD dual power input, boost mode for quick heating, and fully programmable.",
+      "price": 58.99,
+      "amazonLink": "https://www.amazon.com/s?k=TS101+Soldering+Iron&tag=sparkfish-20",
+      "imageUrl": "/images/parts/tool-ts101.png",
+      "specs": {
+        "Power": "DC/PD 3.0",
+        "Max Temp": "400°C",
+        "Screen": "OLED"
       }
     },
     {

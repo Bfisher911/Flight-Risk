@@ -8,6 +8,8 @@ import Image from "next/image";
 
 export default function Home() {
   const trendingParts = productsData.products.slice(0, 3);
+  const pilotsBench = productsData.products.filter((p) => ["tool-03", "charger-02", "tool-04"].includes(p.id));
+  const systemUpgrades = productsData.products.filter((p) => ["goggles-05", "radio-02"].includes(p.id));
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -176,6 +178,91 @@ export default function Home() {
                 </a>
               </div>
             </TechnicalCard>
+          ))}
+        </div>
+      </section>
+
+      {/* Pilot's Bench Section */}
+      <section className="mb-20 relative">
+        <div className="flex items-center gap-3 mb-8 border-b border-accent-amber/10 pb-4">
+          <Zap className="w-5 h-5 text-accent-amber" />
+          <h2 className="text-2xl font-bold font-mono tracking-[0.2em] uppercase">THE_BENCH // ESSENTIAL_TOOLS</h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {pilotsBench.map((product: any) => (
+            <TechnicalCard key={product.id} title={product.category} subtitle={`Asset_ID: ${product.id}`} accent="amber">
+              <div className="aspect-square relative mb-4 flex items-center justify-center overflow-hidden border border-accent-amber/20 bg-slate-900/80 p-6 group-hover:border-accent-amber/50 transition-colors">
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-accent-amber/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                {product.imageUrl ? (
+                  <Image
+                    src={product.imageUrl}
+                    alt={product.name}
+                    width={400}
+                    height={400}
+                    className="object-contain drop-shadow-[0_0_15px_rgba(255,191,0,0.3)]"
+                  />
+                ) : null}
+              </div>
+              <h3 className="text-lg font-bold mb-2 text-accent-amber">{product.name}</h3>
+              <p className="text-xs text-slate-400 font-mono mb-4 h-12 line-clamp-3">
+                {product.description}
+              </p>
+              <div className="flex items-center justify-between mt-auto border-t border-accent-amber/10 pt-4">
+                <span className="font-mono font-bold text-white">${product.price.toFixed(2)}</span>
+                <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
+                  <TechnicalButton className="px-4 py-2 text-[10px] bg-accent-amber/10 text-accent-amber border-accent-amber/30 hover:bg-accent-amber hover:text-black">
+                    ACQUIRE
+                  </TechnicalButton>
+                </a>
+              </div>
+            </TechnicalCard>
+          ))}
+        </div>
+      </section>
+
+      {/* System Upgrades Section */}
+      <section className="mb-20">
+        <div className="flex items-center gap-3 mb-8 border-b border-purple-500/10 pb-4">
+          <Activity className="w-5 h-5 text-purple-500" />
+          <h2 className="text-2xl font-bold font-mono tracking-[0.2em] uppercase">SYSTEM_UPGRADES // NEXT_GEN</h2>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {systemUpgrades.map((product: any) => (
+            <div key={product.id} className="relative group overflow-hidden border border-purple-500/20 bg-slate-950 p-1 hover:border-purple-500/50 transition-all">
+              <div className="absolute top-0 right-0 p-2 opacity-50 font-mono text-[9px] text-purple-500">
+                // UPGRADE_AVAILABLE
+              </div>
+              <div className="flex flex-col md:flex-row h-full bg-slate-900/50">
+                <div className="w-full md:w-1/2 relative min-h-[200px] p-6 flex items-center justify-center border-r border-purple-500/10">
+                  {product.imageUrl ? (
+                    <Image
+                      src={product.imageUrl}
+                      alt={product.name}
+                      width={400}
+                      height={400}
+                      className="object-contain drop-shadow-[0_0_20px_rgba(168,85,247,0.4)]"
+                    />
+                  ) : null}
+                </div>
+                <div className="w-full md:w-1/2 p-6 flex flex-col justify-center">
+                  <div className="text-purple-400 text-[10px] font-mono mb-2 uppercase tracking-widest">{product.brand}</div>
+                  <h3 className="text-xl font-bold mb-3 text-white">{product.name}</h3>
+                  <p className="text-xs text-slate-400 font-mono mb-6 leading-relaxed">
+                    {product.description}
+                  </p>
+                  <div className="mt-auto flex items-center justify-between">
+                    <div className="font-mono text-xl text-purple-400">${product.price.toFixed(2)}</div>
+                    <a href={product.amazonLink} target="_blank" rel="noopener noreferrer">
+                      <TechnicalButton className="bg-purple-500/10 text-purple-400 border-purple-500/30 hover:bg-purple-500 hover:text-white px-6">
+                        VIEW_DATA
+                      </TechnicalButton>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </section>
