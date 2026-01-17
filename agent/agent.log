@@ -272,3 +272,193 @@
 2026-01-16 22:11:57,722 - FlightRiskAgent.Author - WARNING - No Gemini API key found. Skipping blog generation.
 2026-01-16 22:11:57,722 - FlightRiskAgent - INFO - ---| Phase 5: Deployment |---
 2026-01-16 22:11:57,722 - FlightRiskAgent.Publisher - INFO - Starting Deployment Phase...
+2026-01-16 22:11:57,842 - FlightRiskAgent.Publisher - INFO - Committed changes: Agent Update: Fixed 6 dead links
+2026-01-16 22:11:58,467 - FlightRiskAgent.Publisher - INFO - Pushed changes to remote.
+2026-01-16 22:11:58,467 - FlightRiskAgent.Publisher - WARNING - Email credentials not found. Skipping email.
+2026-01-16 22:11:58,467 - FlightRiskAgent.Publisher - INFO - MOCK EMAIL TO: blaine@flightriskdrones.com
+2026-01-16 22:11:58,467 - FlightRiskAgent.Publisher - INFO - SUBJECT: Agent Report - None
+2026-01-16 22:11:58,467 - FlightRiskAgent.Publisher - INFO - BODY: Fixed 6 links. Added 0 products.
+2026-01-16 22:11:58,467 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 22:17:05,724 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 22:17:05,724 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-16 22:17:05,724 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-16 22:17:05,724 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-16 22:17:05,724 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-16 22:17:05,725 - FlightRiskAgent.Hunter - INFO - Checking for link replenishment opportunities...
+2026-01-16 22:17:05,725 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-16 22:17:05,725 - FlightRiskAgent.Hunter - INFO - Pruning 31 dead products: Meteor65 Pro Frame, Fractal 65 Micro Frame, 0802SE 19500KV Motors, RS0802 20000KV Motors, F4 1S 5A AIO FC, SuperBee F4 Lite, M03 350mW VTX, C03 FPV Camera, Gemfan 35mm 3-Blade, 300mAh 1S BT2.0, iFlight Nazgul Evoque F5, GEPRC Mark5, EMAX Tinyhawk III, BetaFPV Cetus Pro Kit, Flywoo Explorer LR 4, VIFLY WhoopStor V3, VIFLY ShortSaver 2, Walksnail Avatar Goggles X, TS101 Smart Soldering Iron, DJI Goggles 2, Fat Shark Dominator HD, Skyzone SKY04X, Eachine EV800D, RadioMaster TX16S MKII, RadioMaster Boxer, TBS Tango 2, ISDT 608AC Charger, Pinecil Smart Soldering Iron, iFixit Mako Driver Kit, Lykus Backpack, Torvol Landing Pad
+2026-01-16 22:17:05,725 - FlightRiskAgent.Hunter - INFO - Pruned inventory saved. Count: 34 -> 3
+2026-01-16 22:17:05,725 - FlightRiskAgent.Hunter - INFO - No new missing products found.
+2026-01-16 22:17:05,725 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 22:29:37,692 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 22:29:37,693 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-16 22:29:37,693 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-16 22:29:37,693 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-16 22:29:37,693 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-16 22:29:37,693 - FlightRiskAgent.Hunter - INFO - Checking for link replenishment opportunities...
+2026-01-16 22:29:37,694 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-16 22:29:37,694 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
+2026-01-16 22:29:37,694 - FlightRiskAgent.Hunter - INFO - No new missing products found.
+2026-01-16 22:29:37,694 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 22:30:14,831 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 22:30:14,831 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-16 22:30:14,831 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-16 22:30:14,831 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-16 22:30:14,831 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-16 22:30:14,831 - FlightRiskAgent.Hunter - INFO - Checking for link replenishment opportunities...
+2026-01-16 22:30:14,832 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-16 22:30:14,832 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
+2026-01-16 22:30:14,832 - FlightRiskAgent.Hunter - INFO - No new missing products found.
+2026-01-16 22:30:14,832 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 22:30:41,988 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 22:30:41,988 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-16 22:30:41,988 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-16 22:30:41,988 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-16 22:30:41,988 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Checking for link replenishment opportunities...
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: DJI Avata 2
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Emax Tinyhawk III Plus
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: GEPRC CineLog35 V2
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: iFlight Nazgul Evoque F5 V2
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Flywoo Explorer LR 4 V2
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Happymodel Mobula6 2024
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: BetaFPV Pavo20
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: RotorRiot Skyliner MK3
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Axisflying Manta 3.5
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: BetaFPV Meteor65 Pro
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: RadioMaster TX16S MKII
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: RadioMaster Boxer
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: RadioMaster Zorro
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: RadioMaster MT12
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: TBS Tango 2 Pro
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: BetaFPV LiteRadio 3 Pro
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: FrSky Taranis X9D Plus 2019
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Jumper T20S
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Radiolink AT10II
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Flysky NV14
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: DJI Goggles 3
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: DJI Goggles Integra
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Walksnail Avatar Goggles X
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Fat Shark Dominator HD
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Skyzone SKY04X Pro
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Skyzone Cobra X V2
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Fat Shark HDO2.1
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: HDZero Goggles
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: BetaFPV VR03
+2026-01-16 22:30:41,989 - FlightRiskAgent.Hunter - INFO - Gap identified: Walksnail Avatar HD Pro Kit
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Walksnail Avatar HD Nano Kit V3
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: HDZero Freestyle V2 Kit
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: HDZero Whoop Lite VTX
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: TBS Unify Pro32 HV
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Rush Tank Solo
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: BetaFPV M03
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Happymodel OVX300
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: SpeedyBee TX800
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: RunCam Link
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Pinecil V2
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: ISDT 608PD
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: ISDT Q6 Nano
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Ethix Tool Case
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: TBS Ethix M3 Nut Driver
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Flywoo Fpv Multimeter
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: VIFLY ShortSaver 2
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: TS101 Smart Soldering Iron
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: VIFLY WhoopStor V3
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: iFixit Mako Driver Kit
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Torvol Quad Pitstop Backpack Pro
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Torvol Urban Carrier Backpack
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Lykus DCP-M100 Case
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: BetaFPV Storage Case
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Gemfan Vanover Gate
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: CNHL Black Series 1300mAh 6S
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Tattu R-Line V5.0 1400mAh 6S
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: GNB 450mAh 1S
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: VIBES FPV Earbuds
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Gap identified: Ethix Neck Strap
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
+2026-01-16 22:30:41,990 - FlightRiskAgent.Hunter - INFO - Found 59 new products not in inventory.
+2026-01-16 22:30:41,990 - FlightRiskAgent - INFO - ---| Phase 3: Page Generation (The Builder) |---
+2026-01-16 22:30:41,990 - FlightRiskAgent.Builder - INFO - Building 59 new product pages...
+2026-01-16 22:30:41,990 - FlightRiskAgent.Builder - INFO - Built page for: DJI Avata 2
+2026-01-16 22:30:41,990 - FlightRiskAgent.Builder - INFO - Built page for: Emax Tinyhawk III Plus
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: GEPRC CineLog35 V2
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: iFlight Nazgul Evoque F5 V2
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Flywoo Explorer LR 4 V2
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Happymodel Mobula6 2024
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: BetaFPV Pavo20
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: RotorRiot Skyliner MK3
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Axisflying Manta 3.5
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: BetaFPV Meteor65 Pro
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: RadioMaster TX16S MKII
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: RadioMaster Boxer
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: RadioMaster Zorro
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: RadioMaster MT12
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: TBS Tango 2 Pro
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: BetaFPV LiteRadio 3 Pro
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: FrSky Taranis X9D Plus 2019
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Jumper T20S
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Radiolink AT10II
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Flysky NV14
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: DJI Goggles 3
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: DJI Goggles Integra
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Walksnail Avatar Goggles X
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Fat Shark Dominator HD
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Skyzone SKY04X Pro
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Skyzone Cobra X V2
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: Fat Shark HDO2.1
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: HDZero Goggles
+2026-01-16 22:30:41,991 - FlightRiskAgent.Builder - INFO - Built page for: BetaFPV VR03
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Walksnail Avatar HD Pro Kit
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Walksnail Avatar HD Nano Kit V3
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: HDZero Freestyle V2 Kit
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: HDZero Whoop Lite VTX
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: TBS Unify Pro32 HV
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Rush Tank Solo
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: BetaFPV M03
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Happymodel OVX300
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: SpeedyBee TX800
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: RunCam Link
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Pinecil V2
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: ISDT 608PD
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: ISDT Q6 Nano
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Ethix Tool Case
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: TBS Ethix M3 Nut Driver
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Flywoo Fpv Multimeter
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: VIFLY ShortSaver 2
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: TS101 Smart Soldering Iron
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: VIFLY WhoopStor V3
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: iFixit Mako Driver Kit
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Torvol Quad Pitstop Backpack Pro
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Torvol Urban Carrier Backpack
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Lykus DCP-M100 Case
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: BetaFPV Storage Case
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Gemfan Vanover Gate
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: CNHL Black Series 1300mAh 6S
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Tattu R-Line V5.0 1400mAh 6S
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: GNB 450mAh 1S
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: VIBES FPV Earbuds
+2026-01-16 22:30:41,992 - FlightRiskAgent.Builder - INFO - Built page for: Ethix Neck Strap
+2026-01-16 22:30:41,993 - FlightRiskAgent.Builder - INFO - Inventory updated with 59 new items.
+2026-01-16 22:30:41,993 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 22:37:39,323 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 22:37:39,323 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-16 22:37:39,323 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-16 22:37:39,324 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-16 22:37:39,324 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-16 22:37:39,324 - FlightRiskAgent.Hunter - INFO - Force-updating all product links to Amazon Search URLs...
+2026-01-16 22:37:39,325 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-16 22:37:39,325 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
+2026-01-16 22:37:39,325 - FlightRiskAgent.Hunter - INFO - No new missing products found.
+2026-01-16 22:37:39,325 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 22:44:42,563 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 22:44:42,564 - FlightRiskAgent - INFO - DRY RUN MODE ENABLED
+2026-01-16 22:44:42,564 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-16 22:44:42,564 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-16 22:44:42,564 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-16 22:44:42,564 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-16 22:44:42,565 - FlightRiskAgent.Hunter - INFO - Force-updating all product links to Amazon Search URLs...
+2026-01-16 22:44:42,565 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-16 22:44:42,565 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
+2026-01-16 22:44:42,565 - FlightRiskAgent.Hunter - INFO - No new missing products found.
+2026-01-16 22:44:42,565 - FlightRiskAgent - INFO - Agent Run Complete

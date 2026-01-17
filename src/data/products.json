@@ -10,7 +10,7 @@
       "description": "Ultra-portable gamepad style radio with folding sticks. Fits in your pocket but packs full EdgeTX power and ELRS.",
       "price": 64.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+Pocket&tag=sparkfish-20",
-      "imageUrl": "/images/parts/radio-pocket.png",
+      "imageUrl": "/images/parts/radiomaster-pocket.png",
       "specs": {
         "Style": "Gamepad",
         "Portable": "Folding Sticks",
@@ -27,7 +27,7 @@
       "description": "No description available.",
       "price": 229.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+O3+Air+Unit&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/dji-o3-air-unit.png",
       "specs": {},
       "consensusReview": "Consensus review unavailable."
     },
@@ -41,7 +41,7 @@
       "description": "No description available.",
       "price": 119.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Meteor75+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/betafpv-meteor75.png",
       "specs": {},
       "consensusReview": "Consensus review unavailable."
     },
@@ -55,7 +55,7 @@
       "description": "The ultimate ready-to-fly cinewhoop experience. Features 4K/60fps HDR video, RockSteady stabilization, and integrated propeller guards for safe indoor flight.",
       "price": 999.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+Avata+2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/dji-avata-2.png",
       "specs": {},
       "consensusReview": "The easiest entry into FPV cinema. Incredible video quality and safety features, though locked into the DJI ecosystem."
     },
@@ -69,7 +69,7 @@
       "description": "A durable and versatile micro drone perfect for beginners. The 'Plus' version features improved video transmission and more powerful motors.",
       "price": 199.99,
       "amazonLink": "https://www.amazon.com/s?k=Emax+Tinyhawk+III+Plus&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "An excellent starter drone that can take a beating. The proprietary batteries are a downside."
     },
@@ -83,7 +83,7 @@
       "description": "A 3.5-inch cinewhoop designed for carrying full-size action cameras. Features a pusher configuration for better efficiency and lower noise.",
       "price": 429.99,
       "amazonLink": "https://www.amazon.com/s?k=GEPRC+CineLog35+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "High performance cinewhoop that handles heavy cameras well. The frame is rigid and durable."
     },
@@ -97,7 +97,7 @@
       "description": "The refined version of the classic Nazgul. Features fully enclosed side panels to keep electronics clean and a DeadCat geometry option.",
       "price": 469.99,
       "amazonLink": "https://www.amazon.com/s?k=iFlight+Nazgul+Evoque+F5+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "Still the king of bind-and-fly freestyle quads. Powerful, tuned well out of the box, and looks amazing."
     },
@@ -111,7 +111,7 @@
       "description": "The sub-250g long range king. Updated V2 version features the Goku GOKU GN 405 Nano stack and improved GPS performance.",
       "price": 369.99,
       "amazonLink": "https://www.amazon.com/s?k=Flywoo+Explorer+LR+4+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "Incredible flight times on Li-Ion. The GPS lock is faster on V2. Essential for mountain surfing."
     },
@@ -125,7 +125,7 @@
       "description": "The latest refresh of the legendary Mobula6. Lighter frame, higher KV motors, and SuperX flight controller for race-winning performance.",
       "price": 109.99,
       "amazonLink": "https://www.amazon.com/s?k=Happymodel+Mobula6+2024&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "The fastest 65mm whoop available. Extremely agile but the frame can be fragile in hard crashes."
     },
@@ -139,7 +139,7 @@
       "description": "A 2-inch cinewhoop designed specifically for the DJI O3 Air Unit. Durable injection-molded whoop duct and agile performance.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Pavo20&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "Perfect platform for the O3 unit indoors. Surprisingly quiet and smooth."
     },
@@ -153,7 +153,7 @@
       "description": "A cinematic freestyle frame developed by Le Drib. Smooth flight characteristics ideal for juicy freestyle and chasing cars.",
       "price": 499.99,
       "amazonLink": "https://www.amazon.com/s?k=RotorRiot+Skyliner+MK3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "Very smooth and locked in. The build quality is top tier, backed by RotorRiot support."
     },
@@ -167,7 +167,7 @@
       "description": "A unique 3.5-inch freestyle squashed-X frame. Aluminum camera plates protect your expensive HD system.",
       "price": 329.99,
       "amazonLink": "https://www.amazon.com/s?k=Axisflying+Manta+3.5&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "Built like a tank. Great for freestyle in tighter spaces where a 5-inch is too much."
     },
@@ -181,7 +181,7 @@
       "description": "The 'Pro' version of the 65mm classic. Larger 35mm props inside the 65mm size class for more thrust and control.",
       "price": 109.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Meteor65+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-drone.png",
       "specs": {},
       "consensusReview": "More power than the standard Meteor65. The 35mm props make a huge difference in cornering."
     },
@@ -195,7 +195,7 @@
       "description": "The gold standard full-size OpenTX/EdgeTX radio. Updated circuitry, improved hall gimbals, and a touchscreen interface.",
       "price": 199.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+TX16S+MKII&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "The best value full-size radio on the market. Limitless customization."
     },
@@ -209,7 +209,7 @@
       "description": "Compact form factor with full-size gimbals and a 1W internal ELRS module. The perfect balance of portability and performance.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+Boxer&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Best in class ergonomics for thumb grippers. The 1W ELRS is a game changer."
     },
@@ -223,7 +223,7 @@
       "description": "Ergonomic gamepad style radio with a large LCD screen and plenty of switches. Supports external Lite modules.",
       "price": 119.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+Zorro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Great feel for console gamers. Battery life is short with 18350s, recommend the external kit."
     },
@@ -237,7 +237,7 @@
       "description": "A surface radio for cars/boats running EdgeTX and ELRS. Finally brings open source power to surface RC.",
       "price": 129.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+MT12&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Revolutionary for surface RC. Infinite customization and incredible range."
     },
@@ -251,7 +251,7 @@
       "description": "The icon of gamepad radios. Integrated Crossfire for rock-solid link. Folding stick ends for ultimate portability.",
       "price": 199.95,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Tango+2+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Premium build quality. Crossfire is still reliable, though ELRS is catching up."
     },
@@ -265,7 +265,7 @@
       "description": "An entry-level radio running actual EdgeTX. Hall gimbals and internal ELRS make it a capable starter.",
       "price": 89.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+LiteRadio+3+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Good for the price. The screen is tiny but usable for basic setup."
     },
@@ -279,7 +279,7 @@
       "description": "The classic workhorse updated. New ACCESS protocol and a scroll wheel for navigation.",
       "price": 219.99,
       "amazonLink": "https://www.amazon.com/s?k=FrSky+Taranis+X9D+Plus+2019&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Still a solid radio, but feels dated compared to the TX16S."
     },
@@ -293,7 +293,7 @@
       "description": "A powerful compact radio with RDC90 sensor gimbals for ultra-smooth control.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=Jumper+T20S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "The gimbals feel amazing. Build quality is improved over previous Jumper radios."
     },
@@ -307,7 +307,7 @@
       "description": "12-channel radio with excellent interference rejection. Known for robust signal in noisy environments.",
       "price": 159.99,
       "amazonLink": "https://www.amazon.com/s?k=Radiolink+AT10II&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Great range and stability, but the interface is not as flexible as EdgeTX."
     },
@@ -321,7 +321,7 @@
       "description": "The 'Nirvana'. Unique ergonomic design with dual screens and Hall effect gimbals.",
       "price": 179.99,
       "amazonLink": "https://www.amazon.com/s?k=Flysky+NV14&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-radio.png",
       "specs": {},
       "consensusReview": "Love the grip or hate it. Very unique, but firmware support has been spotty."
     },
@@ -335,7 +335,7 @@
       "description": "The newest generation. Real View PiP, integrated forehead pad, and O4 transmission support.",
       "price": 499.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "The best image quality available. The Real View pass-through is handy."
     },
@@ -349,7 +349,7 @@
       "description": "Integrated battery headband design for a cable-free experience. O3+ transmission technology.",
       "price": 349.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+Integra&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "Best value for DJI digital. Convenience of no cables is huge."
     },
@@ -363,7 +363,7 @@
       "description": "Dual 1080p OLED displays, removable VRX, and HDMI input. Future-proof functionality.",
       "price": 459.0,
       "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+Goggles+X&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "A great alternative to DJI. HDMI in makes them versatile for Sims."
     },
@@ -377,7 +377,7 @@
       "description": "Walksnail Avatar native goggles with trusted Fat Shark optics and fit.",
       "price": 599.0,
       "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+Dominator+HD&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "Excellent optics. Familiar form factor for long-time pilots."
     },
@@ -391,7 +391,7 @@
       "description": "The pinnacle of analog goggles. OLED screens, 52-degree FOV, and SteadyView receiver.",
       "price": 539.0,
       "amazonLink": "https://www.amazon.com/s?k=Skyzone+SKY04X+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "The best analog picture you can get. Menu navigation is superb."
     },
@@ -405,7 +405,7 @@
       "description": "High-end box goggles with a 1280x720 LCD and SteadyView receiver. Glasses friendly.",
       "price": 269.99,
       "amazonLink": "https://www.amazon.com/s?k=Skyzone+Cobra+X+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "Best box goggles on the market. Great for spectacle wearers."
     },
@@ -419,7 +419,7 @@
       "description": "Updated OLED panels and adjustable focus. Requires a separate receiver module.",
       "price": 499.0,
       "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+HDO2.1&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "Classic premium analog choice. Requires investment in a good module like RapidFire."
     },
@@ -433,7 +433,7 @@
       "description": "Designed for racers. 90fps analog-like latency in digital HD. Open source Linux OS.",
       "price": 595.0,
       "amazonLink": "https://www.amazon.com/s?k=HDZero+Goggles&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "The racer's choice. Lowest latency digital system, period."
     },
@@ -447,7 +447,7 @@
       "description": "Entry-level box goggles with DVR recording capability and an external antenna.",
       "price": 69.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+VR03&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-goggles.png",
       "specs": {},
       "consensusReview": "Good starter set with DVR. Screen is decent for the price."
     },
@@ -461,7 +461,7 @@
       "description": "Dual antenna VTX with the Pro camera featuring a 1/1.8 inch Sony Starvis sensor for night vision.",
       "price": 159.0,
       "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+HD+Pro+Kit&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Amazing low light performance. Onboard recording is a huge plus."
     },
@@ -475,7 +475,7 @@
       "description": "Ultra-small VTX for 1S whoops. Replaced the 1S lite, now handles up to 5V input.",
       "price": 135.0,
       "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+HD+Nano+Kit+V3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Essential for digital whoops. Runs hot, needs airflow."
     },
@@ -489,7 +489,7 @@
       "description": "Updated VTX capable of 1W output. Includes the Micro V3 camera.",
       "price": 179.99,
       "amazonLink": "https://www.amazon.com/s?k=HDZero+Freestyle+V2+Kit&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Rock solid fixed latency. 1W power punches through interference."
     },
@@ -503,7 +503,7 @@
       "description": "Designed for 1S whoops. Weighs only 1.5g. 25/200mW output.",
       "price": 99.99,
       "amazonLink": "https://www.amazon.com/s?k=HDZero+Whoop+Lite+VTX&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Transforms flight feel of whoops. Digital clarity with analog weight."
     },
@@ -517,7 +517,7 @@
       "description": "high voltage analog VTX capable of 1W+ output. Double-decker heat sink design.",
       "price": 49.95,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Unify+Pro32+HV&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "The gold standard for long range analog. Almost indestructible."
     },
@@ -531,7 +531,7 @@
       "description": "High power solo VTX. Heavy heat sinking for sustained high output.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=Rush+Tank+Solo&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Runs cooler than the Unify. Signal is extremely clean."
     },
@@ -545,7 +545,7 @@
       "description": "Lightweight 350mW VTX perfect for whoops and toothpicks.",
       "price": 19.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+M03&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Good range for the size. Antenna connector is fragile."
     },
@@ -559,7 +559,7 @@
       "description": "OpenVTX protocol support. 300mW output in a tiny package.",
       "price": 16.99,
       "amazonLink": "https://www.amazon.com/s?k=Happymodel+OVX300&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Cheap and effective. SmartAudio setup is easy."
     },
@@ -573,7 +573,7 @@
       "description": "800mW max output. 20x20 mounting. IRC Tramp protocol.",
       "price": 24.99,
       "amazonLink": "https://www.amazon.com/s?k=SpeedyBee+TX800&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Great value for high power. Metal case acts as a good heatsink."
     },
@@ -587,7 +587,7 @@
       "description": "The 'Vista' unit manufactured by RunCam. Compatible with DJI FPV System.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=RunCam+Link&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-vtx.png",
       "specs": {},
       "consensusReview": "Reliable workhorse for DJI system. Fits where an Air Unit won't."
     },
@@ -601,7 +601,7 @@
       "description": "RISC-V based soldering iron with a shorter tip for better control. USB-C PD input.",
       "price": 25.99,
       "amazonLink": "https://www.amazon.com/s?k=Pinecil+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "Best portable iron hands down. Heats up instantly."
     },
@@ -615,7 +615,7 @@
       "description": "Compact USB-C PD charger for 1-6S batteries. Pocket sized.",
       "price": 29.99,
       "amazonLink": "https://www.amazon.com/s?k=ISDT+608PD&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "Perfect travel charger. Requires a PD power brick."
     },
@@ -629,7 +629,7 @@
       "description": "200W tiny charger. BattGO support and upgradeable firmware.",
       "price": 34.99,
       "amazonLink": "https://www.amazon.com/s?k=ISDT+Q6+Nano&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "Crazy power for the size. Fan can be noisy."
     },
@@ -643,7 +643,7 @@
       "description": "Compact zipper case designed by Mr. Steele to hold essential field tools.",
       "price": 24.95,
       "amazonLink": "https://www.amazon.com/s?k=Ethix+Tool+Case&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "Keeps tools organized. Fits perfectly in backpacks."
     },
@@ -657,7 +657,7 @@
       "description": "Smooth bearing-assisted prop tool. 8mm hex socket.",
       "price": 12.95,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Ethix+M3+Nut+Driver&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "Makes prop changes satisfying. High quality feel."
     },
@@ -671,7 +671,7 @@
       "description": "Pocket multimeter designed for drone builds. Check voltages and continuity easily.",
       "price": 29.99,
       "amazonLink": "https://www.amazon.com/s?k=Flywoo+Fpv+Multimeter&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "Handy to have in the field bag. Small and effective."
     },
@@ -685,7 +685,7 @@
       "description": "Electronic fuse smoke stopper. Essential for first plug-ins.",
       "price": 14.99,
       "amazonLink": "https://www.amazon.com/s?k=VIFLY+ShortSaver+2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "Saved my electronics multiple times. Don't build without it."
     },
@@ -699,7 +699,7 @@
       "description": "The updated classic. DC and PD input, boost mode, and custom tips.",
       "price": 58.99,
       "amazonLink": "https://www.amazon.com/s?k=TS101+Smart+Soldering+Iron&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/sequre-ts101.png",
       "specs": {},
       "consensusReview": "Reliable and powerful. The boost button is great for ground pads."
     },
@@ -713,7 +713,7 @@
       "description": "1S charger with storage function. Discharges batteries to safe voltage.",
       "price": 32.99,
       "amazonLink": "https://www.amazon.com/s?k=VIFLY+WhoopStor+V3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "The best 1S charger period. Saves your batteries."
     },
@@ -727,7 +727,7 @@
       "description": "64-bit precision driver set. Magnetic case and lid tray.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=iFixit+Mako+Driver+Kit&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-tool.png",
       "specs": {},
       "consensusReview": "High quality bits that don't strip screws. Lasts forever."
     },
@@ -741,7 +741,7 @@
       "description": "The pilots backpack. Unfolds into a pit area. Holds 4+ quads.",
       "price": 199.0,
       "amazonLink": "https://www.amazon.com/s?k=Torvol+Quad+Pitstop+Backpack+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Expensive but worth it. The expandable pitstop area is genius."
     },
@@ -755,7 +755,7 @@
       "description": "Stylish everyday carry pack for freestyle pilots. Modular attachment system.",
       "price": 149.0,
       "amazonLink": "https://www.amazon.com/s?k=Torvol+Urban+Carrier+Backpack&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Great for urban missions. Not as big as the Pitstop but looks better."
     },
@@ -769,7 +769,7 @@
       "description": "Waterproof hard case with DIY foam. Fits DJI Avata or various setups.",
       "price": 69.99,
       "amazonLink": "https://www.amazon.com/s?k=Lykus+DCP-M100+Case&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Solid protection at a good price. Foam is easy to customize."
     },
@@ -783,7 +783,7 @@
       "description": "Compact hard case for 65/75mm whoops. Includes battery tester slot.",
       "price": 19.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Storage+Case&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Perfect fit for tiny whoops. Zipper is high quality."
     },
@@ -797,7 +797,7 @@
       "description": "Pop-up race gate designed by Captain Vanover. Durable fabric.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=Gemfan+Vanover+Gate&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Easy to set up. Highly visible."
     },
@@ -811,7 +811,7 @@
       "description": "High performance 100C LiPo battery. Excellent sag resistance.",
       "price": 24.99,
       "amazonLink": "https://www.amazon.com/s?k=CNHL+Black+Series+1300mAh+6S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Best bang for buck battery. Punches way above its price."
     },
@@ -825,7 +825,7 @@
       "description": "Professional racing battery. 150C discharge rate.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=Tattu+R-Line+V5.0+1400mAh+6S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "The top tier choice. Power delivery is instant and sustained."
     },
@@ -839,7 +839,7 @@
       "description": "High voltage 1S battery with A30 header. Lightweight.",
       "price": 6.99,
       "amazonLink": "https://www.amazon.com/s?k=GNB+450mAh+1S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Great flight times for 75mm whoops. A30 connector is solid."
     },
@@ -853,7 +853,7 @@
       "description": "Earbuds designed for hearing motor noise. Single ear and dual ear options.",
       "price": 14.99,
       "amazonLink": "https://www.amazon.com/s?k=VIBES+FPV+Earbuds&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Crucial for connecting with the quad. Good isolation."
     },
@@ -867,7 +867,7 @@
       "description": "Comfortable lanyard with quick release. Green and grey styling.",
       "price": 14.99,
       "amazonLink": "https://www.amazon.com/s?k=Ethix+Neck+Strap&tag=sparkfish-20",
-      "imageUrl": "/images/parts/placeholder.png",
+      "imageUrl": "/images/parts/generic-lipo.png",
       "specs": {},
       "consensusReview": "Super soft and comfortable. Quick release is smooth."
     }
