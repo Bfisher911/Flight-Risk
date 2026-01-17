@@ -22,28 +22,41 @@
       "name": "DJI O3 Air Unit",
       "brand": "DJI",
       "category": "VTX",
-      "subCategory": "General",
-      "weight": "N/A",
-      "description": "No description available.",
+      "subCategory": "Digital",
+      "weight": "36.4g",
+      "description": "The ultimate HD digital FPV transmission system featuring a 4K/60fps camera with 155° FOV, 10km range, and latency as low as 30ms. Integrated 20GB storage with RockSteady stabilization.",
       "price": 229.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+O3+Air+Unit&tag=sparkfish-20",
       "imageUrl": "/images/parts/dji-o3-air-unit.png",
-      "specs": {},
-      "consensusReview": "Consensus review unavailable."
+      "specs": {
+        "Sensor": "1/1.7\" CMOS 48MP",
+        "Video": "4K/60fps",
+        "FOV": "155°",
+        "Latency": "30ms",
+        "Range": "10km",
+        "Storage": "20GB built-in"
+      },
+      "consensusReview": "The industry standard for HD FPV. Incredible image quality with onboard recording makes it essential for cinematic pilots."
     },
     {
       "id": "betafpv-meteor75-pro-11",
       "name": "BetaFPV Meteor75 Pro",
       "brand": "BetaFPV",
       "category": "Drones",
-      "subCategory": "General",
-      "weight": "N/A",
-      "description": "No description available.",
+      "subCategory": "Tiny Whoop",
+      "weight": "31g",
+      "description": "The largest 1S whoop with 45mm tri-blade props for exceptional thrust-to-weight ratio. Features 1102 22000KV motors, Matrix 1S flight controller with G473 processor, and up to 6.5 min flight time on BT2.0 550mAh battery.",
       "price": 119.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Meteor75+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/betafpv-meteor75.png",
-      "specs": {},
-      "consensusReview": "Consensus review unavailable."
+      "imageUrl": "/images/parts/betafpv-meteor75-pro.png",
+      "specs": {
+        "Motors": "1102 22000KV",
+        "Props": "45mm 3-blade",
+        "FC": "Matrix 1S G473",
+        "VTX": "400mW",
+        "Battery": "BT2.0 connector"
+      },
+      "consensusReview": "The go-to 75mm whoop for indoor and outdoor flying. Exceptional power delivery and durability for the 1S class."
     },
     {
       "id": "dji-avata-2-99",
@@ -65,12 +78,18 @@
       "brand": "Emax",
       "category": "Drones",
       "subCategory": "Tiny Whoop",
-      "weight": "N/A",
-      "description": "A durable and versatile micro drone perfect for beginners. The 'Plus' version features improved video transmission and more powerful motors.",
+      "weight": "32.5g",
+      "description": "A durable and versatile micro drone built on 3K carbon fiber. Features ExpressLRS control, STM32F411 flight controller, and flexible 1S/2S operation for beginners through advanced pilots.",
       "price": 199.99,
       "amazonLink": "https://www.amazon.com/s?k=Emax+Tinyhawk+III+Plus&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/emax-tinyhawk-iii-plus.png",
+      "specs": {
+        "Frame": "76mm 3K Carbon",
+        "Motors": "TH0802 II 15000KV",
+        "FC": "STM32F411 6A BLHeli_S",
+        "Receiver": "ELRS 2.4G",
+        "Battery": "1S-2S compatible"
+      },
       "consensusReview": "An excellent starter drone that can take a beating. The proprietary batteries are a downside."
     },
     {
@@ -79,12 +98,19 @@
       "brand": "GEPRC",
       "category": "Drones",
       "subCategory": "Cinewhoop",
-      "weight": "N/A",
-      "description": "A 3.5-inch cinewhoop designed for carrying full-size action cameras. Features a pusher configuration for better efficiency and lower noise.",
+      "weight": "285g",
+      "description": "A premium 3.5-inch cinewhoop with GPS, designed for carrying full-size action cameras. Features O3 Air Unit integration with dedicated shock-absorbing gimbal and 7075 aluminum reinforcement.",
       "price": 429.99,
       "amazonLink": "https://www.amazon.com/s?k=GEPRC+CineLog35+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/geprc-cinelog35-v2.png",
+      "specs": {
+        "Wheelbase": "142mm",
+        "FC": "GEP-F722-45A AIO V2",
+        "Motors": "SPEEDX2 2105.5 2650KV",
+        "Props": "HQProp D-T90MM",
+        "Flight Time": "5-8.5 min",
+        "GPS": "GEP-M10"
+      },
       "consensusReview": "High performance cinewhoop that handles heavy cameras well. The frame is rigid and durable."
     },
     {
@@ -93,12 +119,19 @@
       "brand": "iFlight",
       "category": "Drones",
       "subCategory": "Freestyle",
-      "weight": "N/A",
-      "description": "The refined version of the classic Nazgul. Features fully enclosed side panels to keep electronics clean and a DeadCat geometry option.",
+      "weight": "436g",
+      "description": "The refined king of freestyle quads with enclosed side panels and strategic airflow cooling. Features BLITZ Mini F722 FC, XING2 2207 motors, and anti-spark protection with up to 190km/h top speed.",
       "price": 469.99,
       "amazonLink": "https://www.amazon.com/s?k=iFlight+Nazgul+Evoque+F5+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/iflight-nazgul-evoque-f5-v2.png",
+      "specs": {
+        "Wheelbase": "225mm",
+        "FC": "BLITZ Mini F722",
+        "ESC": "BLITZ Mini E55 55A",
+        "Motors": "XING2 2207 1750KV",
+        "VTX Power": "25-1600mW",
+        "Max Speed": "190km/h"
+      },
       "consensusReview": "Still the king of bind-and-fly freestyle quads. Powerful, tuned well out of the box, and looks amazing."
     },
     {
@@ -107,12 +140,19 @@
       "brand": "Flywoo",
       "category": "Drones",
       "subCategory": "Long Range",
-      "weight": "N/A",
-      "description": "The sub-250g long range king. Updated V2 version features the Goku GOKU GN 405 Nano stack and improved GPS performance.",
+      "weight": "163g",
+      "description": "The sub-250g long range champion. Features GOKU GN405 Nano stack, GPS with model finder, and achieves 28+ minute flight times on Li-Ion for 10km+ round trips.",
       "price": 369.99,
       "amazonLink": "https://www.amazon.com/s?k=Flywoo+Explorer+LR+4+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/flywoo-explorer-lr-4-v2.png",
+      "specs": {
+        "Wheelbase": "168mm",
+        "FC": "GOKU GN405 Nano 13A",
+        "Motors": "NIN 1404 V2 2750KV",
+        "Props": "Gemfan 4024",
+        "VTX": "600mW",
+        "GPS": "V2.0"
+      },
       "consensusReview": "Incredible flight times on Li-Ion. The GPS lock is faster on V2. Essential for mountain surfing."
     },
     {
@@ -121,12 +161,19 @@
       "brand": "Happymodel",
       "category": "Drones",
       "subCategory": "Tiny Whoop",
-      "weight": "N/A",
-      "description": "The latest refresh of the legendary Mobula6. Lighter frame, higher KV motors, and SuperX flight controller for race-winning performance.",
+      "weight": "17.7g",
+      "description": "Super light 65mm brushless whoop weighing only 17.7g. Features the lightest SE0702 28000KV motors at 1.46g each, SuperX AIO with BMI270 gyro, and integrated ELRS V3 receiver.",
       "price": 109.99,
       "amazonLink": "https://www.amazon.com/s?k=Happymodel+Mobula6+2024&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/happymodel-mobula6-2024.png",
+      "specs": {
+        "Size": "65mm",
+        "Weight": "17.7g",
+        "Motors": "SE0702 28000KV (1.46g)",
+        "FC": "SuperX ELRS V2 AIO",
+        "Gyro": "BMI270",
+        "VTX": "OpenVTX 400mW"
+      },
       "consensusReview": "The fastest 65mm whoop available. Extremely agile but the frame can be fragile in hard crashes."
     },
     {
@@ -135,12 +182,18 @@
       "brand": "BetaFPV",
       "category": "Drones",
       "subCategory": "Cinewhoop",
-      "weight": "N/A",
-      "description": "A 2-inch cinewhoop designed specifically for the DJI O3 Air Unit. Durable injection-molded whoop duct and agile performance.",
+      "weight": "54.5g",
+      "description": "A 2-inch cinewhoop designed for DJI O3 Air Unit, staying under 150g total. Features 1103 8500KV motors, COB LED strip, and 4-5 minute flight times on 3S for surprising wind resistance.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Pavo20&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/betafpv-pavo20.png",
+      "specs": {
+        "Wheelbase": "90mm",
+        "Motors": "1103 8500KV",
+        "FC": "F4 2-3S 20A AIO",
+        "Battery": "3S 450-650mAh",
+        "VTX": "O3 Air Unit ready"
+      },
       "consensusReview": "Perfect platform for the O3 unit indoors. Surprisingly quiet and smooth."
     },
     {
@@ -149,12 +202,18 @@
       "brand": "RotorRiot",
       "category": "Drones",
       "subCategory": "Cinematic Freestyle",
-      "weight": "N/A",
-      "description": "A cinematic freestyle frame developed by Le Drib. Smooth flight characteristics ideal for juicy freestyle and chasing cars.",
+      "weight": "144g",
+      "description": "Le Drib's signature cinematic freestyle frame with 213mm wheelbase. Features 100% plug-n-play MR30 connections, US-made carbon fiber, and compatibility with analog, DJI, and Fatshark HD systems.",
       "price": 499.99,
       "amazonLink": "https://www.amazon.com/s?k=RotorRiot+Skyliner+MK3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/rotorriot-skyliner-mk3.png",
+      "specs": {
+        "Wheelbase": "213mm",
+        "Frame Style": "Wide X",
+        "Plate Thickness": "2mm",
+        "Stack Mounts": "20x20, 25.5x25.5, 30.5x30.5",
+        "Material": "Carbon Fiber (USA)"
+      },
       "consensusReview": "Very smooth and locked in. The build quality is top tier, backed by RotorRiot support."
     },
     {
@@ -163,12 +222,17 @@
       "brand": "Axisflying",
       "category": "Drones",
       "subCategory": "Freestyle",
-      "weight": "N/A",
-      "description": "A unique 3.5-inch freestyle squashed-X frame. Aluminum camera plates protect your expensive HD system.",
+      "weight": "228g",
+      "description": "A powerful 3.5-inch freestyle squashed-X with CNC aluminum structure and high-strength carbon. Aluminum camera plates protect HD systems, with performance rivaling larger 5\" quads.",
       "price": 329.99,
       "amazonLink": "https://www.amazon.com/s?k=Axisflying+Manta+3.5&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/axisflying-manta-3-5.png",
+      "specs": {
+        "Frame": "Squashed X",
+        "Material": "CNC Aluminum + Carbon",
+        "Stack Mount": "20x20 / 30.5x30.5",
+        "Camera Mount": "19-20mm"
+      },
       "consensusReview": "Built like a tank. Great for freestyle in tighter spaces where a 5-inch is too much."
     },
     {
@@ -178,11 +242,18 @@
       "category": "Drones",
       "subCategory": "Tiny Whoop",
       "weight": "N/A",
-      "description": "The 'Pro' version of the 65mm classic. Larger 35mm props inside the 65mm size class for more thrust and control.",
+      "description": "The lightest 65mm frame that fits 35mm props for a massive power upgrade. Features 0802SE 19500KV motors, BMI270 gyro, and Bluejay ESC firmware for race-winning performance.",
       "price": 109.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Meteor65+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-drone.png",
-      "specs": {},
+      "imageUrl": "/images/parts/betafpv-meteor65-pro.png",
+      "specs": {
+        "Wheelbase": "66mm",
+        "Frame Weight": "3.2g",
+        "Motors": "0802SE 19500KV",
+        "Props": "35mm",
+        "VTX": "M03 350mW",
+        "Gyro": "BMI270"
+      },
       "consensusReview": "More power than the standard Meteor65. The 35mm props make a huge difference in cornering."
     },
     {
@@ -191,12 +262,19 @@
       "brand": "RadioMaster",
       "category": "Radio",
       "subCategory": "Full Size",
-      "weight": "N/A",
-      "description": "The gold standard full-size OpenTX/EdgeTX radio. Updated circuitry, improved hall gimbals, and a touchscreen interface.",
+      "weight": "750g",
+      "description": "The gold standard full-size EdgeTX radio with 4.3\" IPS touchscreen. Features V4.0 Hall gimbals, 2.2A USB-C charging, dual speakers, and multi-protocol or ELRS internal module options.",
       "price": 199.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+TX16S+MKII&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/radiomaster-tx16s-mkii.png",
+      "specs": {
+        "Display": "4.3\" IPS Touchscreen",
+        "Gimbals": "V4.0 Hall Sensor",
+        "Channels": "Up to 16",
+        "Firmware": "EdgeTX",
+        "Battery": "2S 18650 (not included)",
+        "Module Bay": "JR Compatible"
+      },
       "consensusReview": "The best value full-size radio on the market. Limitless customization."
     },
     {
@@ -205,12 +283,19 @@
       "brand": "RadioMaster",
       "category": "Radio",
       "subCategory": "Compact",
-      "weight": "N/A",
-      "description": "Compact form factor with full-size gimbals and a 1W internal ELRS module. The perfect balance of portability and performance.",
+      "weight": "532g",
+      "description": "Compact form factor with full-size Hall V4.0 gimbals and internal 1W ELRS module at 1000Hz. Features fabric handle, 20-hour battery life on 2S 6200mAh, and QC3.0 fast charging.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+Boxer&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/radiomaster-boxer.png",
+      "specs": {
+        "Gimbals": "V4.0 Hall Effect",
+        "ELRS Power": "1W (30dBm)",
+        "Refresh Rate": "1000Hz",
+        "Battery": "2S 18650 holder",
+        "Charging": "QC3.0 2A USB-C",
+        "Module Bay": "JR Compatible"
+      },
       "consensusReview": "Best in class ergonomics for thumb grippers. The 1W ELRS is a game changer."
     },
     {
@@ -219,12 +304,18 @@
       "brand": "RadioMaster",
       "category": "Radio",
       "subCategory": "Gamepad",
-      "weight": "N/A",
-      "description": "Ergonomic gamepad style radio with a large LCD screen and plenty of switches. Supports external Lite modules.",
+      "weight": "350g",
+      "description": "Ergonomic gamepad-style radio with Hall sensor gimbals and Nano external module bay. Features 128x64 LCD, built-in USB-C charging, and EdgeTX/OpenTX compatibility.",
       "price": 119.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+Zorro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/radiomaster-zorro.png",
+      "specs": {
+        "Display": "128x64 Mono LCD",
+        "Gimbals": "Hall Effect",
+        "Battery": "2x 18350",
+        "Module Bay": "Nano size",
+        "Charging": "USB-C built-in"
+      },
       "consensusReview": "Great feel for console gamers. Battery life is short with 18350s, recommend the external kit."
     },
     {
@@ -237,8 +328,12 @@
       "description": "A surface radio for cars/boats running EdgeTX and ELRS. Finally brings open source power to surface RC.",
       "price": 129.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+MT12&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/radiomaster-mt12.png",
+      "specs": {
+        "Type": "Surface/Pistol Grip",
+        "Protocol": "ELRS",
+        "Firmware": "EdgeTX"
+      },
       "consensusReview": "Revolutionary for surface RC. Infinite customization and incredible range."
     },
     {
@@ -248,11 +343,18 @@
       "category": "Radio",
       "subCategory": "Gamepad",
       "weight": "N/A",
-      "description": "The icon of gamepad radios. Integrated Crossfire for rock-solid link. Folding stick ends for ultimate portability.",
+      "description": "The iconic gamepad radio with built-in Crossfire for 30km range. Features full-size foldable Hall gimbals, 5000mAh battery for 6-8 hours runtime, and FreedomTX open-source firmware.",
       "price": 199.95,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Tango+2+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/tbs-tango-2-pro.png",
+      "specs": {
+        "Gimbals": "Full-size Hall Foldable",
+        "Link": "Crossfire 25-250mW",
+        "Range": "30km",
+        "Battery": "5000mAh 1S built-in",
+        "Runtime": "6-8 hours",
+        "Firmware": "FreedomTX"
+      },
       "consensusReview": "Premium build quality. Crossfire is still reliable, though ELRS is catching up."
     },
     {
@@ -262,11 +364,18 @@
       "category": "Radio",
       "subCategory": "Gamepad",
       "weight": "N/A",
-      "description": "An entry-level radio running actual EdgeTX. Hall gimbals and internal ELRS make it a capable starter.",
+      "description": "An entry-level radio running actual EdgeTX with Hall gimbals and internal ELRS up to 250mW. Features 1.3\" OLED, 2000mAh battery for 15 hours, and Nano module bay for expansion.",
       "price": 89.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+LiteRadio+3+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/betafpv-literadio-3-pro.png",
+      "specs": {
+        "Display": "1.3\" OLED",
+        "Gimbals": "Hall Effect",
+        "ELRS Power": "250mW",
+        "Battery": "2000mAh built-in",
+        "Runtime": "15 hours",
+        "Module Bay": "Nano compatible"
+      },
       "consensusReview": "Good for the price. The screen is tiny but usable for basic setup."
     },
     {
@@ -279,8 +388,11 @@
       "description": "The classic workhorse updated. New ACCESS protocol and a scroll wheel for navigation.",
       "price": 219.99,
       "amazonLink": "https://www.amazon.com/s?k=FrSky+Taranis+X9D+Plus+2019&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/frsky-taranis-x9d-plus.png",
+      "specs": {
+        "Protocol": "ACCESS/ACCST",
+        "Firmware": "OpenTX"
+      },
       "consensusReview": "Still a solid radio, but feels dated compared to the TX16S."
     },
     {
@@ -293,8 +405,10 @@
       "description": "A powerful compact radio with RDC90 sensor gimbals for ultra-smooth control.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=Jumper+T20S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/jumper-t20s.png",
+      "specs": {
+        "Gimbals": "RDC90 Sensor"
+      },
       "consensusReview": "The gimbals feel amazing. Build quality is improved over previous Jumper radios."
     },
     {
@@ -307,8 +421,10 @@
       "description": "12-channel radio with excellent interference rejection. Known for robust signal in noisy environments.",
       "price": 159.99,
       "amazonLink": "https://www.amazon.com/s?k=Radiolink+AT10II&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/radiolink-at10ii.png",
+      "specs": {
+        "Channels": "12"
+      },
       "consensusReview": "Great range and stability, but the interface is not as flexible as EdgeTX."
     },
     {
@@ -321,8 +437,11 @@
       "description": "The 'Nirvana'. Unique ergonomic design with dual screens and Hall effect gimbals.",
       "price": 179.99,
       "amazonLink": "https://www.amazon.com/s?k=Flysky+NV14&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-radio.png",
-      "specs": {},
+      "imageUrl": "/images/parts/flysky-nv14.png",
+      "specs": {
+        "Gimbals": "Hall Effect",
+        "Screens": "Dual"
+      },
       "consensusReview": "Love the grip or hate it. Very unique, but firmware support has been spotty."
     },
     {
@@ -331,12 +450,19 @@
       "brand": "DJI",
       "category": "Goggles",
       "subCategory": "Digital HD",
-      "weight": "N/A",
-      "description": "The newest generation. Real View PiP, integrated forehead pad, and O4 transmission support.",
+      "weight": "470g",
+      "description": "The newest generation with Real View PiP for situational awareness. Features 1080p micro-OLED at 100Hz, integrated battery in headband, O4 transmission support, and 3-hour runtime.",
       "price": 499.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/dji-goggles-3.png",
+      "specs": {
+        "Display": "1080p micro-OLED",
+        "Refresh Rate": "100Hz",
+        "FOV": "44°",
+        "Diopter": "-6 to +2",
+        "IPD": "56-72mm",
+        "Battery Life": "3 hours"
+      },
       "consensusReview": "The best image quality available. The Real View pass-through is handy."
     },
     {
@@ -345,12 +471,19 @@
       "brand": "DJI",
       "category": "Goggles",
       "subCategory": "Digital HD",
-      "weight": "N/A",
-      "description": "Integrated battery headband design for a cable-free experience. O3+ transmission technology.",
+      "weight": "410g",
+      "description": "Integrated battery headband design for cable-free convenience. Dual 1080p micro-OLED screens at 100Hz with O3+ transmission delivering 30ms latency over 10km range.",
       "price": 349.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+Integra&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/dji-goggles-integra.png",
+      "specs": {
+        "Display": "Dual 1080p micro-OLED",
+        "Refresh Rate": "100Hz",
+        "FOV": "44°",
+        "Latency": "30ms",
+        "Range": "10km",
+        "Runtime": "2 hours"
+      },
       "consensusReview": "Best value for DJI digital. Convenience of no cables is huge."
     },
     {
@@ -359,12 +492,19 @@
       "brand": "Caddx",
       "category": "Goggles",
       "subCategory": "Digital HD",
-      "weight": "N/A",
-      "description": "Dual 1080p OLED displays, removable VRX, and HDMI input. Future-proof functionality.",
+      "weight": "290g",
+      "description": "Dual 1080p/100fps displays with modular VRX design for future-proofing. Features HDMI in/out, analog module support, built-in gyro, and adjustable +2 to -6 diopter.",
       "price": 459.0,
       "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+Goggles+X&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/walksnail-avatar-goggles-x.png",
+      "specs": {
+        "Display": "1080p/100fps OLED",
+        "FOV": "50°",
+        "Diopter": "+2 to -6",
+        "IPD": "57-72mm",
+        "Input": "7-26V (2S-6S)",
+        "HDMI": "In + Out"
+      },
       "consensusReview": "A great alternative to DJI. HDMI in makes them versatile for Sims."
     },
     {
@@ -373,12 +513,19 @@
       "brand": "Fat Shark",
       "category": "Goggles",
       "subCategory": "Digital HD",
-      "weight": "N/A",
-      "description": "Walksnail Avatar native goggles with trusted Fat Shark optics and fit.",
+      "weight": "300g",
+      "description": "Trusted Fat Shark optics with native Walksnail Avatar support. Features dual 1080p OLED displays, 46° FOV, and adjustable +2 to -6 diopter in a lightweight package.",
       "price": 599.0,
       "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+Dominator+HD&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/fatshark-dominator-hd.png",
+      "specs": {
+        "Display": "Dual 1080p OLED",
+        "FOV": "46°",
+        "Diopter": "+2 to -6",
+        "IPD": "57-70mm",
+        "Input": "7-21V (2S-5S)",
+        "DVR": "Integrated HD"
+      },
       "consensusReview": "Excellent optics. Familiar form factor for long-time pilots."
     },
     {
@@ -387,12 +534,19 @@
       "brand": "Skyzone",
       "category": "Goggles",
       "subCategory": "Analog",
-      "weight": "N/A",
-      "description": "The pinnacle of analog goggles. OLED screens, 52-degree FOV, and SteadyView receiver.",
+      "weight": "267g",
+      "description": "The pinnacle of analog goggles with 1920x1080 OLED screens and 52° FOV. Features V3.3 SteadyView diversity receiver, head tracker, and 720p/100fps HDMI input for HD system compatibility.",
       "price": 539.0,
       "amazonLink": "https://www.amazon.com/s?k=Skyzone+SKY04X+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/skyzone-sky04x-pro.png",
+      "specs": {
+        "Display": "1920x1080 OLED",
+        "FOV": "52°",
+        "Receiver": "SteadyView V3.3 48CH",
+        "DVR": "H.264 60fps",
+        "HDMI": "720p/100fps",
+        "Input": "2S-6S"
+      },
       "consensusReview": "The best analog picture you can get. Menu navigation is superb."
     },
     {
@@ -405,8 +559,11 @@
       "description": "High-end box goggles with a 1280x720 LCD and SteadyView receiver. Glasses friendly.",
       "price": 269.99,
       "amazonLink": "https://www.amazon.com/s?k=Skyzone+Cobra+X+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/skyzone-cobra-x-v2.png",
+      "specs": {
+        "Display": "1280x720 LCD",
+        "Receiver": "SteadyView"
+      },
       "consensusReview": "Best box goggles on the market. Great for spectacle wearers."
     },
     {
@@ -419,8 +576,11 @@
       "description": "Updated OLED panels and adjustable focus. Requires a separate receiver module.",
       "price": 499.0,
       "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+HDO2.1&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/fatshark-hdo2-1.png",
+      "specs": {
+        "Display": "OLED",
+        "Focus": "Adjustable"
+      },
       "consensusReview": "Classic premium analog choice. Requires investment in a good module like RapidFire."
     },
     {
@@ -429,12 +589,18 @@
       "brand": "HDZero",
       "category": "Goggles",
       "subCategory": "Digital HD",
-      "weight": "N/A",
-      "description": "Designed for racers. 90fps analog-like latency in digital HD. Open source Linux OS.",
+      "weight": "360g",
+      "description": "Designed for racers with fixed 3ms glass-to-glass latency. Features dual 1920x1080 90Hz OLED panels, open-source Linux OS, and three independently addressable cooling fans.",
       "price": 595.0,
       "amazonLink": "https://www.amazon.com/s?k=HDZero+Goggles&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/hdzero-goggles.png",
+      "specs": {
+        "Display": "Dual 1920x1080 OLED",
+        "Refresh Rate": "90Hz",
+        "Latency": "3ms glass-to-glass",
+        "Modes": "1080p30, 720p60, 540p90",
+        "OS": "Open-source Linux"
+      },
       "consensusReview": "The racer's choice. Lowest latency digital system, period."
     },
     {
@@ -447,8 +613,10 @@
       "description": "Entry-level box goggles with DVR recording capability and an external antenna.",
       "price": 69.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+VR03&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-goggles.png",
-      "specs": {},
+      "imageUrl": "/images/parts/betafpv-vr03.png",
+      "specs": {
+        "DVR": "Built-in"
+      },
       "consensusReview": "Good starter set with DVR. Screen is decent for the price."
     },
     {
@@ -457,12 +625,19 @@
       "brand": "Caddx",
       "category": "VTX",
       "subCategory": "Digital",
-      "weight": "N/A",
-      "description": "Dual antenna VTX with the Pro camera featuring a 1/1.8 inch Sony Starvis sensor for night vision.",
+      "weight": "27g",
+      "description": "Dual antenna VTX with Pro camera featuring 1/1.8\" Sony Starvis II sensor for exceptional night vision. Supports 1080p/120fps, Gyroflow stabilization, and 32GB onboard recording.",
       "price": 159.0,
       "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+HD+Pro+Kit&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/walksnail-avatar-hd-pro-kit.png",
+      "specs": {
+        "Camera Sensor": "1/1.8\" Sony Starvis II",
+        "Resolution": "1080p/60fps, 720p/120fps",
+        "FOV": "160°",
+        "Latency": "22ms",
+        "Storage": "32GB",
+        "Input": "6-25.2V (2S-6S)"
+      },
       "consensusReview": "Amazing low light performance. Onboard recording is a huge plus."
     },
     {
@@ -475,8 +650,11 @@
       "description": "Ultra-small VTX for 1S whoops. Replaced the 1S lite, now handles up to 5V input.",
       "price": 135.0,
       "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+HD+Nano+Kit+V3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/walksnail-avatar-nano-v3.png",
+      "specs": {
+        "Size": "Ultra-compact",
+        "Input": "Up to 5V"
+      },
       "consensusReview": "Essential for digital whoops. Runs hot, needs airflow."
     },
     {
@@ -485,12 +663,19 @@
       "brand": "HDZero",
       "category": "VTX",
       "subCategory": "Digital",
-      "weight": "N/A",
-      "description": "Updated VTX capable of 1W output. Includes the Micro V3 camera.",
+      "weight": "22.3g",
+      "description": "Compact VTX capable of 1W output with fixed-latency transmission. Features 20x20 mounting, Nano 90 camera, and support for 720p60, 1080p30, and 540p90 modes.",
       "price": 179.99,
       "amazonLink": "https://www.amazon.com/s?k=HDZero+Freestyle+V2+Kit&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/hdzero-freestyle-v2-kit.png",
+      "specs": {
+        "Dimensions": "29x30x14mm",
+        "Mounting": "20x20mm M2",
+        "Power": "25mW-1W",
+        "Input": "7-25V",
+        "Modes": "720p60, 1080p30, 540p90",
+        "Camera": "Nano 90 included"
+      },
       "consensusReview": "Rock solid fixed latency. 1W power punches through interference."
     },
     {
@@ -499,12 +684,15 @@
       "brand": "HDZero",
       "category": "VTX",
       "subCategory": "Digital",
-      "weight": "N/A",
+      "weight": "1.5g",
       "description": "Designed for 1S whoops. Weighs only 1.5g. 25/200mW output.",
       "price": 99.99,
       "amazonLink": "https://www.amazon.com/s?k=HDZero+Whoop+Lite+VTX&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/hdzero-whoop-lite-vtx.png",
+      "specs": {
+        "Weight": "1.5g",
+        "Power": "25/200mW"
+      },
       "consensusReview": "Transforms flight feel of whoops. Digital clarity with analog weight."
     },
     {
@@ -513,12 +701,18 @@
       "brand": "TBS",
       "category": "VTX",
       "subCategory": "Analog",
-      "weight": "N/A",
-      "description": "high voltage analog VTX capable of 1W+ output. Double-decker heat sink design.",
+      "weight": "8.7g",
+      "description": "High voltage analog VTX with double-decker heatsink design. Features SmartAudio control, CleanSwitch technology for interference-free channel changes, and PitMode for pit testing.",
       "price": 49.95,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Unify+Pro32+HV&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/tbs-unify-pro32-hv.png",
+      "specs": {
+        "Input": "6-25V (2S-6S)",
+        "Weight": "8.7g",
+        "Dimensions": "37x25x5.8mm",
+        "Connector": "MMCX",
+        "Protocol": "SmartAudio/CRSF"
+      },
       "consensusReview": "The gold standard for long range analog. Almost indestructible."
     },
     {
@@ -531,8 +725,10 @@
       "description": "High power solo VTX. Heavy heat sinking for sustained high output.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=Rush+Tank+Solo&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/rush-tank-solo.png",
+      "specs": {
+        "Heatsink": "Heavy-duty"
+      },
       "consensusReview": "Runs cooler than the Unify. Signal is extremely clean."
     },
     {
@@ -545,8 +741,10 @@
       "description": "Lightweight 350mW VTX perfect for whoops and toothpicks.",
       "price": 19.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+M03&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/betafpv-m03.png",
+      "specs": {
+        "Power": "350mW"
+      },
       "consensusReview": "Good range for the size. Antenna connector is fragile."
     },
     {
@@ -559,8 +757,11 @@
       "description": "OpenVTX protocol support. 300mW output in a tiny package.",
       "price": 16.99,
       "amazonLink": "https://www.amazon.com/s?k=Happymodel+OVX300&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/happymodel-ovx300.png",
+      "specs": {
+        "Power": "300mW",
+        "Protocol": "OpenVTX/SmartAudio"
+      },
       "consensusReview": "Cheap and effective. SmartAudio setup is easy."
     },
     {
@@ -573,8 +774,12 @@
       "description": "800mW max output. 20x20 mounting. IRC Tramp protocol.",
       "price": 24.99,
       "amazonLink": "https://www.amazon.com/s?k=SpeedyBee+TX800&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/speedybee-tx800.png",
+      "specs": {
+        "Power": "800mW",
+        "Mounting": "20x20",
+        "Protocol": "IRC Tramp"
+      },
       "consensusReview": "Great value for high power. Metal case acts as a good heatsink."
     },
     {
@@ -587,8 +792,10 @@
       "description": "The 'Vista' unit manufactured by RunCam. Compatible with DJI FPV System.",
       "price": 139.99,
       "amazonLink": "https://www.amazon.com/s?k=RunCam+Link&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-vtx.png",
-      "specs": {},
+      "imageUrl": "/images/parts/runcam-link.png",
+      "specs": {
+        "System": "DJI FPV compatible"
+      },
       "consensusReview": "Reliable workhorse for DJI system. Fits where an Air Unit won't."
     },
     {
@@ -597,12 +804,19 @@
       "brand": "Pine64",
       "category": "Tools",
       "subCategory": "Soldering",
-      "weight": "N/A",
-      "description": "RISC-V based soldering iron with a shorter tip for better control. USB-C PD input.",
+      "weight": "28g",
+      "description": "RISC-V powered portable soldering iron with USB-C PD and DC input. Heats to operating temperature in 6 seconds with adjustable 100-400°C range and motion-activated sleep mode.",
       "price": 25.99,
       "amazonLink": "https://www.amazon.com/s?k=Pinecil+V2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/pinecil-v2.png",
+      "specs": {
+        "Power": "88W max",
+        "Input": "USB-C PD / DC5525 12-24V",
+        "Temp Range": "100-400°C",
+        "Heat-up": "6 seconds",
+        "Display": "0.69\" OLED",
+        "Features": "Motion sensor, Hall sensor, BLE"
+      },
       "consensusReview": "Best portable iron hands down. Heats up instantly."
     },
     {
@@ -615,8 +829,11 @@
       "description": "Compact USB-C PD charger for 1-6S batteries. Pocket sized.",
       "price": 29.99,
       "amazonLink": "https://www.amazon.com/s?k=ISDT+608PD&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/isdt-608pd.png",
+      "specs": {
+        "Input": "USB-C PD",
+        "Cells": "1-6S"
+      },
       "consensusReview": "Perfect travel charger. Requires a PD power brick."
     },
     {
@@ -629,8 +846,11 @@
       "description": "200W tiny charger. BattGO support and upgradeable firmware.",
       "price": 34.99,
       "amazonLink": "https://www.amazon.com/s?k=ISDT+Q6+Nano&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/isdt-q6-nano.png",
+      "specs": {
+        "Power": "200W",
+        "Features": "BattGO support"
+      },
       "consensusReview": "Crazy power for the size. Fan can be noisy."
     },
     {
@@ -643,8 +863,10 @@
       "description": "Compact zipper case designed by Mr. Steele to hold essential field tools.",
       "price": 24.95,
       "amazonLink": "https://www.amazon.com/s?k=Ethix+Tool+Case&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/ethix-tool-case.png",
+      "specs": {
+        "Designer": "Mr. Steele"
+      },
       "consensusReview": "Keeps tools organized. Fits perfectly in backpacks."
     },
     {
@@ -657,8 +879,11 @@
       "description": "Smooth bearing-assisted prop tool. 8mm hex socket.",
       "price": 12.95,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Ethix+M3+Nut+Driver&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/tbs-ethix-m3-nut-driver.png",
+      "specs": {
+        "Socket": "8mm hex",
+        "Feature": "Bearing-assisted"
+      },
       "consensusReview": "Makes prop changes satisfying. High quality feel."
     },
     {
@@ -671,7 +896,7 @@
       "description": "Pocket multimeter designed for drone builds. Check voltages and continuity easily.",
       "price": 29.99,
       "amazonLink": "https://www.amazon.com/s?k=Flywoo+Fpv+Multimeter&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
+      "imageUrl": "/images/parts/flywoo-fpv-multimeter.png",
       "specs": {},
       "consensusReview": "Handy to have in the field bag. Small and effective."
     },
@@ -682,11 +907,17 @@
       "category": "Tools",
       "subCategory": "Safety",
       "weight": "N/A",
-      "description": "Electronic fuse smoke stopper. Essential for first plug-ins.",
+      "description": "Electronic fuse smoke stopper that completely cuts current on short circuit detection. Features on/off button, adjustable trip delay, and 1A/2A threshold selector with XT30/XT60 connectors.",
       "price": 14.99,
       "amazonLink": "https://www.amazon.com/s?k=VIFLY+ShortSaver+2&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/vifly-shortsaver-2.png",
+      "specs": {
+        "Input": "7-25V (2S-6S)",
+        "Connectors": "XT30 & XT60",
+        "Threshold": "1A/2A selectable",
+        "Trip Time": "3ms short / 10ms overcurrent",
+        "Dimensions": "42x30x10mm"
+      },
       "consensusReview": "Saved my electronics multiple times. Don't build without it."
     },
     {
@@ -700,7 +931,10 @@
       "price": 58.99,
       "amazonLink": "https://www.amazon.com/s?k=TS101+Smart+Soldering+Iron&tag=sparkfish-20",
       "imageUrl": "/images/parts/sequre-ts101.png",
-      "specs": {},
+      "specs": {
+        "Input": "DC and PD",
+        "Feature": "Boost mode"
+      },
       "consensusReview": "Reliable and powerful. The boost button is great for ground pads."
     },
     {
@@ -710,11 +944,17 @@
       "category": "Tools",
       "subCategory": "Charger",
       "weight": "N/A",
-      "description": "1S charger with storage function. Discharges batteries to safe voltage.",
+      "description": "6-port 1S charger with storage and discharge function. Features up to 1.3A charge current, colorful LCD display, fan cooling, and supports PH2.0/BT2.0/A30 connectors.",
       "price": 32.99,
       "amazonLink": "https://www.amazon.com/s?k=VIFLY+WhoopStor+V3&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/vifly-whoopstor-v3.png",
+      "specs": {
+        "Ports": "6 independent",
+        "Input": "USB-C PD / XT60 / DC",
+        "Charge Current": "0.3-1.3A",
+        "Target Voltage": "3.8V, 3.85V, 4.2V, 4.35V",
+        "Connectors": "PH2.0, BT2.0, A30"
+      },
       "consensusReview": "The best 1S charger period. Saves your batteries."
     },
     {
@@ -724,11 +964,16 @@
       "category": "Tools",
       "subCategory": "Drivers",
       "weight": "N/A",
-      "description": "64-bit precision driver set. Magnetic case and lid tray.",
+      "description": "64-bit precision driver set with CNC aluminum handle and 150mm flex extension. Magnetic case with foam insert covers Phillips, TORX, Pentalobe, Hex, and dozens more bit types.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=iFixit+Mako+Driver+Kit&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-tool.png",
-      "specs": {},
+      "imageUrl": "/images/parts/ifixit-mako-driver-kit.png",
+      "specs": {
+        "Bits": "64 S2 steel",
+        "Handle": "4mm CNC aluminum",
+        "Extension": "150mm flexible",
+        "Types": "Phillips, TORX, Hex, Pentalobe, more"
+      },
       "consensusReview": "High quality bits that don't strip screws. Lasts forever."
     },
     {
@@ -738,11 +983,16 @@
       "category": "Gear",
       "subCategory": "Backpack",
       "weight": "N/A",
-      "description": "The pilots backpack. Unfolds into a pit area. Holds 4+ quads.",
+      "description": "The ultimate FPV pilot backpack with 30L capacity. Features expandable pitstop workspace, magnetic screw pocket, integrated rain cover, and holds 4+ quads with all accessories.",
       "price": 199.0,
       "amazonLink": "https://www.amazon.com/s?k=Torvol+Quad+Pitstop+Backpack+Pro&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/torvol-quad-pitstop-backpack-pro.png",
+      "specs": {
+        "Capacity": "30L",
+        "Quads": "4+ (6\" and under)",
+        "Laptop": "Up to 17\"",
+        "Features": "Pitstop area, Magnetcase, Rain cover"
+      },
       "consensusReview": "Expensive but worth it. The expandable pitstop area is genius."
     },
     {
@@ -755,8 +1005,11 @@
       "description": "Stylish everyday carry pack for freestyle pilots. Modular attachment system.",
       "price": 149.0,
       "amazonLink": "https://www.amazon.com/s?k=Torvol+Urban+Carrier+Backpack&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/torvol-urban-carrier.png",
+      "specs": {
+        "Style": "Urban EDC",
+        "Feature": "Modular attachments"
+      },
       "consensusReview": "Great for urban missions. Not as big as the Pitstop but looks better."
     },
     {
@@ -769,8 +1022,11 @@
       "description": "Waterproof hard case with DIY foam. Fits DJI Avata or various setups.",
       "price": 69.99,
       "amazonLink": "https://www.amazon.com/s?k=Lykus+DCP-M100+Case&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/lykus-dcp-m100-case.png",
+      "specs": {
+        "Protection": "Waterproof",
+        "Foam": "DIY customizable"
+      },
       "consensusReview": "Solid protection at a good price. Foam is easy to customize."
     },
     {
@@ -783,8 +1039,11 @@
       "description": "Compact hard case for 65/75mm whoops. Includes battery tester slot.",
       "price": 19.99,
       "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Storage+Case&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/betafpv-storage-case.png",
+      "specs": {
+        "Fits": "65/75mm whoops",
+        "Feature": "Battery tester slot"
+      },
       "consensusReview": "Perfect fit for tiny whoops. Zipper is high quality."
     },
     {
@@ -797,8 +1056,11 @@
       "description": "Pop-up race gate designed by Captain Vanover. Durable fabric.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=Gemfan+Vanover+Gate&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/gemfan-vanover-gate.png",
+      "specs": {
+        "Designer": "Captain Vanover",
+        "Type": "Pop-up"
+      },
       "consensusReview": "Easy to set up. Highly visible."
     },
     {
@@ -807,12 +1069,18 @@
       "brand": "CNHL",
       "category": "Gear",
       "subCategory": "Battery",
-      "weight": "N/A",
-      "description": "High performance 100C LiPo battery. Excellent sag resistance.",
+      "weight": "230g",
+      "description": "High performance 130C LiPo battery with excellent sag resistance. V2.0 version delivers punchy discharge for faster throttle response and better flight stability.",
       "price": 24.99,
       "amazonLink": "https://www.amazon.com/s?k=CNHL+Black+Series+1300mAh+6S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/cnhl-black-series-1300mah-6s.png",
+      "specs": {
+        "Capacity": "1300mAh",
+        "Voltage": "22.2V 6S",
+        "Discharge": "130C / 260C burst",
+        "Weight": "230g",
+        "Connector": "XT60"
+      },
       "consensusReview": "Best bang for buck battery. Punches way above its price."
     },
     {
@@ -825,8 +1093,12 @@
       "description": "Professional racing battery. 150C discharge rate.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=Tattu+R-Line+V5.0+1400mAh+6S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/tattu-r-line-v5-1400mah-6s.png",
+      "specs": {
+        "Capacity": "1400mAh",
+        "Voltage": "6S",
+        "Discharge": "150C"
+      },
       "consensusReview": "The top tier choice. Power delivery is instant and sustained."
     },
     {
@@ -839,8 +1111,12 @@
       "description": "High voltage 1S battery with A30 header. Lightweight.",
       "price": 6.99,
       "amazonLink": "https://www.amazon.com/s?k=GNB+450mAh+1S&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/gnb-450mah-1s.png",
+      "specs": {
+        "Capacity": "450mAh",
+        "Voltage": "1S HV",
+        "Connector": "A30"
+      },
       "consensusReview": "Great flight times for 75mm whoops. A30 connector is solid."
     },
     {
@@ -853,8 +1129,10 @@
       "description": "Earbuds designed for hearing motor noise. Single ear and dual ear options.",
       "price": 14.99,
       "amazonLink": "https://www.amazon.com/s?k=VIBES+FPV+Earbuds&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/vibes-fpv-earbuds.png",
+      "specs": {
+        "Options": "Single ear / Dual ear"
+      },
       "consensusReview": "Crucial for connecting with the quad. Good isolation."
     },
     {
@@ -867,8 +1145,10 @@
       "description": "Comfortable lanyard with quick release. Green and grey styling.",
       "price": 14.99,
       "amazonLink": "https://www.amazon.com/s?k=Ethix+Neck+Strap&tag=sparkfish-20",
-      "imageUrl": "/images/parts/generic-lipo.png",
-      "specs": {},
+      "imageUrl": "/images/parts/ethix-neck-strap.png",
+      "specs": {
+        "Feature": "Quick release"
+      },
       "consensusReview": "Super soft and comfortable. Quick release is smooth."
     }
   ]
