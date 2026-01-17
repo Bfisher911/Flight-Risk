@@ -77,6 +77,10 @@ class Builder:
 
     def generate_description(self, product):
         """Uses LLM to write a unique description."""
+        # Prefer pre-supplied description if available
+        if product.get("description") and product.get("description") != "No description available.":
+            return product.get("description")
+
         if not self.model:
             return product.get("description", "No description available.")
             
@@ -95,6 +99,10 @@ class Builder:
 
     def generate_consensus(self, product):
         """Uses LLM to synthesize a consensus review."""
+        # Prefer pre-supplied review if available
+        if product.get("consensusReview") and product.get("consensusReview") != "Consensus review unavailable.":
+            return product.get("consensusReview")
+
         if not self.model:
             return "Consensus review unavailable."
 
