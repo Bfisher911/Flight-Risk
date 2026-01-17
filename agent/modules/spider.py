@@ -118,6 +118,28 @@ class Spider:
                 response = requests.get(url, headers=headers, timeout=5, stream=True)
             
             if 200 <= response.status_code < 300:
+                # Extra check for Amazon soft 404s (Dog pages)
+                if "amazon.com" in url:
+                    # Amazon returns 200 for their "Sorry we couldn't find that page" error
+                    # Also "CAPTCHA" pages start with generic <title>Amazon.com</title>
+                    try:
+                        # We might need to make a full GET if we only did HEAD
+                        if response.request.method == 'HEAD':
+                             response = requests.get(url, headers=headers, timeout=5)
+                        
+                        text = response.text
+                        if "we couldn't find that page" in text or "SORRY" in text:
+                            logger.warning(f"Amazon Soft 404 detected for {url}")
+                            return False
+                        
+                        # CAPTCHA / Generic Home Page check
+                        if "<title>Amazon.com</title>" in text or '<title dir="ltr">Amazon.com</title>' in text:
+                            logger.warning(f"Amazon Generic/CAPTCHA detected (likely dead/blocked) for {url}")
+                            return False
+
+                    except Exception:
+                        pass # verification failed, assume it's okay or let it be
+
                 return True
             else:
                 logger.debug(f"Link {url} returned status {response.status_code}")

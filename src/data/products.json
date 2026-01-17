@@ -10,7 +10,7 @@
       "description": "Ultra-light 65mm frame for 35mm props. Durable and rigid for racing.",
       "price": 5.99,
       "isRecommended": true,
-      "amazonLink": "https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/frame-meteor65.png",
       "specs": {
         "Material": "Plastic",
@@ -131,7 +131,7 @@
       "weight": "1.4g",
       "description": "1200TVL resolution with global shutter. Best in class for whoops.",
       "price": 16.99,
-      "amazonLink": "https://amazon.com/dp/B0B2W5B2L5?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/camera-c03.webp",
       "specs": {
         "Resolution": "1200TVL",
@@ -148,7 +148,7 @@
       "weight": "0.4g",
       "description": "Smooth and quiet 3-blade props for 65mm Pro frames.",
       "price": 2.99,
-      "amazonLink": "https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/prop-gemfan.png",
       "specs": {
         "Blades": "3",
@@ -572,7 +572,7 @@
       "weight": "N/A",
       "description": "No description available.",
       "price": 119.99,
-      "amazonLink": "https://amazon.com/dp/B0B1234567?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/placeholder.png",
       "specs": {},
       "consensusReview": "Consensus review unavailable."

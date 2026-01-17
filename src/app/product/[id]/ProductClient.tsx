@@ -135,11 +135,13 @@ export default function ProductDetailPage() {
                             <div className="text-4xl font-bold text-foreground mb-1">${product.price.toFixed(2)}</div>
                         </div>
                         <div className="flex-grow flex gap-4">
-                            <a href={product.amazonLink} target="_blank" className="flex-grow">
-                                <TechnicalButton icon={<ShoppingCart />} className="w-full justify-center py-4">
-                                    Acquire System
-                                </TechnicalButton>
-                            </a>
+                            {product.amazonLink && (
+                                <a href={product.amazonLink} target="_blank" className="flex-grow">
+                                    <TechnicalButton icon={<ShoppingCart />} className="w-full justify-center py-4">
+                                        Acquire System
+                                    </TechnicalButton>
+                                </a>
+                            )}
                             <Link href="/part-picker" className="flex-grow">
                                 <TechnicalButton variant="secondary" icon={<Cpu />} className="w-full justify-center py-4">
                                     Add to build

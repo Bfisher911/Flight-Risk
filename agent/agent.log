@@ -171,3 +171,62 @@
 2026-01-16 17:50:08,585 - FlightRiskAgent - INFO - ---| Phase 4: Content Marketing (The Author) |---
 2026-01-16 17:50:08,585 - FlightRiskAgent.Author - WARNING - No Gemini API key found. Skipping blog generation.
 2026-01-16 17:50:08,585 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 18:06:21,589 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 18:06:21,589 - FlightRiskAgent - INFO - ---| Phase 1: Maintenance (The Spider) |---
+2026-01-16 18:06:21,589 - FlightRiskAgent.Spider - INFO - Starting Link Audit...
+2026-01-16 18:06:21,589 - FlightRiskAgent.Spider - INFO - Scanning /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json...
+2026-01-16 18:06:26,931 - FlightRiskAgent.Spider - WARNING - Dead link found for Fractal 65 Micro Frame: https://amazon.com/s?k=Fractal+65+micro+frame&tag=sparkfish-20
+2026-01-16 18:06:31,986 - FlightRiskAgent.Spider - WARNING - Dead link found for 0802SE 19500KV Motors: https://amazon.com/dp/B08GP8KWTS?tag=sparkfish-20
+2026-01-16 18:06:37,045 - FlightRiskAgent.Spider - WARNING - Dead link found for RS0802 20000KV Motors: https://amazon.com/dp/product/B08C9T9Z8M?tag=sparkfish-20
+2026-01-16 18:06:42,106 - FlightRiskAgent.Spider - WARNING - Dead link found for F4 1S 5A AIO FC: https://amazon.com/dp/B0B5G8X8L1?tag=sparkfish-20
+2026-01-16 18:06:47,163 - FlightRiskAgent.Spider - WARNING - Dead link found for SuperBee F4 Lite: https://amazon.com/dp/product/B0BS6KWN79?tag=sparkfish-20
+2026-01-16 18:06:52,243 - FlightRiskAgent.Spider - WARNING - Dead link found for M03 350mW VTX: https://amazon.com/dp/B09C5R8W9B?tag=sparkfish-20
+2026-01-16 18:06:53,252 - FlightRiskAgent.Spider - WARNING - Dead link found for iFlight Nazgul Evoque F5: https://www.amazon.com/s?k=iFlight+Nazgul+Evoque+series&tag=sparkfish-20
+2026-01-16 18:06:53,368 - FlightRiskAgent.Spider - WARNING - Dead link found for GEPRC Mark5: https://www.amazon.com/s?k=GEPRC+Mark5&tag=sparkfish-20
+2026-01-16 18:06:53,486 - FlightRiskAgent.Spider - WARNING - Dead link found for EMAX Tinyhawk III: https://www.amazon.com/s?k=EMAX+Tinyhawk+series&tag=sparkfish-20
+2026-01-16 18:06:53,595 - FlightRiskAgent.Spider - WARNING - Dead link found for BetaFPV Cetus Pro Kit: https://www.amazon.com/s?k=BetaFPV+Cetus+kits&tag=sparkfish-20
+2026-01-16 18:06:53,711 - FlightRiskAgent.Spider - WARNING - Dead link found for Flywoo Explorer LR 4: https://www.amazon.com/s?k=Flywoo+Explorer+LR&tag=sparkfish-20
+2026-01-16 18:06:53,850 - FlightRiskAgent.Spider - WARNING - Dead link found for VIFLY WhoopStor V3: https://www.amazon.com/s?k=VIFLY+WhoopStor+V3&tag=sparkfish-20
+2026-01-16 18:06:53,973 - FlightRiskAgent.Spider - WARNING - Dead link found for VIFLY ShortSaver 2: https://www.amazon.com/s?k=VIFLY+ShortSaver+2&tag=sparkfish-20
+2026-01-16 18:06:54,084 - FlightRiskAgent.Spider - WARNING - Dead link found for Walksnail Avatar Goggles X: https://www.amazon.com/s?k=Walksnail+Avatar+Goggles+X&tag=sparkfish-20
+2026-01-16 18:06:54,200 - FlightRiskAgent.Spider - WARNING - Dead link found for TS101 Smart Soldering Iron: https://www.amazon.com/s?k=TS101+Soldering+Iron&tag=sparkfish-20
+2026-01-16 18:06:54,319 - FlightRiskAgent.Spider - WARNING - Dead link found for DJI Goggles 2: https://www.amazon.com/s?k=DJI+Goggles+2&tag=sparkfish-20
+2026-01-16 18:06:54,437 - FlightRiskAgent.Spider - WARNING - Dead link found for Fat Shark Dominator HD: https://www.amazon.com/s?k=Fat+Shark+Dominator+HD&tag=sparkfish-20
+2026-01-16 18:06:54,549 - FlightRiskAgent.Spider - WARNING - Dead link found for Skyzone SKY04X: https://www.amazon.com/s?k=Skyzone+SKY04X&tag=sparkfish-20
+2026-01-16 18:06:54,660 - FlightRiskAgent.Spider - WARNING - Dead link found for Eachine EV800D: https://www.amazon.com/s?k=Eachine+EV800D&tag=sparkfish-20
+2026-01-16 18:06:54,772 - FlightRiskAgent.Spider - WARNING - Dead link found for RadioMaster TX16S MKII: https://www.amazon.com/s?k=Radiomaster+TX16S&tag=sparkfish-20
+2026-01-16 18:06:54,908 - FlightRiskAgent.Spider - WARNING - Dead link found for RadioMaster Boxer: https://www.amazon.com/s?k=Radiomaster+Boxer&tag=sparkfish-20
+2026-01-16 18:06:55,021 - FlightRiskAgent.Spider - WARNING - Dead link found for RadioMaster Pocket: https://www.amazon.com/s?k=Radiomaster+Pocket&tag=sparkfish-20
+2026-01-16 18:06:55,133 - FlightRiskAgent.Spider - WARNING - Dead link found for TBS Tango 2: https://www.amazon.com/s?k=TBS+Tango+2&tag=sparkfish-20
+2026-01-16 18:06:55,260 - FlightRiskAgent.Spider - WARNING - Dead link found for ISDT 608AC Charger: https://www.amazon.com/s?k=ISDT+charger&tag=sparkfish-20
+2026-01-16 18:06:55,381 - FlightRiskAgent.Spider - WARNING - Dead link found for Pinecil Smart Soldering Iron: https://www.amazon.com/s?k=soldering+station+Pinecil+Hakko+TS101&tag=sparkfish-20
+2026-01-16 18:06:55,505 - FlightRiskAgent.Spider - WARNING - Dead link found for iFixit Mako Driver Kit: https://www.amazon.com/s?k=iFixit+tool+kit&tag=sparkfish-20
+2026-01-16 18:06:55,625 - FlightRiskAgent.Spider - WARNING - Dead link found for Lykus Backpack: https://www.amazon.com/s?k=drone+backpack+Lykus+PGYTECH+Lowepro&tag=sparkfish-20
+2026-01-16 18:06:55,741 - FlightRiskAgent.Spider - WARNING - Dead link found for Torvol Landing Pad: https://www.amazon.com/s?k=drone+landing+pad&tag=sparkfish-20
+2026-01-16 18:06:56,275 - FlightRiskAgent.Spider - INFO - Updated /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json with removed links.
+2026-01-16 18:06:56,276 - FlightRiskAgent.Spider - INFO - Scanning article: ultimate-guide-fpv-drones-2025.md
+2026-01-16 18:06:56,276 - FlightRiskAgent.Spider - INFO - Link Audit Complete. Checked: 0, Fixed: 28
+2026-01-16 18:06:56,276 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 18:17:03,408 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 18:17:03,408 - FlightRiskAgent - INFO - ---| Phase 1: Maintenance (The Spider) |---
+2026-01-16 18:17:03,408 - FlightRiskAgent.Spider - INFO - Starting Link Audit...
+2026-01-16 18:17:03,408 - FlightRiskAgent.Spider - INFO - Scanning /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json...
+2026-01-16 18:17:06,799 - FlightRiskAgent.Spider - INFO - Scanning article: ultimate-guide-fpv-drones-2025.md
+2026-01-16 18:17:06,800 - FlightRiskAgent.Spider - INFO - Link Audit Complete. Checked: 0, Fixed: 0
+2026-01-16 18:17:06,800 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 18:19:00,257 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 18:19:00,284 - FlightRiskAgent - INFO - ---| Phase 1: Maintenance (The Spider) |---
+2026-01-16 18:19:00,306 - FlightRiskAgent.Spider - INFO - Starting Link Audit...
+2026-01-16 18:19:00,312 - FlightRiskAgent.Spider - INFO - Scanning /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json...
+2026-01-16 18:19:01,499 - FlightRiskAgent.Spider - WARNING - Amazon Generic/CAPTCHA detected (likely dead/blocked) for https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20
+2026-01-16 18:19:01,503 - FlightRiskAgent.Spider - WARNING - Dead link found for Meteor65 Pro Frame: https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20
+2026-01-16 18:19:02,072 - FlightRiskAgent.Spider - WARNING - Amazon Generic/CAPTCHA detected (likely dead/blocked) for https://amazon.com/dp/B0B2W5B2L5?tag=sparkfish-20
+2026-01-16 18:19:02,078 - FlightRiskAgent.Spider - WARNING - Dead link found for C03 FPV Camera: https://amazon.com/dp/B0B2W5B2L5?tag=sparkfish-20
+2026-01-16 18:19:02,791 - FlightRiskAgent.Spider - WARNING - Amazon Generic/CAPTCHA detected (likely dead/blocked) for https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20
+2026-01-16 18:19:02,798 - FlightRiskAgent.Spider - WARNING - Dead link found for Gemfan 35mm 3-Blade: https://amazon.com/dp/B09VPH7K1J?tag=sparkfish-20
+2026-01-16 18:19:05,870 - FlightRiskAgent.Spider - WARNING - Amazon Generic/CAPTCHA detected (likely dead/blocked) for https://amazon.com/dp/B0B1234567?tag=sparkfish-20
+2026-01-16 18:19:05,886 - FlightRiskAgent.Spider - WARNING - Dead link found for BetaFPV Meteor75 Pro: https://amazon.com/dp/B0B1234567?tag=sparkfish-20
+2026-01-16 18:19:05,914 - FlightRiskAgent.Spider - INFO - Updated /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json with removed links.
+2026-01-16 18:19:05,953 - FlightRiskAgent.Spider - INFO - Scanning article: ultimate-guide-fpv-drones-2025.md
+2026-01-16 18:19:05,957 - FlightRiskAgent.Spider - INFO - Link Audit Complete. Checked: 0, Fixed: 4
+2026-01-16 18:19:05,965 - FlightRiskAgent - INFO - Agent Run Complete
