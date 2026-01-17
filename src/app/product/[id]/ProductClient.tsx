@@ -1,17 +1,19 @@
 "use client";
 
-import React from 'react';
+import React, { useState } from 'react';
 import productsData from "@/data/products.json";
 import { TechnicalCard } from "@/components/ui/TechnicalCard";
 import { TechnicalButton } from "@/components/ui/TechnicalButton";
 import { ArrowLeft, Box, Weight, Shield, Info, Cpu, Zap, ShoppingCart } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { useParams } from "next/navigation";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 
 export default function ProductDetailPage() {
     const params = useParams();
     const productId = params.id;
+    const [imageError, setImageError] = useState(false);
 
     // Safety check for static generation
     if (!productId) return null;
@@ -75,10 +77,23 @@ export default function ProductDetailPage() {
                         <div className="absolute inset-0 border border-current opacity-5 pointer-events-none" />
                         <div className="absolute top-4 left-4 font-mono text-[8px] opacity-20 uppercase">PRD_VIZ_v2.0</div>
 
-                        {/* Placeholder for Product Image */}
-                        <div className="w-64 h-64 border border-dashed border-current opacity-20 rounded-full animate-pulse flex items-center justify-center group-hover:scale-110 transition-transform duration-700">
-                            <Box className="w-20 h-20 text-current" />
-                        </div>
+                        {/* Product Image */}
+                        {product.imageUrl && !imageError ? (
+                            <div className="relative w-full h-full flex items-center justify-center group-hover:scale-105 transition-transform duration-700">
+                                <Image
+                                    src={product.imageUrl}
+                                    alt={product.name}
+                                    fill
+                                    className="object-contain p-8"
+                                    onError={() => setImageError(true)}
+                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                />
+                            </div>
+                        ) : (
+                            <div className="w-64 h-64 border border-dashed border-current opacity-20 rounded-full animate-pulse flex items-center justify-center group-hover:scale-110 transition-transform duration-700">
+                                <Box className="w-20 h-20 text-current" />
+                            </div>
+                        )}
 
                         {/* Background Data Stream */}
                         <div className="absolute bottom-4 right-4 text-right font-mono text-[8px] opacity-20 leading-tight uppercase">
