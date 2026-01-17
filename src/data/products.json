@@ -61,7 +61,7 @@
       "subCategory": "Brushless",
       "weight": "1.9g",
       "description": "Legendary TinyHawk performance motors. Smooth and powerful.",
-      "price": 42.00,
+      "price": 42.0,
       "amazonLink": "https://amazon.com/dp/product/B08C9T9Z8M?tag=sparkfish-20",
       "imageUrl": "/images/parts/motor-emax.png",
       "specs": {
@@ -96,7 +96,7 @@
       "subCategory": "AIO",
       "weight": "2.8g",
       "description": "High performance AIO with improved 5V regulator and ELRS SPI RX.",
-      "price": 54.00,
+      "price": 54.0,
       "amazonLink": "https://amazon.com/dp/product/B0BS6KWN79?tag=sparkfish-20",
       "imageUrl": "/images/parts/fc-superbee.png",
       "specs": {
@@ -136,7 +136,7 @@
       "specs": {
         "Resolution": "1200TVL",
         "Sensor": "1/3 CMOS",
-        "FOV": "160°"
+        "FOV": "160\u00b0"
       }
     },
     {
@@ -164,7 +164,7 @@
       "subCategory": "1S LiHV",
       "weight": "8.2g",
       "description": "Reliable 1S power with high discharge BT2.0 connectors.",
-      "price": 26.00,
+      "price": 26.0,
       "amazonLink": "https://amazon.com/dp/B08218LB8U?tag=sparkfish-20",
       "imageUrl": "/images/parts/battery-300mah.webp",
       "specs": {
@@ -301,14 +301,14 @@
       "subCategory": "Digital HD",
       "weight": "290g",
       "description": "The latest in HD digital FPV. 1080p 100fps transmission with H.265 encoding. Compatible with Walksnail, Analog, and HDZero (via HDMI).",
-      "price": 459.00,
+      "price": 459.0,
       "amazonLink": "https://www.amazon.com/s?k=Walksnail+Avatar+Goggles+X&tag=sparkfish-20",
       "imageUrl": "/images/parts/goggles-avatar-x.png",
       "isRecommended": true,
       "specs": {
         "Resolution": "1080p OLED",
         "Refresh": "100Hz",
-        "FOV": "50°"
+        "FOV": "50\u00b0"
       }
     },
     {
@@ -324,7 +324,7 @@
       "imageUrl": "/images/parts/tool-ts101.png",
       "specs": {
         "Power": "DC/PD 3.0",
-        "Max Temp": "400°C",
+        "Max Temp": "400\u00b0C",
         "Screen": "OLED"
       }
     },
@@ -336,7 +336,7 @@
       "subCategory": "Digital HD",
       "weight": "290g",
       "description": "Next-gen digital FPV goggles with Micro-OLED screens, 1080p transmission, and head tracking. The immersive experience for O3 Air Unit fleets.",
-      "price": 649.00,
+      "price": 649.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+2&tag=sparkfish-20",
       "imageUrl": "/images/parts/goggles-dji2.png",
       "specs": {
@@ -353,13 +353,13 @@
       "subCategory": "Digital HD",
       "weight": "400g",
       "description": "Walksnail Avatar compatible digital goggles offering 1080p OLED clarity and high refresh rates. Trusted form factor with modern tech.",
-      "price": 599.00,
+      "price": 599.0,
       "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+Dominator+HD&tag=sparkfish-20",
       "imageUrl": "/images/parts/goggles-fatshark.png",
       "specs": {
         "System": "Walksnail Avatar",
         "Displays": "OLED",
-        "Field of View": "46°"
+        "Field of View": "46\u00b0"
       }
     },
     {
@@ -370,7 +370,7 @@
       "subCategory": "Analog High-End",
       "weight": "330g",
       "description": "Top-tier analog goggles with 1280x960 OLED displays and the legendary SteadyView receiver for breakup-free analog video.",
-      "price": 469.00,
+      "price": 469.0,
       "amazonLink": "https://www.amazon.com/s?k=Skyzone+SKY04X&tag=sparkfish-20",
       "imageUrl": "/images/parts/goggles-skyzone.png",
       "specs": {
@@ -494,7 +494,7 @@
       "imageUrl": "/images/parts/tool-pinecil.png",
       "specs": {
         "Power": "USB-C PD",
-        "Temp": "100-400°C",
+        "Temp": "100-400\u00b0C",
         "Chip": "RISC-V"
       }
     },
@@ -548,6 +548,34 @@
         "Material": "Waterproof",
         "Foldable": "Yes"
       }
+    },
+    {
+      "id": "dji-o3-air-unit-22",
+      "name": "DJI O3 Air Unit",
+      "brand": "DJI",
+      "category": "VTX",
+      "subCategory": "General",
+      "weight": "N/A",
+      "description": "No description available.",
+      "price": 229.0,
+      "amazonLink": "https://amazon.com/dp/B0BGRZ7T1S?tag=sparkfish-20",
+      "imageUrl": "/images/parts/placeholder.png",
+      "specs": {},
+      "consensusReview": "Consensus review unavailable."
+    },
+    {
+      "id": "betafpv-meteor75-pro-11",
+      "name": "BetaFPV Meteor75 Pro",
+      "brand": "BetaFPV",
+      "category": "Drones",
+      "subCategory": "General",
+      "weight": "N/A",
+      "description": "No description available.",
+      "price": 119.99,
+      "amazonLink": "https://amazon.com/dp/B0B1234567?tag=sparkfish-20",
+      "imageUrl": "/images/parts/placeholder.png",
+      "specs": {},
+      "consensusReview": "Consensus review unavailable."
     }
   ]
 }
