@@ -21,6 +21,17 @@ class Hunter:
         # 2. Gap Analysis
         missing_products = self.gap_analysis(potential_products)
         
+        # Load data for pruning
+        try:
+            with open(PRODUCTS_FILE, 'r') as f:
+                data = json.load(f)
+        except Exception as e:
+            logger.error(f"Failed to load products for pruning: {e}")
+            data = {"products": []}
+            
+        # 4. Prune dead products
+        self.prune_inventory(data)
+
         if missing_products:
             logger.info(f"Found {len(missing_products)} new products not in inventory.")
             # 3. Affiliate Tagging matches are handled during object creation or here
@@ -145,6 +156,34 @@ class Hunter:
                 logger.info(f"Saved replenished links to {PRODUCTS_FILE}")
             except Exception as e:
                 logger.error(f"Failed to save replenished links: {e}")
+
+    def prune_inventory(self, products_data):
+        """Removes products that have no valid Amazon link."""
+        logger.info("Pruning dead inventory...")
+        
+        original_count = len(products_data.get("products", []))
+        active_products = []
+        removed_products = []
+        
+        for product in products_data.get("products", []):
+            if product.get("amazonLink"):
+                active_products.append(product)
+            else:
+                removed_products.append(product.get("name"))
+        
+        if len(removed_products) > 0:
+            logger.info(f"Pruning {len(removed_products)} dead products: {', '.join(removed_products)}")
+            
+            if not self.dry_run:
+                products_data["products"] = active_products
+                try:
+                    with open(PRODUCTS_FILE, 'w') as f:
+                        json.dump(products_data, f, indent=2)
+                    logger.info(f"Pruned inventory saved. Count: {original_count} -> {len(active_products)}")
+                except Exception as e:
+                    logger.error(f"Failed to save pruned inventory: {e}")
+        else:
+            logger.info("No dead products found to prune.")
 
     def add_affiliate_tag(self, url):
         """Appends the Associate Tag to the URL."""
