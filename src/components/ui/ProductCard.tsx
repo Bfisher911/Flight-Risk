@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { TechnicalCard } from './TechnicalCard';
-import { Weight, Tag, Zap } from 'lucide-react';
+import { Weight, Tag, Zap, Box } from 'lucide-react';
 import Image from 'next/image';
 
 interface ProductCardProps {
@@ -20,6 +20,7 @@ interface ProductCardProps {
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     const isFrame = product.category.toLowerCase() === 'frame';
+    const [imageError, setImageError] = useState(false);
 
     return (
         <TechnicalCard
@@ -27,6 +28,24 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             className="h-full flex flex-col group cursor-pointer"
         >
             <div className="flex flex-col h-full">
+                {/* Product Image */}
+                <div className="relative w-full h-40 mb-4 bg-slate-900/50 rounded overflow-hidden">
+                    {product.imageUrl && !imageError ? (
+                        <Image
+                            src={product.imageUrl}
+                            alt={product.name}
+                            fill
+                            className="object-contain p-2 group-hover:scale-105 transition-transform duration-500"
+                            onError={() => setImageError(true)}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
+                    ) : (
+                        <div className="w-full h-full flex items-center justify-center">
+                            <Box className="w-12 h-12 text-slate-700" />
+                        </div>
+                    )}
+                </div>
+
                 {/* Brand & Category */}
                 <div className="flex justify-between items-start mb-3">
                     <div className="flex flex-col gap-1">
