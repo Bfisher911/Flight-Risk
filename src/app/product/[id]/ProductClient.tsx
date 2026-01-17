@@ -79,14 +79,14 @@ export default function ProductDetailPage() {
 
                         {/* Product Image */}
                         {product.imageUrl && !imageError ? (
-                            <div className="absolute inset-0 group-hover:scale-105 transition-transform duration-700">
+                            <div className="w-80 h-80 relative group-hover:scale-105 transition-transform duration-700">
                                 <Image
                                     src={product.imageUrl}
                                     alt={product.name}
-                                    fill
-                                    className="object-contain p-8"
+                                    width={320}
+                                    height={320}
+                                    className="object-contain w-full h-full"
                                     onError={() => setImageError(true)}
-                                    sizes="(max-width: 768px) 100vw, 50vw"
                                 />
                             </div>
                         ) : (
