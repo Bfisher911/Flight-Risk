@@ -791,30 +791,37 @@ class Hunter:
             return []
 
     def check_replenishment(self, potential_products, products_data):
-        """Checks for existing products with missing links and tries to replenish them."""
-        logger.info("Checking for link replenishment opportunities...")
+        """Forces update of ALL products to use Amazon Search URLs to prevent 404s."""
+        logger.info("Force-updating all product links to Amazon Search URLs...")
         
         products = products_data.get("products", [])
         updates_made = False
         
-        # Create a lookup map for potential finds by normalized name
+        # Create a lookup map for potential finds by normalized name just in case we have better data
         potential_map = {p.get("name", "").lower(): p for p in potential_products}
         
         for product in products:
-            # Check if link is missing or empty
-            if not product.get("amazonLink"):
-                name = product.get("name", "").lower()
+            name = product.get("name", "")
+            if not name:
+                continue
                 
-                if name in potential_map:
-                    match = potential_map[name]
-                    new_link = match.get("amazonLink")
-                    
-                    if new_link:
-                        tagged_link = self.add_affiliate_tag(new_link)
-                        product["amazonLink"] = tagged_link
-                        logger.info(f"Replenished link for: {product.get('name')}")
-                        updates_made = True
-        
+            # Construct a safe search URL
+            # Format: https://www.amazon.com/s?k=ProductName
+            query = name.replace(" ", "+")
+            base_url = f"https://www.amazon.com/s?k={query}"
+            
+            # Apply affiliate tag
+            new_link = self.add_affiliate_tag(base_url)
+            
+            # Check if we need to update (avoid writing if identical)
+            if product.get("amazonLink") != new_link:
+                product["amazonLink"] = new_link
+                # logger.debug(f"Updated link for: {name}") # noisy
+                updates_made = True
+
+        if updates_made:
+            logger.info("All product links have been standardized.")
+    
         if updates_made and not self.dry_run:
             try:
                 with open(PRODUCTS_FILE, 'w') as f:
