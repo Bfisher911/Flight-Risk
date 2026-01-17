@@ -729,8 +729,11 @@ class Hunter:
             }
         ]
         
-        # TODO: Implement actual BeautifulSoup scraping here if a reliable source is found.
-        # For now, return the potential finds.
+        # Force standard URL generation
+        for item in potential_finds:
+             if "name" in item:
+                 item["amazonLink"] = self.construct_amazon_url(item["name"])
+                 
         return potential_finds
 
     def gap_analysis(self, potential_products):
@@ -805,13 +808,8 @@ class Hunter:
             if not name:
                 continue
                 
-            # Construct a safe search URL
-            # Format: https://www.amazon.com/s?k=ProductName
-            query = name.replace(" ", "+")
-            base_url = f"https://www.amazon.com/s?k={query}"
-            
-            # Apply affiliate tag
-            new_link = self.add_affiliate_tag(base_url)
+            # Use the helper to construct the validated URL
+            new_link = self.construct_amazon_url(name)
             
             # Check if we need to update (avoid writing if identical)
             if product.get("amazonLink") != new_link:
@@ -819,16 +817,17 @@ class Hunter:
                 # logger.debug(f"Updated link for: {name}") # noisy
                 updates_made = True
 
-        if updates_made:
-            logger.info("All product links have been standardized.")
-    
-        if updates_made and not self.dry_run:
-            try:
-                with open(PRODUCTS_FILE, 'w') as f:
-                    json.dump(products_data, f, indent=2)
-                logger.info(f"Saved replenished links to {PRODUCTS_FILE}")
-            except Exception as e:
-                logger.error(f"Failed to save replenished links: {e}")
+    def construct_amazon_url(self, name):
+        """Generates a safe Amazon Search URL for a given product name."""
+        if not name:
+            return ""
+        # Create a clean search query
+        query = name.replace(" ", "+")
+        base_url = f"https://www.amazon.com/s?k={query}"
+        return self.add_affiliate_tag(base_url)
+
+    # (Duplicate scan_market removed)
+
 
     def prune_inventory(self, products_data):
         """Removes products that have no valid Amazon link."""
