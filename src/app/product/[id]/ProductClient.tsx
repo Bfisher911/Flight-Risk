@@ -79,7 +79,7 @@ export default function ProductDetailPage() {
 
                         {/* Product Image */}
                         {product.imageUrl && !imageError ? (
-                            <div className="relative w-full h-full flex items-center justify-center group-hover:scale-105 transition-transform duration-700">
+                            <div className="absolute inset-0 group-hover:scale-105 transition-transform duration-700">
                                 <Image
                                     src={product.imageUrl}
                                     alt={product.name}
