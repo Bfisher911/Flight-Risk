@@ -81,6 +81,9 @@ class Hunter:
                 data = json.load(f)
             
             existing_names = {p.get("name").lower() for p in data.get("products", [])}
+            
+            # Sub-step: Replenish dead links for existing products
+            self.check_replenishment(potential_products, data)
             existing_links = {p.get("amazonLink", "").split('?')[0] for p in data.get("products", []) if p.get("amazonLink")}
 
             missing = []
@@ -109,6 +112,39 @@ class Hunter:
         except Exception as e:
             logger.error(f"Error in gap analysis: {e}")
             return []
+
+    def check_replenishment(self, potential_products, products_data):
+        """Checks for existing products with missing links and tries to replenish them."""
+        logger.info("Checking for link replenishment opportunities...")
+        
+        products = products_data.get("products", [])
+        updates_made = False
+        
+        # Create a lookup map for potential finds by normalized name
+        potential_map = {p.get("name", "").lower(): p for p in potential_products}
+        
+        for product in products:
+            # Check if link is missing or empty
+            if not product.get("amazonLink"):
+                name = product.get("name", "").lower()
+                
+                if name in potential_map:
+                    match = potential_map[name]
+                    new_link = match.get("amazonLink")
+                    
+                    if new_link:
+                        tagged_link = self.add_affiliate_tag(new_link)
+                        product["amazonLink"] = tagged_link
+                        logger.info(f"Replenished link for: {product.get('name')}")
+                        updates_made = True
+        
+        if updates_made and not self.dry_run:
+            try:
+                with open(PRODUCTS_FILE, 'w') as f:
+                    json.dump(products_data, f, indent=2)
+                logger.info(f"Saved replenished links to {PRODUCTS_FILE}")
+            except Exception as e:
+                logger.error(f"Failed to save replenished links: {e}")
 
     def add_affiliate_tag(self, url):
         """Appends the Associate Tag to the URL."""

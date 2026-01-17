@@ -230,3 +230,14 @@
 2026-01-16 18:19:05,953 - FlightRiskAgent.Spider - INFO - Scanning article: ultimate-guide-fpv-drones-2025.md
 2026-01-16 18:19:05,957 - FlightRiskAgent.Spider - INFO - Link Audit Complete. Checked: 0, Fixed: 4
 2026-01-16 18:19:05,965 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-16 22:06:17,338 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-16 22:06:17,338 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-16 22:06:17,338 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-16 22:06:17,338 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-16 22:06:17,338 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-16 22:06:17,339 - FlightRiskAgent.Hunter - INFO - Checking for link replenishment opportunities...
+2026-01-16 22:06:17,339 - FlightRiskAgent.Hunter - INFO - Replenished link for: RadioMaster Pocket
+2026-01-16 22:06:17,339 - FlightRiskAgent.Hunter - INFO - Replenished link for: BetaFPV Meteor75 Pro
+2026-01-16 22:06:17,340 - FlightRiskAgent.Hunter - INFO - Saved replenished links to /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json
+2026-01-16 22:06:17,340 - FlightRiskAgent.Hunter - INFO - No new missing products found.
+2026-01-16 22:06:17,340 - FlightRiskAgent - INFO - Agent Run Complete
