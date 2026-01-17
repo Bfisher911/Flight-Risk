@@ -61,20 +61,20 @@ class Hunter:
                 "brand": "DJI",
                 "category": "VTX",
                 "price": 229.00,
-                "amazonLink": "https://amazon.com/dp/B0BGRZ7T1S", # No tag yet
+                "amazonLink": "https://www.amazon.com/s?k=DJI+O3+Air+Unit", # Search link
                 "reviews_rating": 4.5
             },
             {
                 "name": "RadioMaster Pocket", # This already exists in our products.json, testing gap analysis
                 "brand": "RadioMaster",
-                "amazonLink": "https://amazon.com/dp/B0CBV2K8N6"
+                "amazonLink": "https://www.amazon.com/s?k=RadioMaster+Pocket"
             },
             {
                 "name": "BetaFPV Meteor75 Pro",
                 "brand": "BetaFPV",
                 "category": "Drones",
                 "price": 119.99,
-                "amazonLink": "https://amazon.com/dp/B0B1234567",
+                "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Meteor75+Pro",
                 "reviews_rating": 4.2
             }
         ]
