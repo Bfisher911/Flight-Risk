@@ -10,7 +10,7 @@
       "description": "Ultra-light 65mm frame for 35mm props. Durable and rigid for racing.",
       "price": 5.99,
       "isRecommended": true,
-      "amazonLink": "https://amazon.com/dp/B0FFB2P1M4?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/frame-meteor65.png",
       "specs": {
         "Material": "Plastic",
@@ -45,7 +45,7 @@
       "description": "High-efficiency brushless motors for 1S builds. Classic whoop reliability.",
       "price": 38.99,
       "isRecommended": true,
-      "amazonLink": "https://amazon.com/dp/B0BL73NLHY?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/motor-0802se.png",
       "specs": {
         "KV": "19500",
@@ -80,7 +80,7 @@
       "description": "Integrated FC, ESC, and ELRS RX. The standard for 1S whoops.",
       "price": 49.99,
       "isRecommended": true,
-      "amazonLink": "https://amazon.com/dp/B0DGPZB66V?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/fc-f4-5a.png",
       "specs": {
         "MCU": "STM32F411",
@@ -165,7 +165,7 @@
       "weight": "8.2g",
       "description": "Reliable 1S power with high discharge BT2.0 connectors.",
       "price": 26.0,
-      "amazonLink": "https://amazon.com/dp/B08218LB8U?tag=sparkfish-20",
+      "amazonLink": "",
       "imageUrl": "/images/parts/battery-300mah.webp",
       "specs": {
         "Capacity": "300mAh",
