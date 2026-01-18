@@ -525,3 +525,38 @@
 2026-01-18 01:44:35,003 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
 2026-01-18 01:44:35,003 - FlightRiskAgent.Hunter - INFO - No new missing products found.
 2026-01-18 01:44:35,003 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-18 02:14:33,518 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-18 02:14:33,536 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-18 02:14:33,537 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-18 02:14:33,537 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-18 02:14:33,537 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-18 02:14:33,539 - FlightRiskAgent.Hunter - INFO - Force-updating all product links (Amazon + GetFPV)...
+2026-01-18 02:14:33,541 - FlightRiskAgent.Hunter - INFO - Updated links for 72 products.
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Saved replenished links to /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: BrotherHobby Avenger 2810 Motor
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: iFlight XING2 2207 Unibell Motor
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: AOS RC Supernova 1605 FPV Motor
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: AOS RC Supernova 1404 FPV Motor
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: Lumenier 2307 JohnnyFPV V3 Pro Motor
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: DOGCOM SBang V2 1480mAh 6S Battery
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: DOGCOM 1480mAh 6S 150C Battery
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: DOGCOM Ultra Series 1480mAh 6S Battery
+2026-01-18 02:14:33,544 - FlightRiskAgent.Hunter - INFO - Gap identified: RadioMaster TX16S 5000mAh Battery
+2026-01-18 02:14:33,551 - FlightRiskAgent.Hunter - INFO - Gap identified: XILO 1250mAh 6S 100c Basher Battery
+2026-01-18 02:14:33,552 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-18 02:14:33,553 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
+2026-01-18 02:14:33,553 - FlightRiskAgent.Hunter - INFO - Found 10 new products not in inventory.
+2026-01-18 02:14:33,553 - FlightRiskAgent - INFO - ---| Phase 3: Page Generation (The Builder) |---
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Building 10 new product pages...
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: BrotherHobby Avenger 2810 Motor
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: iFlight XING2 2207 Unibell Motor
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: AOS RC Supernova 1605 FPV Motor
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: AOS RC Supernova 1404 FPV Motor
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: Lumenier 2307 JohnnyFPV V3 Pro Motor
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: DOGCOM SBang V2 1480mAh 6S Battery
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: DOGCOM 1480mAh 6S 150C Battery
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: DOGCOM Ultra Series 1480mAh 6S Battery
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: RadioMaster TX16S 5000mAh Battery
+2026-01-18 02:14:33,553 - FlightRiskAgent.Builder - INFO - Built page for: XILO 1250mAh 6S 100c Basher Battery
+2026-01-18 02:14:33,555 - FlightRiskAgent.Builder - INFO - Inventory updated with 10 new items.
+2026-01-18 02:14:33,555 - FlightRiskAgent - INFO - Agent Run Complete

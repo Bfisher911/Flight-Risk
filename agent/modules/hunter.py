@@ -442,6 +442,118 @@ class Hunter:
                 "description": "High power F7 stack with 60A AM32 ESCs. Features barometer and blackbox.",
                 "consensusReview": "Great features for the price. AM32 is smooth.",
                 "reviews_rating": 4.5
+            },
+            # --- Motors ---
+            {
+                "name": "BrotherHobby Avenger 2810 Motor",
+                "brand": "BrotherHobby",
+                "category": "Motor",
+                "subCategory": "2810",
+                "price": 19.79,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/b/r/brotherhobby_avenger_2810_motor_5.jpg",
+                "description": "Massive 2810 stators for heavy lifting. Perfect for 7-inch cinelifters.",
+                "consensusReview": "Incredible torque. Smoothness is legendary.",
+                "reviews_rating": 4.9
+            },
+            {
+                "name": "iFlight XING2 2207 Unibell Motor",
+                "brand": "iFlight",
+                "category": "Motor",
+                "subCategory": "2207",
+                "price": 28.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/x/i/xing2-2207-2_1.jpg",
+                "description": "The evolution of the popular XING series. Unibell design for durability.",
+                "consensusReview": "Very durable bells. Great performance for freestyle.",
+                "reviews_rating": 4.8
+            },
+            {
+                "name": "AOS RC Supernova 1605 FPV Motor",
+                "brand": "AOS RC",
+                "category": "Motor",
+                "subCategory": "1605",
+                "price": 18.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/a/o/aos_rc_supernova_1605_fpv_motor_-_3900kv3.jpg",
+                "description": "Optimized by Chris Rosser for maximum efficiency and response.",
+                "consensusReview": "Scientifically designed for performance. Runs cool.",
+                "reviews_rating": 4.7
+            },
+             {
+                "name": "AOS RC Supernova 1404 FPV Motor",
+                "brand": "AOS RC",
+                "category": "Motor",
+                "subCategory": "1404",
+                "price": 17.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/a/o/aos_rc_supernova_1404_fpv_motor_-_4000kv2.jpg",
+                "description": "High performance 1404 motor for ultralights. Best in class power-to-weight.",
+                "consensusReview": "Makes sub-250g quads feel like 5-inch.",
+                "reviews_rating": 4.6
+            },
+            {
+                "name": "Lumenier 2307 JohnnyFPV V3 Pro Motor",
+                "brand": "Lumenier",
+                "category": "Motor",
+                "subCategory": "2307",
+                "price": 29.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/l/u/lumenier-2307-johnnyfpv-v3-pro-cinematic-motor_1__1.jpg",
+                "description": "Cinematic smoothness designed by JohnnyFPV. V3 features improved bearings.",
+                "consensusReview": "Butter smooth. Essential for cinematic footage.",
+                "reviews_rating": 4.8
+            },
+            # --- Batteries ---
+            {
+                "name": "DOGCOM SBang V2 1480mAh 6S Battery",
+                "brand": "DOGCOM",
+                "category": "Battery",
+                "subCategory": "LiPo 6S",
+                "price": 39.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/2/3/23859-1.jpg",
+                "description": "High C-rating battery for racing and freestyle. SBang signature series.",
+                "consensusReview": "Holds voltage incredibly well under load.",
+                "reviews_rating": 4.7
+            },
+            {
+                "name": "DOGCOM 1480mAh 6S 150C Battery",
+                "brand": "DOGCOM",
+                "category": "Battery",
+                "subCategory": "LiPo 6S",
+                "price": 39.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/d/o/dogcom-dogcom-sbang-22-2v-6s-1480mah-150c-lipo-battery-xt60-battery-31219903627377.jpg",
+                "description": "Standard high-performance pack from DOGCOM. 150C burst rate.",
+                "consensusReview": "Reliable power delivery. Good cycle life.",
+                "reviews_rating": 4.6
+            },
+            {
+                "name": "DOGCOM Ultra Series 1480mAh 6S Battery",
+                "brand": "DOGCOM",
+                "category": "Battery",
+                "subCategory": "LiPo 6S",
+                "price": 49.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/2/3/23857-1.jpg",
+                "description": "Top of the line Ultra series. Lowest internal resistance for maximum punch.",
+                "consensusReview": "Expensive but provides unmatched sag resistance.",
+                "reviews_rating": 4.9
+            },
+            {
+                "name": "RadioMaster TX16S 5000mAh Battery",
+                "brand": "RadioMaster",
+                "category": "Battery",
+                "subCategory": "Li-ion 2S",
+                "price": 25.99,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/r/a/radiomaster-tx16s-5000mah-2s-li-ion-battery.jpg",
+                "description": "Official 5000mAh Li-ion pack for TX16S. Lasts all day.",
+                "consensusReview": "Must have for TX16S owners. Fits perfectly.",
+                "reviews_rating": 4.8
+            },
+            {
+                "name": "XILO 1250mAh 6S 100c Basher Battery",
+                "brand": "XILO",
+                "category": "Battery",
+                "subCategory": "LiPo 6S",
+                "price": 47.49,
+                "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/x/i/xilo-1250mah-6s-100c-basher-lipo-battery-xt60-main.jpg",
+                "description": "Affordable basher pack. Good performance for the price.",
+                "consensusReview": "Great for practice packs.",
+                "reviews_rating": 4.4
             }
         ]
         
