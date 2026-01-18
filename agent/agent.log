@@ -462,3 +462,19 @@
 2026-01-16 22:44:42,565 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
 2026-01-16 22:44:42,565 - FlightRiskAgent.Hunter - INFO - No new missing products found.
 2026-01-16 22:44:42,565 - FlightRiskAgent - INFO - Agent Run Complete
+2026-01-18 01:09:31,963 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-18 01:09:31,963 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-18 01:09:59,762 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-18 01:09:59,762 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-18 01:11:01,888 - FlightRiskAgent - INFO - Starting Agent Run
+2026-01-18 01:11:01,888 - FlightRiskAgent - INFO - ---| Phase 2: Inventory Growth (The Hunter) |---
+2026-01-18 01:11:01,888 - FlightRiskAgent.Hunter - INFO - Starting Market Scan...
+2026-01-18 01:11:01,888 - FlightRiskAgent.Hunter - INFO - Scanning for new releases...
+2026-01-18 01:11:01,889 - FlightRiskAgent.Hunter - INFO - Performing Gap Analysis...
+2026-01-18 01:11:01,889 - FlightRiskAgent.Hunter - INFO - Force-updating all product links (Amazon + GetFPV)...
+2026-01-18 01:11:01,889 - FlightRiskAgent.Hunter - INFO - Updated links for 62 products.
+2026-01-18 01:11:01,891 - FlightRiskAgent.Hunter - INFO - Saved replenished links to /Users/blainefisher/Websites/Flight Risk/Flight-Risk/src/data/products.json
+2026-01-18 01:11:01,891 - FlightRiskAgent.Hunter - INFO - Pruning dead inventory...
+2026-01-18 01:11:01,891 - FlightRiskAgent.Hunter - INFO - No dead products found to prune.
+2026-01-18 01:11:01,892 - FlightRiskAgent.Hunter - INFO - No new missing products found.
+2026-01-18 01:11:01,892 - FlightRiskAgent - INFO - Agent Run Complete

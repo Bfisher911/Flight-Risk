@@ -149,15 +149,24 @@ export default function ProductDetailPage() {
                             <div className="text-[10px] font-mono text-slate-500 uppercase mb-1">Estimated Cost</div>
                             <div className="text-4xl font-bold text-foreground mb-1">${product.price.toFixed(2)}</div>
                         </div>
-                        <div className="flex-grow flex gap-4">
-                            {product.amazonLink && (
-                                <a href={product.amazonLink} target="_blank" className="flex-grow">
-                                    <TechnicalButton icon={<ShoppingCart />} className="w-full justify-center py-4">
-                                        Acquire System
-                                    </TechnicalButton>
-                                </a>
-                            )}
-                            <Link href="/part-picker" className="flex-grow">
+                        <div className="flex-grow flex flex-col gap-3">
+                            <div className="flex gap-4">
+                                {product.amazonLink && (
+                                    <a href={product.amazonLink} target="_blank" className="flex-grow">
+                                        <TechnicalButton icon={<ShoppingCart />} className="w-full justify-center py-4 bg-orange-500/20 hover:bg-orange-500/40 border-orange-500/50 text-orange-400">
+                                            Buy from Amazon
+                                        </TechnicalButton>
+                                    </a>
+                                )}
+                                {product.getfpvLink && (
+                                    <a href={product.getfpvLink} target="_blank" className="flex-grow">
+                                        <TechnicalButton icon={<ShoppingCart />} className="w-full justify-center py-4 bg-blue-500/20 hover:bg-blue-500/40 border-blue-500/50 text-blue-400">
+                                            Buy from GetFPV
+                                        </TechnicalButton>
+                                    </a>
+                                )}
+                            </div>
+                            <Link href="/part-picker" className="w-full">
                                 <TechnicalButton variant="secondary" icon={<Cpu />} className="w-full justify-center py-4">
                                     Add to build
                                 </TechnicalButton>

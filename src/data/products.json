@@ -15,7 +15,8 @@
         "Style": "Gamepad",
         "Portable": "Folding Sticks",
         "Protocol": "ELRS/CC2500"
-      }
+      },
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RadioMaster+Pocket&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "dji-o3-air-unit-22",
@@ -24,19 +25,20 @@
       "category": "VTX",
       "subCategory": "Digital",
       "weight": "36.4g",
-      "description": "The ultimate HD digital FPV transmission system featuring a 4K/60fps camera with 155° FOV, 10km range, and latency as low as 30ms. Integrated 20GB storage with RockSteady stabilization.",
+      "description": "The ultimate HD digital FPV transmission system featuring a 4K/60fps camera with 155\u00b0 FOV, 10km range, and latency as low as 30ms. Integrated 20GB storage with RockSteady stabilization.",
       "price": 229.0,
       "amazonLink": "https://www.amazon.com/s?k=DJI+O3+Air+Unit&tag=sparkfish-20",
       "imageUrl": "/images/parts/dji-o3-air-unit.png",
       "specs": {
         "Sensor": "1/1.7\" CMOS 48MP",
         "Video": "4K/60fps",
-        "FOV": "155°",
+        "FOV": "155\u00b0",
         "Latency": "30ms",
         "Range": "10km",
         "Storage": "20GB built-in"
       },
-      "consensusReview": "The industry standard for HD FPV. Incredible image quality with onboard recording makes it essential for cinematic pilots."
+      "consensusReview": "The industry standard for HD FPV. Incredible image quality with onboard recording makes it essential for cinematic pilots.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=DJI+O3+Air+Unit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "betafpv-meteor75-pro-11",
@@ -56,7 +58,8 @@
         "VTX": "400mW",
         "Battery": "BT2.0 connector"
       },
-      "consensusReview": "The go-to 75mm whoop for indoor and outdoor flying. Exceptional power delivery and durability for the 1S class."
+      "consensusReview": "The go-to 75mm whoop for indoor and outdoor flying. Exceptional power delivery and durability for the 1S class.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BetaFPV+Meteor75+Pro&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "dji-avata-2-99",
@@ -70,7 +73,8 @@
       "amazonLink": "https://www.amazon.com/s?k=DJI+Avata+2&tag=sparkfish-20",
       "imageUrl": "/images/parts/dji-avata-2.png",
       "specs": {},
-      "consensusReview": "The easiest entry into FPV cinema. Incredible video quality and safety features, though locked into the DJI ecosystem."
+      "consensusReview": "The easiest entry into FPV cinema. Incredible video quality and safety features, though locked into the DJI ecosystem.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=DJI+Avata+2&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "emax-tinyhawk-iii-pl-19",
@@ -90,7 +94,8 @@
         "Receiver": "ELRS 2.4G",
         "Battery": "1S-2S compatible"
       },
-      "consensusReview": "An excellent starter drone that can take a beating. The proprietary batteries are a downside."
+      "consensusReview": "An excellent starter drone that can take a beating. The proprietary batteries are a downside.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Emax+Tinyhawk+III+Plus&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "geprc-cinelog35-v2-42",
@@ -111,7 +116,8 @@
         "Flight Time": "5-8.5 min",
         "GPS": "GEP-M10"
       },
-      "consensusReview": "High performance cinewhoop that handles heavy cameras well. The frame is rigid and durable."
+      "consensusReview": "High performance cinewhoop that handles heavy cameras well. The frame is rigid and durable.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=GEPRC+CineLog35+V2&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "iflight-nazgul-evoqu-46",
@@ -132,7 +138,8 @@
         "VTX Power": "25-1600mW",
         "Max Speed": "190km/h"
       },
-      "consensusReview": "Still the king of bind-and-fly freestyle quads. Powerful, tuned well out of the box, and looks amazing."
+      "consensusReview": "Still the king of bind-and-fly freestyle quads. Powerful, tuned well out of the box, and looks amazing.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=iFlight+Nazgul+Evoque+F5+V2&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "flywoo-explorer-lr-4-36",
@@ -153,7 +160,8 @@
         "VTX": "600mW",
         "GPS": "V2.0"
       },
-      "consensusReview": "Incredible flight times on Li-Ion. The GPS lock is faster on V2. Essential for mountain surfing."
+      "consensusReview": "Incredible flight times on Li-Ion. The GPS lock is faster on V2. Essential for mountain surfing.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Flywoo+Explorer+LR+4+V2&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "happymodel-mobula6-2-10",
@@ -174,7 +182,8 @@
         "Gyro": "BMI270",
         "VTX": "OpenVTX 400mW"
       },
-      "consensusReview": "The fastest 65mm whoop available. Extremely agile but the frame can be fragile in hard crashes."
+      "consensusReview": "The fastest 65mm whoop available. Extremely agile but the frame can be fragile in hard crashes.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Happymodel+Mobula6+2024&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "betafpv-pavo20-13",
@@ -194,7 +203,8 @@
         "Battery": "3S 450-650mAh",
         "VTX": "O3 Air Unit ready"
       },
-      "consensusReview": "Perfect platform for the O3 unit indoors. Surprisingly quiet and smooth."
+      "consensusReview": "Perfect platform for the O3 unit indoors. Surprisingly quiet and smooth.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BetaFPV+Pavo20&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "rotorriot-skyliner-m-49",
@@ -214,7 +224,8 @@
         "Stack Mounts": "20x20, 25.5x25.5, 30.5x30.5",
         "Material": "Carbon Fiber (USA)"
       },
-      "consensusReview": "Very smooth and locked in. The build quality is top tier, backed by RotorRiot support."
+      "consensusReview": "Very smooth and locked in. The build quality is top tier, backed by RotorRiot support.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RotorRiot+Skyliner+MK3&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "axisflying-manta-3.5-32",
@@ -225,7 +236,7 @@
       "weight": "228g",
       "description": "A powerful 3.5-inch freestyle squashed-X with CNC aluminum structure and high-strength carbon. Aluminum camera plates protect HD systems, with performance rivaling larger 5\" quads.",
       "price": 329.99,
-      "amazonLink": "https://www.amazon.com/s?k=Axisflying+Manta+3.5&tag=sparkfish-20",
+      "amazonLink": "https://www.amazon.com/s?k=Axisflying+Manta+35&tag=sparkfish-20",
       "imageUrl": "/images/parts/axisflying-manta-3-5.png",
       "specs": {
         "Frame": "Squashed X",
@@ -233,7 +244,8 @@
         "Stack Mount": "20x20 / 30.5x30.5",
         "Camera Mount": "19-20mm"
       },
-      "consensusReview": "Built like a tank. Great for freestyle in tighter spaces where a 5-inch is too much."
+      "consensusReview": "Built like a tank. Great for freestyle in tighter spaces where a 5-inch is too much.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Axisflying+Manta+35&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "betafpv-meteor65-pro-10",
@@ -254,7 +266,8 @@
         "VTX": "M03 350mW",
         "Gyro": "BMI270"
       },
-      "consensusReview": "More power than the standard Meteor65. The 35mm props make a huge difference in cornering."
+      "consensusReview": "More power than the standard Meteor65. The 35mm props make a huge difference in cornering.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BetaFPV+Meteor65+Pro&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "radiomaster-tx16s-mk-19",
@@ -275,7 +288,8 @@
         "Battery": "2S 18650 (not included)",
         "Module Bay": "JR Compatible"
       },
-      "consensusReview": "The best value full-size radio on the market. Limitless customization."
+      "consensusReview": "The best value full-size radio on the market. Limitless customization.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RadioMaster+TX16S+MKII&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "radiomaster-boxer-13",
@@ -296,7 +310,8 @@
         "Charging": "QC3.0 2A USB-C",
         "Module Bay": "JR Compatible"
       },
-      "consensusReview": "Best in class ergonomics for thumb grippers. The 1W ELRS is a game changer."
+      "consensusReview": "Best in class ergonomics for thumb grippers. The 1W ELRS is a game changer.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RadioMaster+Boxer&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "radiomaster-zorro-11",
@@ -316,7 +331,8 @@
         "Module Bay": "Nano size",
         "Charging": "USB-C built-in"
       },
-      "consensusReview": "Great feel for console gamers. Battery life is short with 18350s, recommend the external kit."
+      "consensusReview": "Great feel for console gamers. Battery life is short with 18350s, recommend the external kit.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RadioMaster+Zorro&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "radiomaster-mt12-12",
@@ -334,7 +350,8 @@
         "Protocol": "ELRS",
         "Firmware": "EdgeTX"
       },
-      "consensusReview": "Revolutionary for surface RC. Infinite customization and incredible range."
+      "consensusReview": "Revolutionary for surface RC. Infinite customization and incredible range.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RadioMaster+MT12&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "tbs-tango-2-pro-19",
@@ -355,7 +372,8 @@
         "Runtime": "6-8 hours",
         "Firmware": "FreedomTX"
       },
-      "consensusReview": "Premium build quality. Crossfire is still reliable, though ELRS is catching up."
+      "consensusReview": "Premium build quality. Crossfire is still reliable, though ELRS is catching up.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=TBS+Tango+2+Pro&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "betafpv-literadio-3--89",
@@ -376,7 +394,8 @@
         "Runtime": "15 hours",
         "Module Bay": "Nano compatible"
       },
-      "consensusReview": "Good for the price. The screen is tiny but usable for basic setup."
+      "consensusReview": "Good for the price. The screen is tiny but usable for basic setup.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BetaFPV+LiteRadio+3+Pro&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "frsky-taranis-x9d-pl-21",
@@ -393,7 +412,8 @@
         "Protocol": "ACCESS/ACCST",
         "Firmware": "OpenTX"
       },
-      "consensusReview": "Still a solid radio, but feels dated compared to the TX16S."
+      "consensusReview": "Still a solid radio, but feels dated compared to the TX16S.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=FrSky+Taranis+X9D+Plus+2019&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "jumper-t20s-13",
@@ -409,7 +429,8 @@
       "specs": {
         "Gimbals": "RDC90 Sensor"
       },
-      "consensusReview": "The gimbals feel amazing. Build quality is improved over previous Jumper radios."
+      "consensusReview": "The gimbals feel amazing. Build quality is improved over previous Jumper radios.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Jumper+T20S&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "radiolink-at10ii-15",
@@ -425,7 +446,8 @@
       "specs": {
         "Channels": "12"
       },
-      "consensusReview": "Great range and stability, but the interface is not as flexible as EdgeTX."
+      "consensusReview": "Great range and stability, but the interface is not as flexible as EdgeTX.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Radiolink+AT10II&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "flysky-nv14-17",
@@ -442,7 +464,8 @@
         "Gimbals": "Hall Effect",
         "Screens": "Dual"
       },
-      "consensusReview": "Love the grip or hate it. Very unique, but firmware support has been spotty."
+      "consensusReview": "Love the grip or hate it. Very unique, but firmware support has been spotty.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Flysky+NV14&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "dji-goggles-3-49",
@@ -458,12 +481,13 @@
       "specs": {
         "Display": "1080p micro-OLED",
         "Refresh Rate": "100Hz",
-        "FOV": "44°",
+        "FOV": "44\u00b0",
         "Diopter": "-6 to +2",
         "IPD": "56-72mm",
         "Battery Life": "3 hours"
       },
-      "consensusReview": "The best image quality available. The Real View pass-through is handy."
+      "consensusReview": "The best image quality available. The Real View pass-through is handy.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=DJI+Goggles+3&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "dji-goggles-integra-34",
@@ -479,12 +503,13 @@
       "specs": {
         "Display": "Dual 1080p micro-OLED",
         "Refresh Rate": "100Hz",
-        "FOV": "44°",
+        "FOV": "44\u00b0",
         "Latency": "30ms",
         "Range": "10km",
         "Runtime": "2 hours"
       },
-      "consensusReview": "Best value for DJI digital. Convenience of no cables is huge."
+      "consensusReview": "Best value for DJI digital. Convenience of no cables is huge.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=DJI+Goggles+Integra&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "walksnail-avatar-gog-45",
@@ -499,13 +524,14 @@
       "imageUrl": "/images/parts/walksnail-avatar-goggles-x.png",
       "specs": {
         "Display": "1080p/100fps OLED",
-        "FOV": "50°",
+        "FOV": "50\u00b0",
         "Diopter": "+2 to -6",
         "IPD": "57-72mm",
         "Input": "7-26V (2S-6S)",
         "HDMI": "In + Out"
       },
-      "consensusReview": "A great alternative to DJI. HDMI in makes them versatile for Sims."
+      "consensusReview": "A great alternative to DJI. HDMI in makes them versatile for Sims.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Walksnail+Avatar+Goggles+X&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "fat-shark-dominator--59",
@@ -514,19 +540,20 @@
       "category": "Goggles",
       "subCategory": "Digital HD",
       "weight": "300g",
-      "description": "Trusted Fat Shark optics with native Walksnail Avatar support. Features dual 1080p OLED displays, 46° FOV, and adjustable +2 to -6 diopter in a lightweight package.",
+      "description": "Trusted Fat Shark optics with native Walksnail Avatar support. Features dual 1080p OLED displays, 46\u00b0 FOV, and adjustable +2 to -6 diopter in a lightweight package.",
       "price": 599.0,
       "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+Dominator+HD&tag=sparkfish-20",
       "imageUrl": "/images/parts/fatshark-dominator-hd.png",
       "specs": {
         "Display": "Dual 1080p OLED",
-        "FOV": "46°",
+        "FOV": "46\u00b0",
         "Diopter": "+2 to -6",
         "IPD": "57-70mm",
         "Input": "7-21V (2S-5S)",
         "DVR": "Integrated HD"
       },
-      "consensusReview": "Excellent optics. Familiar form factor for long-time pilots."
+      "consensusReview": "Excellent optics. Familiar form factor for long-time pilots.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Fat+Shark+Dominator+HD&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "skyzone-sky04x-pro-53",
@@ -535,19 +562,20 @@
       "category": "Goggles",
       "subCategory": "Analog",
       "weight": "267g",
-      "description": "The pinnacle of analog goggles with 1920x1080 OLED screens and 52° FOV. Features V3.3 SteadyView diversity receiver, head tracker, and 720p/100fps HDMI input for HD system compatibility.",
+      "description": "The pinnacle of analog goggles with 1920x1080 OLED screens and 52\u00b0 FOV. Features V3.3 SteadyView diversity receiver, head tracker, and 720p/100fps HDMI input for HD system compatibility.",
       "price": 539.0,
       "amazonLink": "https://www.amazon.com/s?k=Skyzone+SKY04X+Pro&tag=sparkfish-20",
       "imageUrl": "/images/parts/skyzone-sky04x-pro.png",
       "specs": {
         "Display": "1920x1080 OLED",
-        "FOV": "52°",
+        "FOV": "52\u00b0",
         "Receiver": "SteadyView V3.3 48CH",
         "DVR": "H.264 60fps",
         "HDMI": "720p/100fps",
         "Input": "2S-6S"
       },
-      "consensusReview": "The best analog picture you can get. Menu navigation is superb."
+      "consensusReview": "The best analog picture you can get. Menu navigation is superb.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Skyzone+SKY04X+Pro&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "skyzone-cobra-x-v2-26",
@@ -564,7 +592,8 @@
         "Display": "1280x720 LCD",
         "Receiver": "SteadyView"
       },
-      "consensusReview": "Best box goggles on the market. Great for spectacle wearers."
+      "consensusReview": "Best box goggles on the market. Great for spectacle wearers.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Skyzone+Cobra+X+V2&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "fat-shark-hdo2.1-49",
@@ -575,13 +604,14 @@
       "weight": "N/A",
       "description": "Updated OLED panels and adjustable focus. Requires a separate receiver module.",
       "price": 499.0,
-      "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+HDO2.1&tag=sparkfish-20",
+      "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+HDO21&tag=sparkfish-20",
       "imageUrl": "/images/parts/fatshark-hdo2-1.png",
       "specs": {
         "Display": "OLED",
         "Focus": "Adjustable"
       },
-      "consensusReview": "Classic premium analog choice. Requires investment in a good module like RapidFire."
+      "consensusReview": "Classic premium analog choice. Requires investment in a good module like RapidFire.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Fat+Shark+HDO21&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "hdzero-goggles-59",
@@ -601,7 +631,8 @@
         "Modes": "1080p30, 720p60, 540p90",
         "OS": "Open-source Linux"
       },
-      "consensusReview": "The racer's choice. Lowest latency digital system, period."
+      "consensusReview": "The racer's choice. Lowest latency digital system, period.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=HDZero+Goggles&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "betafpv-vr03-69",
@@ -617,7 +648,8 @@
       "specs": {
         "DVR": "Built-in"
       },
-      "consensusReview": "Good starter set with DVR. Screen is decent for the price."
+      "consensusReview": "Good starter set with DVR. Screen is decent for the price.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BetaFPV+VR03&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "walksnail-avatar-hd--15",
@@ -633,12 +665,13 @@
       "specs": {
         "Camera Sensor": "1/1.8\" Sony Starvis II",
         "Resolution": "1080p/60fps, 720p/120fps",
-        "FOV": "160°",
+        "FOV": "160\u00b0",
         "Latency": "22ms",
         "Storage": "32GB",
         "Input": "6-25.2V (2S-6S)"
       },
-      "consensusReview": "Amazing low light performance. Onboard recording is a huge plus."
+      "consensusReview": "Amazing low light performance. Onboard recording is a huge plus.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Walksnail+Avatar+HD+Pro+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "walksnail-avatar-hd--13",
@@ -655,7 +688,8 @@
         "Size": "Ultra-compact",
         "Input": "Up to 5V"
       },
-      "consensusReview": "Essential for digital whoops. Runs hot, needs airflow."
+      "consensusReview": "Essential for digital whoops. Runs hot, needs airflow.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Walksnail+Avatar+HD+Nano+Kit+V3&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "hdzero-freestyle-v2--17",
@@ -676,7 +710,8 @@
         "Modes": "720p60, 1080p30, 540p90",
         "Camera": "Nano 90 included"
       },
-      "consensusReview": "Rock solid fixed latency. 1W power punches through interference."
+      "consensusReview": "Rock solid fixed latency. 1W power punches through interference.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=HDZero+Freestyle+V2+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "hdzero-whoop-lite-vt-99",
@@ -693,7 +728,8 @@
         "Weight": "1.5g",
         "Power": "25/200mW"
       },
-      "consensusReview": "Transforms flight feel of whoops. Digital clarity with analog weight."
+      "consensusReview": "Transforms flight feel of whoops. Digital clarity with analog weight.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=HDZero+Whoop+Lite+VTX&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "tbs-unify-pro32-hv-49",
@@ -713,7 +749,8 @@
         "Connector": "MMCX",
         "Protocol": "SmartAudio/CRSF"
       },
-      "consensusReview": "The gold standard for long range analog. Almost indestructible."
+      "consensusReview": "The gold standard for long range analog. Almost indestructible.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=TBS+Unify+Pro32+HV&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "rush-tank-solo-39",
@@ -729,7 +766,8 @@
       "specs": {
         "Heatsink": "Heavy-duty"
       },
-      "consensusReview": "Runs cooler than the Unify. Signal is extremely clean."
+      "consensusReview": "Runs cooler than the Unify. Signal is extremely clean.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Rush+Tank+Solo&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "betafpv-m03-19",
@@ -745,7 +783,8 @@
       "specs": {
         "Power": "350mW"
       },
-      "consensusReview": "Good range for the size. Antenna connector is fragile."
+      "consensusReview": "Good range for the size. Antenna connector is fragile.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BetaFPV+M03&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "happymodel-ovx300-16",
@@ -762,7 +801,8 @@
         "Power": "300mW",
         "Protocol": "OpenVTX/SmartAudio"
       },
-      "consensusReview": "Cheap and effective. SmartAudio setup is easy."
+      "consensusReview": "Cheap and effective. SmartAudio setup is easy.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Happymodel+OVX300&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "speedybee-tx800-24",
@@ -780,7 +820,8 @@
         "Mounting": "20x20",
         "Protocol": "IRC Tramp"
       },
-      "consensusReview": "Great value for high power. Metal case acts as a good heatsink."
+      "consensusReview": "Great value for high power. Metal case acts as a good heatsink.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=SpeedyBee+TX800&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "runcam-link-13",
@@ -796,7 +837,8 @@
       "specs": {
         "System": "DJI FPV compatible"
       },
-      "consensusReview": "Reliable workhorse for DJI system. Fits where an Air Unit won't."
+      "consensusReview": "Reliable workhorse for DJI system. Fits where an Air Unit won't.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RunCam+Link&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "pinecil-v2-25",
@@ -805,19 +847,20 @@
       "category": "Tools",
       "subCategory": "Soldering",
       "weight": "28g",
-      "description": "RISC-V powered portable soldering iron with USB-C PD and DC input. Heats to operating temperature in 6 seconds with adjustable 100-400°C range and motion-activated sleep mode.",
+      "description": "RISC-V powered portable soldering iron with USB-C PD and DC input. Heats to operating temperature in 6 seconds with adjustable 100-400\u00b0C range and motion-activated sleep mode.",
       "price": 25.99,
       "amazonLink": "https://www.amazon.com/s?k=Pinecil+V2&tag=sparkfish-20",
       "imageUrl": "/images/parts/pinecil-v2.png",
       "specs": {
         "Power": "88W max",
         "Input": "USB-C PD / DC5525 12-24V",
-        "Temp Range": "100-400°C",
+        "Temp Range": "100-400\u00b0C",
         "Heat-up": "6 seconds",
         "Display": "0.69\" OLED",
         "Features": "Motion sensor, Hall sensor, BLE"
       },
-      "consensusReview": "Best portable iron hands down. Heats up instantly."
+      "consensusReview": "Best portable iron hands down. Heats up instantly.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Pinecil+V2&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "isdt-608pd-29",
@@ -834,7 +877,8 @@
         "Input": "USB-C PD",
         "Cells": "1-6S"
       },
-      "consensusReview": "Perfect travel charger. Requires a PD power brick."
+      "consensusReview": "Perfect travel charger. Requires a PD power brick.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=ISDT+608PD&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "isdt-q6-nano-34",
@@ -851,7 +895,8 @@
         "Power": "200W",
         "Features": "BattGO support"
       },
-      "consensusReview": "Crazy power for the size. Fan can be noisy."
+      "consensusReview": "Crazy power for the size. Fan can be noisy.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=ISDT+Q6+Nano&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "ethix-tool-case-24",
@@ -867,7 +912,8 @@
       "specs": {
         "Designer": "Mr. Steele"
       },
-      "consensusReview": "Keeps tools organized. Fits perfectly in backpacks."
+      "consensusReview": "Keeps tools organized. Fits perfectly in backpacks.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Ethix+Tool+Case&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "tbs-ethix-m3-nut-dri-12",
@@ -884,7 +930,8 @@
         "Socket": "8mm hex",
         "Feature": "Bearing-assisted"
       },
-      "consensusReview": "Makes prop changes satisfying. High quality feel."
+      "consensusReview": "Makes prop changes satisfying. High quality feel.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=TBS+Ethix+M3+Nut+Driver&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "flywoo-fpv-multimete-29",
@@ -898,7 +945,8 @@
       "amazonLink": "https://www.amazon.com/s?k=Flywoo+Fpv+Multimeter&tag=sparkfish-20",
       "imageUrl": "/images/parts/flywoo-fpv-multimeter.png",
       "specs": {},
-      "consensusReview": "Handy to have in the field bag. Small and effective."
+      "consensusReview": "Handy to have in the field bag. Small and effective.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Flywoo+Fpv+Multimeter&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "vifly-shortsaver-2-14",
@@ -918,7 +966,8 @@
         "Trip Time": "3ms short / 10ms overcurrent",
         "Dimensions": "42x30x10mm"
       },
-      "consensusReview": "Saved my electronics multiple times. Don't build without it."
+      "consensusReview": "Saved my electronics multiple times. Don't build without it.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=VIFLY+ShortSaver+2&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "ts101-smart-solderin-58",
@@ -935,7 +984,8 @@
         "Input": "DC and PD",
         "Feature": "Boost mode"
       },
-      "consensusReview": "Reliable and powerful. The boost button is great for ground pads."
+      "consensusReview": "Reliable and powerful. The boost button is great for ground pads.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=TS101+Smart+Soldering+Iron&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "vifly-whoopstor-v3-32",
@@ -955,7 +1005,8 @@
         "Target Voltage": "3.8V, 3.85V, 4.2V, 4.35V",
         "Connectors": "PH2.0, BT2.0, A30"
       },
-      "consensusReview": "The best 1S charger period. Saves your batteries."
+      "consensusReview": "The best 1S charger period. Saves your batteries.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=VIFLY+WhoopStor+V3&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "ifixit-mako-driver-k-39",
@@ -974,7 +1025,8 @@
         "Extension": "150mm flexible",
         "Types": "Phillips, TORX, Hex, Pentalobe, more"
       },
-      "consensusReview": "High quality bits that don't strip screws. Lasts forever."
+      "consensusReview": "High quality bits that don't strip screws. Lasts forever.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=iFixit+Mako+Driver+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "torvol-quad-pitstop--19",
@@ -993,7 +1045,8 @@
         "Laptop": "Up to 17\"",
         "Features": "Pitstop area, Magnetcase, Rain cover"
       },
-      "consensusReview": "Expensive but worth it. The expandable pitstop area is genius."
+      "consensusReview": "Expensive but worth it. The expandable pitstop area is genius.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Torvol+Quad+Pitstop+Backpack+Pro&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "torvol-urban-carrier-14",
@@ -1010,7 +1063,8 @@
         "Style": "Urban EDC",
         "Feature": "Modular attachments"
       },
-      "consensusReview": "Great for urban missions. Not as big as the Pitstop but looks better."
+      "consensusReview": "Great for urban missions. Not as big as the Pitstop but looks better.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Torvol+Urban+Carrier+Backpack&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "lykus-dcp-m100-case-69",
@@ -1021,13 +1075,14 @@
       "weight": "N/A",
       "description": "Waterproof hard case with DIY foam. Fits DJI Avata or various setups.",
       "price": 69.99,
-      "amazonLink": "https://www.amazon.com/s?k=Lykus+DCP-M100+Case&tag=sparkfish-20",
+      "amazonLink": "https://www.amazon.com/s?k=Lykus+DCPM100+Case&tag=sparkfish-20",
       "imageUrl": "/images/parts/lykus-dcp-m100-case.png",
       "specs": {
         "Protection": "Waterproof",
         "Foam": "DIY customizable"
       },
-      "consensusReview": "Solid protection at a good price. Foam is easy to customize."
+      "consensusReview": "Solid protection at a good price. Foam is easy to customize.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Lykus+DCPM100+Case&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "betafpv-storage-case-19",
@@ -1044,7 +1099,8 @@
         "Fits": "65/75mm whoops",
         "Feature": "Battery tester slot"
       },
-      "consensusReview": "Perfect fit for tiny whoops. Zipper is high quality."
+      "consensusReview": "Perfect fit for tiny whoops. Zipper is high quality.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BetaFPV+Storage+Case&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "gemfan-vanover-gate-39",
@@ -1061,7 +1117,8 @@
         "Designer": "Captain Vanover",
         "Type": "Pop-up"
       },
-      "consensusReview": "Easy to set up. Highly visible."
+      "consensusReview": "Easy to set up. Highly visible.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Gemfan+Vanover+Gate&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "cnhl-black-series-13-24",
@@ -1081,7 +1138,8 @@
         "Weight": "230g",
         "Connector": "XT60"
       },
-      "consensusReview": "Best bang for buck battery. Punches way above its price."
+      "consensusReview": "Best bang for buck battery. Punches way above its price.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=CNHL+Black+Series+1300mAh+6S&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "tattu-r-line-v5.0-14-39",
@@ -1092,14 +1150,15 @@
       "weight": "N/A",
       "description": "Professional racing battery. 150C discharge rate.",
       "price": 39.99,
-      "amazonLink": "https://www.amazon.com/s?k=Tattu+R-Line+V5.0+1400mAh+6S&tag=sparkfish-20",
+      "amazonLink": "https://www.amazon.com/s?k=Tattu+RLine+V50+1400mAh+6S&tag=sparkfish-20",
       "imageUrl": "/images/parts/tattu-r-line-v5-1400mah-6s.png",
       "specs": {
         "Capacity": "1400mAh",
         "Voltage": "6S",
         "Discharge": "150C"
       },
-      "consensusReview": "The top tier choice. Power delivery is instant and sustained."
+      "consensusReview": "The top tier choice. Power delivery is instant and sustained.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Tattu+RLine+V50+1400mAh+6S&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "gnb-450mah-1s-6.",
@@ -1117,7 +1176,8 @@
         "Voltage": "1S HV",
         "Connector": "A30"
       },
-      "consensusReview": "Great flight times for 75mm whoops. A30 connector is solid."
+      "consensusReview": "Great flight times for 75mm whoops. A30 connector is solid.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=GNB+450mAh+1S&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "vibes-fpv-earbuds-14",
@@ -1133,7 +1193,8 @@
       "specs": {
         "Options": "Single ear / Dual ear"
       },
-      "consensusReview": "Crucial for connecting with the quad. Good isolation."
+      "consensusReview": "Crucial for connecting with the quad. Good isolation.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=VIBES+FPV+Earbuds&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     },
     {
       "id": "ethix-neck-strap-14",
@@ -1149,7 +1210,8 @@
       "specs": {
         "Feature": "Quick release"
       },
-      "consensusReview": "Super soft and comfortable. Quick release is smooth."
+      "consensusReview": "Super soft and comfortable. Quick release is smooth.",
+      "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Ethix+Neck+Strap&afid=oUUXh2q4mRKjRBXv&referring_service=link"
     }
   ]
 }

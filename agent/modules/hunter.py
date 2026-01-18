@@ -2,7 +2,8 @@ import json
 import logging
 import requests
 from pathlib import Path
-from config import PRODUCTS_FILE, AMAZON_TAG, USER_AGENT
+from config import PRODUCTS_FILE, AMAZON_TAG, USER_AGENT, GETFPV_AFFILIATE_ID
+import urllib.parse
 
 logger = logging.getLogger("FlightRiskAgent.Hunter")
 
@@ -10,6 +11,27 @@ class Hunter:
     def __init__(self, dry_run=False):
         self.dry_run = dry_run
         self.new_products_found = []
+
+    def construct_amazon_url(self, product_name):
+        """Constructs a standardized Amazon Search URL."""
+        if not product_name:
+            return ""
+        # Clean name (keep alphanumeric and spaces)
+        clean_name = "".join([c for c in product_name if c.isalnum() or c.isspace()]).strip()
+        encoded_name = urllib.parse.quote_plus(clean_name)
+        return f"https://www.amazon.com/s?k={encoded_name}&tag={AMAZON_TAG}"
+
+    def construct_getfpv_url(self, product_name):
+        """Constructs a standardized GetFPV Search URL."""
+        if not product_name:
+            return ""
+        # Clean name
+        clean_name = "".join([c for c in product_name if c.isalnum() or c.isspace()]).strip()
+        encoded_name = urllib.parse.quote_plus(clean_name)
+        # Pattern: /catalogsearch/result/?q=query
+        base_url = "https://www.getfpv.com/catalogsearch/result/"
+        # Append affiliate parameters: ?q=...&afid=...&referring_service=link
+        return f"{base_url}?q={encoded_name}&afid={GETFPV_AFFILIATE_ID}&referring_service=link"
 
     def hunt(self):
         """Main entry point for the Hunter module."""
@@ -167,8 +189,6 @@ class Hunter:
                 "consensusReview": "More power than the standard Meteor65. The 35mm props make a huge difference in cornering.",
                 "reviews_rating": 4.5
             },
-
-            # --- Radios ---
             {
                 "name": "RadioMaster TX16S MKII",
                 "brand": "RadioMaster",
@@ -181,6 +201,17 @@ class Hunter:
                 "reviews_rating": 4.9
             },
             {
+                "name": "DJI Goggles 3",
+                "brand": "DJI",
+                "category": "Goggles",
+                "subCategory": "Digital HD",
+                "price": 499.00,
+                "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+3",
+                "description": "The newest generation. Real View PiP, integrated forehead pad, and O4 transmission support.",
+                "consensusReview": "The best image quality available. The Real View pass-through is handy.",
+                "reviews_rating": 4.7
+            },
+             {
                 "name": "RadioMaster Boxer",
                 "brand": "RadioMaster",
                 "category": "Radio",
@@ -190,17 +221,6 @@ class Hunter:
                 "description": "Compact form factor with full-size gimbals and a 1W internal ELRS module. The perfect balance of portability and performance.",
                 "consensusReview": "Best in class ergonomics for thumb grippers. The 1W ELRS is a game changer.",
                 "reviews_rating": 4.8
-            },
-            {
-                "name": "RadioMaster Zorro",
-                "brand": "RadioMaster",
-                "category": "Radio",
-                "subCategory": "Gamepad",
-                "price": 119.99,
-                "amazonLink": "https://www.amazon.com/s?k=RadioMaster+Zorro",
-                "description": "Ergonomic gamepad style radio with a large LCD screen and plenty of switches. Supports external Lite modules.",
-                "consensusReview": "Great feel for console gamers. Battery life is short with 18350s, recommend the external kit.",
-                "reviews_rating": 4.4
             },
             {
                 "name": "RadioMaster MT12",
@@ -224,86 +244,7 @@ class Hunter:
                 "consensusReview": "Premium build quality. Crossfire is still reliable, though ELRS is catching up.",
                 "reviews_rating": 4.8
             },
-            {
-                "name": "BetaFPV LiteRadio 3 Pro",
-                "brand": "BetaFPV",
-                "category": "Radio",
-                "subCategory": "Gamepad",
-                "price": 89.99,
-                "amazonLink": "https://www.amazon.com/s?k=BetaFPV+LiteRadio+3+Pro",
-                "description": "An entry-level radio running actual EdgeTX. Hall gimbals and internal ELRS make it a capable starter.",
-                "consensusReview": "Good for the price. The screen is tiny but usable for basic setup.",
-                "reviews_rating": 4.0
-            },
-            {
-                "name": "FrSky Taranis X9D Plus 2019",
-                "brand": "FrSky",
-                "category": "Radio",
-                "subCategory": "Full Size",
-                "price": 219.99,
-                "amazonLink": "https://www.amazon.com/s?k=FrSky+Taranis+X9D+Plus+2019",
-                "description": "The classic workhorse updated. New ACCESS protocol and a scroll wheel for navigation.",
-                "consensusReview": "Still a solid radio, but feels dated compared to the TX16S.",
-                "reviews_rating": 4.3
-            },
-            {
-                "name": "Jumper T20S",
-                "brand": "Jumper",
-                "category": "Radio",
-                "subCategory": "Compact",
-                "price": 139.99,
-                "amazonLink": "https://www.amazon.com/s?k=Jumper+T20S",
-                "description": "A powerful compact radio with RDC90 sensor gimbals for ultra-smooth control.",
-                "consensusReview": "The gimbals feel amazing. Build quality is improved over previous Jumper radios.",
-                "reviews_rating": 4.5
-            },
-            {
-                "name": "Radiolink AT10II",
-                "brand": "Radiolink",
-                "category": "Radio",
-                "subCategory": "Full Size",
-                "price": 159.99,
-                "amazonLink": "https://www.amazon.com/s?k=Radiolink+AT10II",
-                "description": "12-channel radio with excellent interference rejection. Known for robust signal in noisy environments.",
-                "consensusReview": "Great range and stability, but the interface is not as flexible as EdgeTX.",
-                "reviews_rating": 4.2
-            },
-            {
-                "name": "Flysky NV14",
-                "brand": "Flysky",
-                "category": "Radio",
-                "subCategory": "Gamepad",
-                "price": 179.99,
-                "amazonLink": "https://www.amazon.com/s?k=Flysky+NV14",
-                "description": "The 'Nirvana'. Unique ergonomic design with dual screens and Hall effect gimbals.",
-                "consensusReview": "Love the grip or hate it. Very unique, but firmware support has been spotty.",
-                "reviews_rating": 4.1
-            },
-
-            # --- Goggles ---
-            {
-                "name": "DJI Goggles 3",
-                "brand": "DJI",
-                "category": "Goggles",
-                "subCategory": "Digital HD",
-                "price": 499.00,
-                "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+3",
-                "description": "The newest generation. Real View PiP, integrated forehead pad, and O4 transmission support.",
-                "consensusReview": "The best image quality available. The Real View pass-through is handy.",
-                "reviews_rating": 4.7
-            },
-            {
-                "name": "DJI Goggles Integra",
-                "brand": "DJI",
-                "category": "Goggles",
-                "subCategory": "Digital HD",
-                "price": 349.00,
-                "amazonLink": "https://www.amazon.com/s?k=DJI+Goggles+Integra",
-                "description": "Integrated battery headband design for a cable-free experience. O3+ transmission technology.",
-                "consensusReview": "Best value for DJI digital. Convenience of no cables is huge.",
-                "reviews_rating": 4.6
-            },
-            {
+             {
                 "name": "Walksnail Avatar Goggles X",
                 "brand": "Caddx",
                 "category": "Goggles",
@@ -336,64 +277,7 @@ class Hunter:
                 "consensusReview": "The best analog picture you can get. Menu navigation is superb.",
                 "reviews_rating": 4.8
             },
-            {
-                "name": "Skyzone Cobra X V2",
-                "brand": "Skyzone",
-                "category": "Goggles",
-                "subCategory": "Box Goggle",
-                "price": 269.99,
-                "amazonLink": "https://www.amazon.com/s?k=Skyzone+Cobra+X+V2",
-                "description": "High-end box goggles with a 1280x720 LCD and SteadyView receiver. Glasses friendly.",
-                "consensusReview": "Best box goggles on the market. Great for spectacle wearers.",
-                "reviews_rating": 4.6
-            },
-            {
-                "name": "Fat Shark HDO2.1",
-                "brand": "Fat Shark",
-                "category": "Goggles",
-                "subCategory": "Analog",
-                "price": 499.00,
-                "amazonLink": "https://www.amazon.com/s?k=Fat+Shark+HDO2.1",
-                "description": "Updated OLED panels and adjustable focus. Requires a separate receiver module.",
-                "consensusReview": "Classic premium analog choice. Requires investment in a good module like RapidFire.",
-                "reviews_rating": 4.5
-            },
-            {
-                "name": "HDZero Goggles",
-                "brand": "HDZero",
-                "category": "Goggles",
-                "subCategory": "Digital HD",
-                "price": 595.00,
-                "amazonLink": "https://www.amazon.com/s?k=HDZero+Goggles",
-                "description": "Designed for racers. 90fps analog-like latency in digital HD. Open source Linux OS.",
-                "consensusReview": "The racer's choice. Lowest latency digital system, period.",
-                "reviews_rating": 4.7
-            },
-            {
-                "name": "BetaFPV VR03",
-                "brand": "BetaFPV",
-                "category": "Goggles",
-                "subCategory": "Box Goggle",
-                "price": 69.99,
-                "amazonLink": "https://www.amazon.com/s?k=BetaFPV+VR03",
-                "description": "Entry-level box goggles with DVR recording capability and an external antenna.",
-                "consensusReview": "Good starter set with DVR. Screen is decent for the price.",
-                "reviews_rating": 4.1
-            },
-            {
-                "name": "Eachine EV100",
-                "brand": "Eachine",
-                "category": "Goggles",
-                "subCategory": "Analog",
-                "price": 109.99,
-                "amazonLink": "https://www.amazon.com/s?k=Eachine+EV100",
-                "description": "Ultra-compact dual screen analog goggles. Adjustable focus and IPD.",
-                "consensusReview": "Very portable but the FOV is tiny. Good backup set.",
-                "reviews_rating": 3.8
-            },
-
-            # --- VTX ---
-            {
+             {
                 "name": "Walksnail Avatar HD Pro Kit",
                 "brand": "Caddx",
                 "category": "VTX",
@@ -426,86 +310,7 @@ class Hunter:
                 "consensusReview": "Rock solid fixed latency. 1W power punches through interference.",
                 "reviews_rating": 4.7
             },
-            {
-                "name": "HDZero Whoop Lite VTX",
-                "brand": "HDZero",
-                "category": "VTX",
-                "subCategory": "Digital",
-                "price": 99.99,
-                "amazonLink": "https://www.amazon.com/s?k=HDZero+Whoop+Lite+VTX",
-                "description": "Designed for 1S whoops. Weighs only 1.5g. 25/200mW output.",
-                "consensusReview": "Transforms flight feel of whoops. Digital clarity with analog weight.",
-                "reviews_rating": 4.5
-            },
-            {
-                "name": "TBS Unify Pro32 HV",
-                "brand": "TBS",
-                "category": "VTX",
-                "subCategory": "Analog",
-                "price": 49.95,
-                "amazonLink": "https://www.amazon.com/s?k=TBS+Unify+Pro32+HV",
-                "description": "high voltage analog VTX capable of 1W+ output. Double-decker heat sink design.",
-                "consensusReview": "The gold standard for long range analog. Almost indestructible.",
-                "reviews_rating": 4.9
-            },
-            {
-                "name": "Rush Tank Solo",
-                "brand": "RushFPV",
-                "category": "VTX",
-                "subCategory": "Analog",
-                "price": 39.99,
-                "amazonLink": "https://www.amazon.com/s?k=Rush+Tank+Solo",
-                "description": "High power solo VTX. Heavy heat sinking for sustained high output.",
-                "consensusReview": "Runs cooler than the Unify. Signal is extremely clean.",
-                "reviews_rating": 4.8
-            },
-            {
-                "name": "BetaFPV M03",
-                "brand": "BetaFPV",
-                "category": "VTX",
-                "subCategory": "Analog",
-                "price": 19.99,
-                "amazonLink": "https://www.amazon.com/s?k=BetaFPV+M03",
-                "description": "Lightweight 350mW VTX perfect for whoops and toothpicks.",
-                "consensusReview": "Good range for the size. Antenna connector is fragile.",
-                "reviews_rating": 4.2
-            },
-            {
-                "name": "Happymodel OVX300",
-                "brand": "Happymodel",
-                "category": "VTX",
-                "subCategory": "Analog",
-                "price": 16.99,
-                "amazonLink": "https://www.amazon.com/s?k=Happymodel+OVX300",
-                "description": "OpenVTX protocol support. 300mW output in a tiny package.",
-                "consensusReview": "Cheap and effective. SmartAudio setup is easy.",
-                "reviews_rating": 4.3
-            },
-            {
-                "name": "SpeedyBee TX800",
-                "brand": "SpeedyBee",
-                "category": "VTX",
-                "subCategory": "Analog",
-                "price": 24.99,
-                "amazonLink": "https://www.amazon.com/s?k=SpeedyBee+TX800",
-                "description": "800mW max output. 20x20 mounting. IRC Tramp protocol.",
-                "consensusReview": "Great value for high power. Metal case acts as a good heatsink.",
-                "reviews_rating": 4.5
-            },
-            {
-                "name": "RunCam Link",
-                "brand": "RunCam",
-                "category": "VTX",
-                "subCategory": "Digital",
-                "price": 139.99,
-                "amazonLink": "https://www.amazon.com/s?k=RunCam+Link",
-                "description": "The 'Vista' unit manufactured by RunCam. Compatible with DJI FPV System.",
-                "consensusReview": "Reliable workhorse for DJI system. Fits where an Air Unit won't.",
-                "reviews_rating": 4.7
-            },
-
-            # --- Tools ---
-            {
+             {
                 "name": "Pinecil V2",
                 "brand": "Pine64",
                 "category": "Tools",
@@ -517,107 +322,6 @@ class Hunter:
                 "reviews_rating": 4.8
             },
             {
-                "name": "ISDT 608PD",
-                "brand": "ISDT",
-                "category": "Tools",
-                "subCategory": "Charger",
-                "price": 29.99,
-                "amazonLink": "https://www.amazon.com/s?k=ISDT+608PD",
-                "description": "Compact USB-C PD charger for 1-6S batteries. Pocket sized.",
-                "consensusReview": "Perfect travel charger. Requires a PD power brick.",
-                "reviews_rating": 4.4
-            },
-            {
-                "name": "ISDT Q6 Nano",
-                "brand": "ISDT",
-                "category": "Tools",
-                "subCategory": "Charger",
-                "price": 34.99,
-                "amazonLink": "https://www.amazon.com/s?k=ISDT+Q6+Nano",
-                "description": "200W tiny charger. BattGO support and upgradeable firmware.",
-                "consensusReview": "Crazy power for the size. Fan can be noisy.",
-                "reviews_rating": 4.5
-            },
-            {
-                "name": "Ethix Tool Case",
-                "brand": "Ethix",
-                "category": "Tools",
-                "subCategory": "Case",
-                "price": 24.95,
-                "amazonLink": "https://www.amazon.com/s?k=Ethix+Tool+Case",
-                "description": "Compact zipper case designed by Mr. Steele to hold essential field tools.",
-                "consensusReview": "Keeps tools organized. Fits perfectly in backpacks.",
-                "reviews_rating": 4.7
-            },
-            {
-                "name": "TBS Ethix M3 Nut Driver",
-                "brand": "TBS",
-                "category": "Tools",
-                "subCategory": "Drivers",
-                "price": 12.95,
-                "amazonLink": "https://www.amazon.com/s?k=TBS+Ethix+M3+Nut+Driver",
-                "description": "Smooth bearing-assisted prop tool. 8mm hex socket.",
-                "consensusReview": "Makes prop changes satisfying. High quality feel.",
-                "reviews_rating": 4.9
-            },
-            {
-                "name": "Flywoo Fpv Multimeter",
-                "brand": "Flywoo",
-                "category": "Tools",
-                "subCategory": "Diagnostics",
-                "price": 29.99,
-                "amazonLink": "https://www.amazon.com/s?k=Flywoo+Fpv+Multimeter",
-                "description": "Pocket multimeter designed for drone builds. Check voltages and continuity easily.",
-                "consensusReview": "Handy to have in the field bag. Small and effective.",
-                "reviews_rating": 4.2
-            },
-            {
-                "name": "VIFLY ShortSaver 2",
-                "brand": "VIFLY",
-                "category": "Tools",
-                "subCategory": "Safety",
-                "price": 14.99,
-                "amazonLink": "https://www.amazon.com/s?k=VIFLY+ShortSaver+2",
-                "description": "Electronic fuse smoke stopper. Essential for first plug-ins.",
-                "consensusReview": "Saved my electronics multiple times. Don't build without it.",
-                "reviews_rating": 4.9
-            },
-            {
-                "name": "TS101 Smart Soldering Iron",
-                "brand": "Miniware",
-                "category": "Tools",
-                "subCategory": "Soldering",
-                "price": 58.99,
-                "amazonLink": "https://www.amazon.com/s?k=TS101+Smart+Soldering+Iron",
-                "description": "The updated classic. DC and PD input, boost mode, and custom tips.",
-                "consensusReview": "Reliable and powerful. The boost button is great for ground pads.",
-                "reviews_rating": 4.7
-            },
-            {
-                "name": "VIFLY WhoopStor V3",
-                "brand": "VIFLY",
-                "category": "Tools",
-                "subCategory": "Charger",
-                "price": 32.99,
-                "amazonLink": "https://www.amazon.com/s?k=VIFLY+WhoopStor+V3",
-                "description": "1S charger with storage function. Discharges batteries to safe voltage.",
-                "consensusReview": "The best 1S charger period. Saves your batteries.",
-                "reviews_rating": 4.9
-            },
-            {
-                "name": "iFixit Mako Driver Kit",
-                "brand": "iFixit",
-                "category": "Tools",
-                "subCategory": "Drivers",
-                "price": 39.99,
-                "amazonLink": "https://www.amazon.com/s?k=iFixit+Mako+Driver+Kit",
-                "description": "64-bit precision driver set. Magnetic case and lid tray.",
-                "consensusReview": "High quality bits that don't strip screws. Lasts forever.",
-                "reviews_rating": 4.8
-            },
-
-            # --- Gear ---
-            {
                 "name": "Torvol Quad Pitstop Backpack Pro",
                 "brand": "Torvol",
                 "category": "Gear",
@@ -627,105 +331,6 @@ class Hunter:
                 "description": "The pilots backpack. Unfolds into a pit area. Holds 4+ quads.",
                 "consensusReview": "Expensive but worth it. The expandable pitstop area is genius.",
                 "reviews_rating": 4.8
-            },
-            {
-                "name": "Torvol Urban Carrier Backpack",
-                "brand": "Torvol",
-                "category": "Gear",
-                "subCategory": "Backpack",
-                "price": 149.00,
-                "amazonLink": "https://www.amazon.com/s?k=Torvol+Urban+Carrier+Backpack",
-                "description": "Stylish everyday carry pack for freestyle pilots. Modular attachment system.",
-                "consensusReview": "Great for urban missions. Not as big as the Pitstop but looks better.",
-                "reviews_rating": 4.5
-            },
-            {
-                "name": "Lykus DCP-M100 Case",
-                "brand": "Lykus",
-                "category": "Gear",
-                "subCategory": "Case",
-                "price": 69.99,
-                "amazonLink": "https://www.amazon.com/s?k=Lykus+DCP-M100+Case",
-                "description": "Waterproof hard case with DIY foam. Fits DJI Avata or various setups.",
-                "consensusReview": "Solid protection at a good price. Foam is easy to customize.",
-                "reviews_rating": 4.6
-            },
-            {
-                "name": "BetaFPV Storage Case",
-                "brand": "BetaFPV",
-                "category": "Gear",
-                "subCategory": "Case",
-                "price": 19.99,
-                "amazonLink": "https://www.amazon.com/s?k=BetaFPV+Storage+Case",
-                "description": "Compact hard case for 65/75mm whoops. Includes battery tester slot.",
-                "consensusReview": "Perfect fit for tiny whoops. Zipper is high quality.",
-                "reviews_rating": 4.4
-            },
-            {
-                "name": "Gemfan Vanover Gate",
-                "brand": "Gemfan",
-                "category": "Gear",
-                "subCategory": "Gate",
-                "price": 39.99,
-                "amazonLink": "https://www.amazon.com/s?k=Gemfan+Vanover+Gate",
-                "description": "Pop-up race gate designed by Captain Vanover. Durable fabric.",
-                "consensusReview": "Easy to set up. Highly visible.",
-                "reviews_rating": 4.5
-            },
-            {
-                "name": "CNHL Black Series 1300mAh 6S",
-                "brand": "CNHL",
-                "category": "Gear",
-                "subCategory": "Battery",
-                "price": 24.99,
-                "amazonLink": "https://www.amazon.com/s?k=CNHL+Black+Series+1300mAh+6S",
-                "description": "High performance 100C LiPo battery. Excellent sag resistance.",
-                "consensusReview": "Best bang for buck battery. Punches way above its price.",
-                "reviews_rating": 4.7
-            },
-            {
-                "name": "Tattu R-Line V5.0 1400mAh 6S",
-                "brand": "Tattu",
-                "category": "Gear",
-                "subCategory": "Battery",
-                "price": 39.99,
-                "amazonLink": "https://www.amazon.com/s?k=Tattu+R-Line+V5.0+1400mAh+6S",
-                "description": "Professional racing battery. 150C discharge rate.",
-                "consensusReview": "The top tier choice. Power delivery is instant and sustained.",
-                "reviews_rating": 4.9
-            },
-            {
-                "name": "GNB 450mAh 1S",
-                "brand": "GNB",
-                "category": "Gear",
-                "subCategory": "Battery",
-                "price": 6.99,
-                "amazonLink": "https://www.amazon.com/s?k=GNB+450mAh+1S",
-                "description": "High voltage 1S battery with A30 header. Lightweight.",
-                "consensusReview": "Great flight times for 75mm whoops. A30 connector is solid.",
-                "reviews_rating": 4.4
-            },
-            {
-                "name": "VIBES FPV Earbuds",
-                "brand": "VIBES",
-                "category": "Gear",
-                "subCategory": "Audio",
-                "price": 14.99,
-                "amazonLink": "https://www.amazon.com/s?k=VIBES+FPV+Earbuds",
-                "description": "Earbuds designed for hearing motor noise. Single ear and dual ear options.",
-                "consensusReview": "Crucial for connecting with the quad. Good isolation.",
-                "reviews_rating": 4.3
-            },
-            {
-                "name": "Ethix Neck Strap",
-                "brand": "Ethix",
-                "category": "Gear",
-                "subCategory": "Strap",
-                "price": 14.99,
-                "amazonLink": "https://www.amazon.com/s?k=Ethix+Neck+Strap",
-                "description": "Comfortable lanyard with quick release. Green and grey styling.",
-                "consensusReview": "Super soft and comfortable. Quick release is smooth.",
-                "reviews_rating": 4.6
             }
         ]
         
@@ -733,6 +338,7 @@ class Hunter:
         for item in potential_finds:
              if "name" in item:
                  item["amazonLink"] = self.construct_amazon_url(item["name"])
+                 item["getfpvLink"] = self.construct_getfpv_url(item["name"])
                  
         return potential_finds
 
@@ -794,40 +400,31 @@ class Hunter:
             return []
 
     def check_replenishment(self, potential_products, products_data):
-        """Forces update of ALL products to use Amazon Search URLs to prevent 404s."""
-        logger.info("Force-updating all product links to Amazon Search URLs...")
+        """Forces update of ALL products to use standardized URLs."""
+        logger.info("Force-updating all product links (Amazon + GetFPV)...")
         
         products = products_data.get("products", [])
-        updates_made = False
-        
-        # Create a lookup map for potential finds by normalized name just in case we have better data
-        potential_map = {p.get("name", "").lower(): p for p in potential_products}
+        updated_count = 0
         
         for product in products:
-            name = product.get("name", "")
-            if not name:
-                continue
+            name = product.get("name")
+            if name:
+                # Always regenerate/update the links to ensure compliance
+                new_amazon_link = self.construct_amazon_url(name)
+                new_getfpv_link = self.construct_getfpv_url(name)
                 
-            # Use the helper to construct the validated URL
-            new_link = self.construct_amazon_url(name)
-            
-            # Check if we need to update (avoid writing if identical)
-            if product.get("amazonLink") != new_link:
-                product["amazonLink"] = new_link
-                # logger.debug(f"Updated link for: {name}") # noisy
-                updates_made = True
+                product["amazonLink"] = new_amazon_link
+                product["getfpvLink"] = new_getfpv_link
+                updated_count += 1
 
-    def construct_amazon_url(self, name):
-        """Generates a safe Amazon Search URL for a given product name."""
-        if not name:
-            return ""
-        # Create a clean search query
-        query = name.replace(" ", "+")
-        base_url = f"https://www.amazon.com/s?k={query}"
-        return self.add_affiliate_tag(base_url)
-
-    # (Duplicate scan_market removed)
-
+        if updated_count > 0:
+            logger.info(f"Updated links for {updated_count} products.")
+            try:
+                with open(PRODUCTS_FILE, 'w') as f:
+                    json.dump(products_data, f, indent=2)
+                logger.info(f"Saved replenished links to {PRODUCTS_FILE}")
+            except Exception as e:
+                logger.error(f"Failed to save products file: {e}")
 
     def prune_inventory(self, products_data):
         """Removes products that have no valid Amazon link."""

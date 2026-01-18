@@ -19,6 +19,8 @@ GEMINI_MODEL_SMART = os.getenv("GEMINI_MODEL_SMART", "gemini-1.5-pro")
 
 # Amazon/Associate Settings
 AMAZON_TAG = "sparkfish-20"
+GETFPV_AFFILIATE_ID = "oUUXh2q4mRKjRBXv"
+
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 # Site Settings
