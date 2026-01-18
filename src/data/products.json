@@ -1223,7 +1223,7 @@
       "description": "Ultra-lightweight frame for the smallest whoop builds. Durable visuals.",
       "price": 15.99,
       "amazonLink": "https://www.amazon.com/s?k=BETAFPV+Femto+Whoop+Frame+Kit&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/b/e/betafpv-femto-whoop-frame-kit-main.jpg",
+      "imageUrl": "/images/parts/betafpv-femto-whoop-frame-kit.jpg",
       "specs": {},
       "consensusReview": "Perfect for 1S builds. Very resilient.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BETAFPV+Femto+Whoop+Frame+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1238,7 +1238,7 @@
       "description": "Versatile 3-inch frame with modular arms. Great for freestyle or cinematic.",
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=SpeedyBee+Master3X+Modular+Frame+Kit&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/s/p/speedybee-master3x-modular-frame-kit-main.jpg",
+      "imageUrl": "/images/parts/speedybee-master3x-modular-frame-kit.jpg",
       "specs": {},
       "consensusReview": "Excellent build quality for the price. Easy to work on.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=SpeedyBee+Master3X+Modular+Frame+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1253,7 +1253,7 @@
       "description": "The community favorite open-source frame. V6 improves arm rigidity and mounting options.",
       "price": 41.99,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Source+One+V6+5inch+Frame+Kit&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/b/tbs-source-one-v6-5-frame-kit-main.jpg",
+      "imageUrl": "/images/parts/tbs-source-one-v6-5inch-frame-kit.jpg",
       "specs": {},
       "consensusReview": "Unbeatable value. The standard for entry-level freestyle.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=TBS+Source+One+V6+5inch+Frame+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1268,7 +1268,7 @@
       "description": "Lightweight 4-inch frame optimized for O3 Air Unit and long flight times.",
       "price": 64.99,
       "amazonLink": "https://www.amazon.com/s?k=FlyFishRC+Atlas+4+LR+Frame+Kit&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/f/l/flyfishrc-atlas-4-lr-frame-kit-o4-pro-main.jpg",
+      "imageUrl": "/images/parts/flyfishrc-atlas-4-lr-frame-kit.jpg",
       "specs": {},
       "consensusReview": "Great layout for GPS and heavy batteries.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=FlyFishRC+Atlas+4+LR+Frame+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1283,7 +1283,7 @@
       "description": "Unique Y6 configuration for redundancy and stability in long-range flights.",
       "price": 61.63,
       "amazonLink": "https://www.amazon.com/s?k=HGLRC+Y6+5inch+LR+Frame+Kit&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/h/g/hglrc-y6-5-lr-frame-kit-main.jpg",
+      "imageUrl": "/images/parts/hglrc-y6-5inch-lr-frame-kit.jpg",
       "specs": {},
       "consensusReview": "A specialized frame but performs surprisingly well.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=HGLRC+Y6+5inch+LR+Frame+Kit&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1298,7 +1298,7 @@
       "description": "Reliable F7 stack with BLHeli_32 ESCs. 20x20 mounting perfect for compact builds.",
       "price": 167.99,
       "amazonLink": "https://www.amazon.com/s?k=Flycolor+SpeedyPizza+CrustCore+Stack&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/f/l/flycolor-speedypizza-crustcore-stack-main.jpg",
+      "imageUrl": "/images/parts/flycolor-speedypizza-crustcore-stack.jpg",
       "specs": {},
       "consensusReview": "Solid performance and clean layout.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Flycolor+SpeedyPizza+CrustCore+Stack&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1313,7 +1313,7 @@
       "description": "Budget-friendly 30x30 stack with aluminum shell for protection and heat dissipation.",
       "price": 129.99,
       "amazonLink": "https://www.amazon.com/s?k=Axisflying+Argus+ECO+Stack&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/a/x/axisflying-argus-eco-stack-main.jpg",
+      "imageUrl": "/images/parts/axisflying-argus-eco-stack.jpg",
       "specs": {},
       "consensusReview": "Best value 60A stack. Very durable.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Axisflying+Argus+ECO+Stack&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1328,7 +1328,7 @@
       "description": "Industry standard reliability from Hobbywing. Smooth flight performance.",
       "price": 137.49,
       "amazonLink": "https://www.amazon.com/s?k=Hobbywing+XRotor+Stack&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/h/o/hobbywing-xrotor-stack-main.jpg",
+      "imageUrl": "/images/parts/hobbywing-xrotor-stack.jpg",
       "specs": {},
       "consensusReview": "Never fails. Worth the extra cost for peace of mind.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Hobbywing+XRotor+Stack&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1343,7 +1343,7 @@
       "description": "Innovative stack for the Lucid frame series. Compact and powerful.",
       "price": 129.99,
       "amazonLink": "https://www.amazon.com/s?k=TBS+Lucid+Pro+Stack&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/b/tbs-lucid-pro-stack-main.jpg",
+      "imageUrl": "/images/parts/tbs-lucid-pro-stack.jpg",
       "specs": {},
       "consensusReview": "High quality components as expected from TBS.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=TBS+Lucid+Pro+Stack&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1358,7 +1358,7 @@
       "description": "High power F7 stack with 60A AM32 ESCs. Features barometer and blackbox.",
       "price": 127.49,
       "amazonLink": "https://www.amazon.com/s?k=SkyStars+Fly+Stack&tag=sparkfish-20",
-      "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/s/k/skystars-fly-stack-f722-hd-pro-4-main.jpg",
+      "imageUrl": "/images/parts/skystars-fly-stack.jpg",
       "specs": {},
       "consensusReview": "Great features for the price. AM32 is smooth.",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=SkyStars+Fly+Stack&afid=oUUXh2q4mRKjRBXv&referring_service=link"
@@ -1374,7 +1374,7 @@
       "price": 19.79,
       "amazonLink": "https://www.amazon.com/s?k=BrotherHobby+Avenger+2810+Motor&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=BrotherHobby+Avenger+2810+Motor&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/b/r/brotherhobby_avenger_2810_motor_5.jpg",
+      "imageUrl": "/images/parts/brotherhobby-avenger-2810-motor.jpg",
       "specs": {},
       "consensusReview": "Incredible torque. Smoothness is legendary."
     },
@@ -1389,7 +1389,7 @@
       "price": 28.99,
       "amazonLink": "https://www.amazon.com/s?k=iFlight+XING2+2207+Unibell+Motor&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=iFlight+XING2+2207+Unibell+Motor&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/x/i/xing2-2207-2_1.jpg",
+      "imageUrl": "/images/parts/iflight-xing2-2207-unibell-motor.jpg",
       "specs": {},
       "consensusReview": "Very durable bells. Great performance for freestyle."
     },
@@ -1404,7 +1404,7 @@
       "price": 18.99,
       "amazonLink": "https://www.amazon.com/s?k=AOS+RC+Supernova+1605+FPV+Motor&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=AOS+RC+Supernova+1605+FPV+Motor&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/a/o/aos_rc_supernova_1605_fpv_motor_-_3900kv3.jpg",
+      "imageUrl": "/images/parts/aos-rc-supernova-1605-fpv-motor.jpg",
       "specs": {},
       "consensusReview": "Scientifically designed for performance. Runs cool."
     },
@@ -1419,7 +1419,7 @@
       "price": 17.99,
       "amazonLink": "https://www.amazon.com/s?k=AOS+RC+Supernova+1404+FPV+Motor&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=AOS+RC+Supernova+1404+FPV+Motor&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/a/o/aos_rc_supernova_1404_fpv_motor_-_4000kv2.jpg",
+      "imageUrl": "/images/parts/aos-rc-supernova-1404-fpv-motor.jpg",
       "specs": {},
       "consensusReview": "Makes sub-250g quads feel like 5-inch."
     },
@@ -1434,7 +1434,7 @@
       "price": 29.99,
       "amazonLink": "https://www.amazon.com/s?k=Lumenier+2307+JohnnyFPV+V3+Pro+Motor&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=Lumenier+2307+JohnnyFPV+V3+Pro+Motor&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/l/u/lumenier-2307-johnnyfpv-v3-pro-cinematic-motor_1__1.jpg",
+      "imageUrl": "/images/parts/lumenier-2307-johnnyfpv-v3-pro-motor.jpg",
       "specs": {},
       "consensusReview": "Butter smooth. Essential for cinematic footage."
     },
@@ -1449,7 +1449,7 @@
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=DOGCOM+SBang+V2+1480mAh+6S+Battery&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=DOGCOM+SBang+V2+1480mAh+6S+Battery&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/2/3/23859-1.jpg",
+      "imageUrl": "/images/parts/dogcom-sbang-v2-1480mah-6s-battery.jpg",
       "specs": {},
       "consensusReview": "Holds voltage incredibly well under load."
     },
@@ -1464,7 +1464,7 @@
       "price": 39.99,
       "amazonLink": "https://www.amazon.com/s?k=DOGCOM+1480mAh+6S+150C+Battery&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=DOGCOM+1480mAh+6S+150C+Battery&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/d/o/dogcom-dogcom-sbang-22-2v-6s-1480mah-150c-lipo-battery-xt60-battery-31219903627377.jpg",
+      "imageUrl": "/images/parts/dogcom-1480mah-6s-150c-battery.jpg",
       "specs": {},
       "consensusReview": "Reliable power delivery. Good cycle life."
     },
@@ -1479,7 +1479,7 @@
       "price": 49.99,
       "amazonLink": "https://www.amazon.com/s?k=DOGCOM+Ultra+Series+1480mAh+6S+Battery&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=DOGCOM+Ultra+Series+1480mAh+6S+Battery&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/2/3/23857-1.jpg",
+      "imageUrl": "/images/parts/dogcom-ultra-series-1480mah-6s-battery.jpg",
       "specs": {},
       "consensusReview": "Expensive but provides unmatched sag resistance."
     },
@@ -1494,7 +1494,7 @@
       "price": 25.99,
       "amazonLink": "https://www.amazon.com/s?k=RadioMaster+TX16S+5000mAh+Battery&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=RadioMaster+TX16S+5000mAh+Battery&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/r/a/radiomaster-tx16s-5000mah-2s-li-ion-battery.jpg",
+      "imageUrl": "/images/parts/radiomaster-tx16s-5000mah-battery.jpg",
       "specs": {},
       "consensusReview": "Must have for TX16S owners. Fits perfectly."
     },
@@ -1509,7 +1509,7 @@
       "price": 47.49,
       "amazonLink": "https://www.amazon.com/s?k=XILO+1250mAh+6S+100c+Basher+Battery&tag=sparkfish-20",
       "getfpvLink": "https://www.getfpv.com/catalogsearch/result/?q=XILO+1250mAh+6S+100c+Basher+Battery&afid=oUUXh2q4mRKjRBXv&referring_service=link",
-      "imageUrl": "https://cdn-v2.getfpv.com/media/catalog/product/cache/8636f329c03de7a3ccf2e3f032055eef/x/i/xilo-1250mah-6s-100c-basher-lipo-battery-xt60-main.jpg",
+      "imageUrl": "/images/parts/xilo-1250mah-6s-100c-basher-battery.jpg",
       "specs": {},
       "consensusReview": "Great for practice packs."
     }
