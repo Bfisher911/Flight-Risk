@@ -51,6 +51,7 @@ class Builder:
                     "description": description,
                     "price": product.get("price", 0.0),
                     "amazonLink": product.get("amazonLink"),
+                    "getfpvLink": product.get("getfpvLink"),
                     "imageUrl": image_path,
                     "specs": product.get("specs", {}),
                     "consensusReview": consensus # Adding this new field to schema
@@ -71,6 +72,9 @@ class Builder:
         # For mock products or simple links, we might just return a placeholder 
         # or download if it's a real URL.
         # Assuming product['imageUrl'] might exist from the scanner or not.
+        
+        if product.get("imageUrl"):
+            return product.get("imageUrl")
         
         # Mock behavior:
         return "/images/parts/placeholder.png"

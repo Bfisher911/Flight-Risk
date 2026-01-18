@@ -331,6 +331,117 @@ class Hunter:
                 "description": "The pilots backpack. Unfolds into a pit area. Holds 4+ quads.",
                 "consensusReview": "Expensive but worth it. The expandable pitstop area is genius.",
                 "reviews_rating": 4.8
+            },
+            # --- New Arrivals from GetFPV Scan ---
+             {
+                "name": "BETAFPV Femto Whoop Frame Kit",
+                "brand": "BETAFPV",
+                "category": "Frame",
+                "subCategory": "Whoop",
+                "price": 15.99,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/b/e/betafpv-femto-whoop-frame-kit-main.jpg",
+                "description": "Ultra-lightweight frame for the smallest whoop builds. Durable visuals.",
+                "consensusReview": "Perfect for 1S builds. Very resilient.",
+                "reviews_rating": 4.5
+            },
+            {
+                "name": "SpeedyBee Master3X Modular Frame Kit",
+                "brand": "SpeedyBee",
+                "category": "Frame",
+                "subCategory": "3-inch",
+                "price": 39.99,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/s/p/speedybee-master3x-modular-frame-kit-main.jpg",
+                "description": "Versatile 3-inch frame with modular arms. Great for freestyle or cinematic.",
+                "consensusReview": "Excellent build quality for the price. Easy to work on.",
+                "reviews_rating": 4.7
+            },
+            {
+                "name": "TBS Source One V6 5inch Frame Kit",
+                "brand": "TBS",
+                "category": "Frame",
+                "subCategory": "5-inch",
+                "price": 41.99,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/b/tbs-source-one-v6-5-frame-kit-main.jpg",
+                "description": "The community favorite open-source frame. V6 improves arm rigidity and mounting options.",
+                "consensusReview": "Unbeatable value. The standard for entry-level freestyle.",
+                "reviews_rating": 4.9
+            },
+            {
+                "name": "FlyFishRC Atlas 4 LR Frame Kit",
+                "brand": "FlyFishRC",
+                "category": "Frame",
+                "subCategory": "Long Range",
+                "price": 64.99,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/f/l/flyfishrc-atlas-4-lr-frame-kit-o4-pro-main.jpg",
+                "description": "Lightweight 4-inch frame optimized for O3 Air Unit and long flight times.",
+                "consensusReview": "Great layout for GPS and heavy batteries.",
+                "reviews_rating": 4.6
+            },
+            {
+                "name": "HGLRC Y6 5inch LR Frame Kit",
+                "brand": "HGLRC",
+                "category": "Frame",
+                "subCategory": "Long Range",
+                "price": 61.63,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/h/g/hglrc-y6-5-lr-frame-kit-main.jpg",
+                "description": "Unique Y6 configuration for redundancy and stability in long-range flights.",
+                "consensusReview": "A specialized frame but performs surprisingly well.",
+                "reviews_rating": 4.4
+            },
+            {
+                "name": "Flycolor SpeedyPizza CrustCore Stack",
+                "brand": "Flycolor",
+                "category": "Electronics",
+                "subCategory": "Stack",
+                "price": 167.99,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/f/l/flycolor-speedypizza-crustcore-stack-main.jpg",
+                "description": "Reliable F7 stack with BLHeli_32 ESCs. 20x20 mounting perfect for compact builds.",
+                "consensusReview": "Solid performance and clean layout.",
+                "reviews_rating": 4.5
+            },
+            {
+                "name": "Axisflying Argus ECO Stack",
+                "brand": "Axisflying",
+                "category": "Electronics",
+                "subCategory": "Stack",
+                "price": 129.99,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/a/x/axisflying-argus-eco-stack-main.jpg",
+                "description": "Budget-friendly 30x30 stack with aluminum shell for protection and heat dissipation.",
+                "consensusReview": "Best value 60A stack. Very durable.",
+                "reviews_rating": 4.6
+            },
+            {
+                "name": "Hobbywing XRotor Stack",
+                "brand": "Hobbywing",
+                "category": "Electronics",
+                "subCategory": "Stack",
+                "price": 137.49,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/h/o/hobbywing-xrotor-stack-main.jpg",
+                "description": "Industry standard reliability from Hobbywing. Smooth flight performance.",
+                "consensusReview": "Never fails. Worth the extra cost for peace of mind.",
+                "reviews_rating": 4.8
+            },
+            {
+                "name": "TBS Lucid Pro Stack",
+                "brand": "TBS",
+                "category": "Electronics",
+                "subCategory": "Stack",
+                "price": 129.99,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/t/b/tbs-lucid-pro-stack-main.jpg",
+                "description": "Innovative stack for the Lucid frame series. Compact and powerful.",
+                "consensusReview": "High quality components as expected from TBS.",
+                "reviews_rating": 4.7
+            },
+            {
+                "name": "SkyStars Fly Stack",
+                "brand": "SkyStars",
+                "category": "Electronics",
+                "subCategory": "Stack",
+                "price": 127.49,
+                "imageUrl": "https://www.getfpv.com/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/s/k/skystars-fly-stack-f722-hd-pro-4-main.jpg",
+                "description": "High power F7 stack with 60A AM32 ESCs. Features barometer and blackbox.",
+                "consensusReview": "Great features for the price. AM32 is smooth.",
+                "reviews_rating": 4.5
             }
         ]
         
