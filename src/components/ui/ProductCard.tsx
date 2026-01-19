@@ -22,12 +22,30 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     const isFrame = product.category.toLowerCase() === 'frame';
     const [imageError, setImageError] = useState(false);
 
+    // Lore Helpers (Fallbacks if data missing)
+    // Deterministic hash for consistent lore across reloads
+    const hash = product.id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    const hazardLevel = (product as any).hazardLevel || ['LOW', 'MED', 'HIGH', 'CRIT'][hash % 4];
+    const isVerified = (product as any).systemVerified || (hash % 3 === 0);
+
+    const hazardColor: Record<string, string> = {
+        'LOW': 'text-slate-400',
+        'MED': 'text-accent-amber',
+        'HIGH': 'text-orange-500',
+        'CRIT': 'text-red-500'
+    };
+
     return (
         <TechnicalCard
             accent={isFrame ? 'amber' : 'blue'}
-            className="h-full flex flex-col group cursor-pointer"
+            className="h-full flex flex-col group cursor-pointer relative overflow-hidden"
         >
-            <div className="flex flex-col h-full">
+            {/* Hazard Strip */}
+            <div className={`absolute top-0 right-0 px-2 py-1 text-[7px] font-mono font-bold tracking-widest border-b border-l border-white/5 bg-slate-950 z-10 ${hazardColor[hazardLevel] || 'text-slate-400'}`}>
+                HAZARD: {hazardLevel}
+            </div>
+
+            <div className="flex flex-col h-full pt-4">
                 {/* Product Image */}
                 <div className="relative w-full h-40 mb-4 bg-slate-900/50 rounded overflow-hidden">
                     {product.imageUrl && !imageError ? (
@@ -44,6 +62,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                             <Box className="w-12 h-12 text-slate-700" />
                         </div>
                     )}
+
+                    {/* System Verified Badge overlay */}
+                    {isVerified && (
+                        <div className="absolute bottom-2 left-2 px-1.5 py-0.5 bg-green-500/10 border border-green-500/30 text-[7px] font-mono text-green-400 font-bold tracking-widest flex items-center gap-1 backdrop-blur-sm">
+                            <div className="w-1 h-1 rounded-full bg-green-500 animate-pulse" />
+                            SYS_VERIFIED
+                        </div>
+                    )}
                 </div>
 
                 {/* Brand & Category */}
@@ -52,11 +78,6 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                         <span className="text-[9px] font-mono text-slate-500 uppercase tracking-tighter">
                             {product.brand}
                         </span>
-                        {product.isRecommended && (
-                            <span className="text-[7px] font-mono text-green-500 font-bold tracking-widest border border-green-500/30 px-1 py-0.5 rounded-sm bg-green-500/5 animate-pulse">
-                                [EXPERT_PICK]
-                            </span>
-                        )}
                     </div>
                     <span className={`px-2 py-0.5 text-[8px] font-mono border rounded-full uppercase ${isFrame ? 'border-accent-amber/30 text-accent-amber' : 'border-accent-blue/30 text-accent-blue'}`}>
                         {product.category}
@@ -68,8 +89,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                     {product.name}
                 </h3>
 
-                {/* Technical Quick-Icons */}
-                <div className="flex gap-4 mb-4">
+                {/* technical/Lore Details */}
+                <div className="flex flex-wrap gap-3 mb-4">
                     {product.weight && (
                         <div className="flex items-center gap-1">
                             <Weight className="w-3 h-3 text-slate-600" />
@@ -78,13 +99,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                     )}
                     <div className="flex items-center gap-1">
                         <Zap className="w-3 h-3 text-slate-600" />
-                        <span className="text-[10px] font-mono text-slate-400">System_OK</span>
+                        <span className="text-[10px] font-mono text-slate-400">
+                            {isVerified ? 'Optimized' : 'Standard'}
+                        </span>
                     </div>
                 </div>
 
-                {/* Description */}
-                <p className="text-[11px] text-slate-500 font-mono mb-6 line-clamp-2 leading-relaxed">
-                    {product.description}
+                {/* Description / Dossier Snippet */}
+                <p className="text-[11px] text-slate-500 font-mono mb-6 line-clamp-2 leading-relaxed opacity-80 group-hover:opacity-100 transition-opacity">
+                    {(product as any).dossier || product.description}
                 </p>
 
                 {/* Price & Action */}

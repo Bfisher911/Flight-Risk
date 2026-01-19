@@ -3,6 +3,7 @@
 import React, { useState, Suspense } from 'react';
 import productsData from "@/data/products.json";
 import { ProductCard } from "@/components/ui/ProductCard";
+import { MissionSelector } from "@/components/ui/MissionSelector";
 import { Search, Tag, ChevronRight, BarChart3 } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -13,11 +14,36 @@ function ShopContent() {
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedCategory, setSelectedCategory] = useState("All");
     const [selectedBrand, setSelectedBrand] = useState("All");
+    const [missionProfile, setMissionProfile] = useState<string>("");
+
+    // Mission Profile Logic
+    useEffect(() => {
+        if (!missionProfile) return;
+        setSelectedCategory("All");
+        setSelectedBrand("All");
+    }, [missionProfile]);
 
     useEffect(() => {
         const cat = searchParams.get("category");
         if (cat) setSelectedCategory(cat);
     }, [searchParams]);
+
+    // Easter Egg: Konami Code
+    useEffect(() => {
+        let keys: string[] = [];
+        const konami = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+
+        const handleKeyDown = (e: KeyboardEvent) => {
+            keys.push(e.key);
+            keys = keys.slice(-10);
+            if (JSON.stringify(keys) === JSON.stringify(konami)) {
+                alert("SYSTEM_OVERRIDE_INITIATED // ADMIN_ACCESS_GRANTED \n\nDISCOUNT_CODE: 'RISKY_BUSINESS' ACTIVATED");
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, []);
 
     const categories = ["All", ...new Set(productsData.products.map((p: any) => p.category))];
     const brands = ["All", ...new Set(productsData.products.map((p: any) => p.brand))];
@@ -27,7 +53,17 @@ function ShopContent() {
             product.description.toLowerCase().includes(searchQuery.toLowerCase());
         const matchesCategory = selectedCategory === "All" || product.category === selectedCategory;
         const matchesBrand = selectedBrand === "All" || product.brand === selectedBrand;
-        return matchesSearch && matchesCategory && matchesBrand;
+
+        let matchesMission = true;
+        if (missionProfile === 'HULL_INTEGRITY') {
+            matchesMission = (product.category === 'Frames' || product.category === 'Motors' || product.subCategory === 'Freestyle') && product.price > 50;
+        } else if (missionProfile === 'RANGE_MAX') {
+            matchesMission = product.subCategory === 'Long Range' || product.name.includes("GPS") || product.name.includes("Li-Ion");
+        } else if (missionProfile === 'STEALTH_OPS') {
+            matchesMission = product.subCategory === 'Tiny Whoop' || product.category === 'Radio' || product.category === 'Goggles' || product.name.includes("Pocket");
+        }
+
+        return matchesSearch && matchesCategory && matchesBrand && matchesMission;
     });
 
     return (
@@ -73,13 +109,15 @@ function ShopContent() {
                 </div>
             </div>
 
+            <MissionSelector activeMission={missionProfile} onSelectMission={setMissionProfile} />
+
             <div className="flex flex-col lg:flex-row gap-8">
                 {/* Sidebar Filters */}
                 <aside className="w-full lg:w-64 shrink-0 space-y-8">
                     {/* Category Filter */}
                     <div>
                         <div className="flex items-center gap-2 mb-4 text-[10px] font-mono text-accent-blue uppercase tracking-widest font-bold">
-                            <Tag className="w-3 h-3" /> CATEGORY_SELECT
+                            <Tag className="w-3 h-3" /> MISSION_LOADOUT
                         </div>
                         <div className="space-y-1">
                             {categories.map(cat => (
@@ -98,7 +136,7 @@ function ShopContent() {
                     {/* Brand Filter */}
                     <div>
                         <div className="flex items-center gap-2 mb-4 text-[10px] font-mono text-accent-amber uppercase tracking-widest font-bold">
-                            <BarChart3 className="w-3 h-3" /> BRAND_AUTH
+                            <BarChart3 className="w-3 h-3" /> SUPPLY_CHAIN_AUTH
                         </div>
                         <div className="space-y-1">
                             {brands.map(brand => (
@@ -116,7 +154,7 @@ function ShopContent() {
                     <div className="pt-8 border-t border-white/5">
                         <div className="text-[10px] font-mono text-accent-blue/60 uppercase mb-2">// SYSTEM_UPDATE</div>
                         <p className="text-[9px] font-mono text-slate-500 leading-tight">
-                            Filter by category or brand to isolate specific components for your build sequence.
+                            Filter by mission profile to isolate specific components for your build sequence.
                         </p>
                     </div>
                 </aside>
@@ -138,7 +176,7 @@ function ShopContent() {
                     )}
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 

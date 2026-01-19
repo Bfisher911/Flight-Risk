@@ -21,6 +21,9 @@ export const Header: React.FC = () => {
                     </div>
                 </Link>
                 <nav className="hidden md:flex items-center gap-8">
+                    <Link href="/about" className="font-mono text-sm hover:text-accent-blue transition-colors flex items-center gap-1 group">
+                        [LOG]
+                    </Link>
                     <Link href="/shop" className="font-mono text-sm hover:text-accent-blue transition-colors flex items-center gap-1 group">
                         <ShoppingCart className="w-4 h-4 group-hover:animate-pulse" /> [SHOP]
                     </Link>

@@ -31,6 +31,22 @@ export default function ProductDetailPage() {
         );
     }
 
+    // Lore Helpers
+    const hash = (product.id as string).split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    const hazardLevel = (product as any).hazardLevel || ['LOW', 'MED', 'HIGH', 'CRIT'][hash % 4];
+    const isVerified = (product as any).systemVerified || (hash % 3 === 0);
+
+    // Dossier Logic
+    const hasDossier = !!(product as any).dossier;
+    const descriptionText = (product as any).dossier || product.description;
+
+    const hazardColor: Record<string, string> = {
+        'LOW': 'text-slate-400',
+        'MED': 'text-accent-amber',
+        'HIGH': 'text-orange-500',
+        'CRIT': 'text-red-500'
+    };
+
     const jsonLd = {
         "@context": "https://schema.org/",
         "@type": "Product",
@@ -77,6 +93,11 @@ export default function ProductDetailPage() {
                         <div className="absolute inset-0 border border-current opacity-5 pointer-events-none" />
                         <div className="absolute top-4 left-4 font-mono text-[8px] opacity-20 uppercase">PRD_VIZ_v2.0</div>
 
+                        {/* Hazard Indicator */}
+                        <div className={`absolute top-4 right-4 text-[10px] font-mono font-bold tracking-widest border border-current px-2 py-1 ${hazardColor[hazardLevel] || 'text-slate-500'}`}>
+                            HAZARD: {hazardLevel}
+                        </div>
+
                         {/* Product Image */}
                         {product.imageUrl && !imageError ? (
                             <div className="w-80 h-80 relative group-hover:scale-105 transition-transform duration-700">
@@ -100,6 +121,13 @@ export default function ProductDetailPage() {
                             X_AUTH: GRANTED<br />
                             SPEC_LOCK: 100%
                         </div>
+
+                        {isVerified && (
+                            <div className="absolute bottom-4 left-4 flex items-center gap-2 text-green-500/80">
+                                <Shield className="w-4 h-4 animate-pulse" />
+                                <span className="text-[10px] font-mono font-bold tracking-widest">SYSTEM_VERIFIED</span>
+                            </div>
+                        )}
                     </TechnicalCard>
                 </div>
 
@@ -116,9 +144,16 @@ export default function ProductDetailPage() {
 
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tighter uppercase">{product.name}</h1>
 
-                    <p className="text-slate-400 font-mono text-sm leading-relaxed mb-8 border-l-2 border-accent-blue/20 pl-6 italic">
-                        {product.description}
-                    </p>
+                    {/* Dossier Description */}
+                    <div className="mb-8 relative group">
+                        <div className="absolute -left-3 top-0 bottom-0 w-1 bg-gradient-to-b from-accent-blue/0 via-accent-blue/50 to-accent-blue/0 opacity-50 group-hover:opacity-100 transition-opacity" />
+                        <div className="text-[10px] font-mono text-accent-blue/60 mb-2 uppercase tracking-widest">
+                            {hasDossier ? '// CLASSIFIED_DOSSIER' : '// SYSTEM_ANALYSIS'}
+                        </div>
+                        <p className={`font-mono text-sm leading-relaxed pl-4 ${hasDossier ? 'text-slate-300 italic' : 'text-slate-400'}`}>
+                            {descriptionText}
+                        </p>
+                    </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
                         <div className="bg-slate-900/40 p-3 border border-white/5">
@@ -131,16 +166,20 @@ export default function ProductDetailPage() {
                         <div className="bg-slate-900/40 p-3 border border-white/5">
                             <div className="flex items-center gap-2 text-slate-500 mb-1">
                                 <Shield className="w-3 h-3" />
-                                <span className="text-[9px] font-mono uppercase tracking-tighter">Reliability</span>
+                                <span className="text-[9px] font-mono uppercase tracking-tighter">Risk_Level</span>
                             </div>
-                            <div className="text-sm font-mono font-bold text-green-500">GRADE_A</div>
+                            <div className={`text-sm font-mono font-bold ${hazardColor[hazardLevel] || 'text-slate-400'}`}>
+                                {hazardLevel}
+                            </div>
                         </div>
                         <div className="bg-slate-900/40 p-3 border border-white/5">
                             <div className="flex items-center gap-2 text-slate-500 mb-1">
                                 <Zap className="w-3 h-3" />
-                                <span className="text-[9px] font-mono uppercase tracking-tighter">Performance</span>
+                                <span className="text-[9px] font-mono uppercase tracking-tighter">Status</span>
                             </div>
-                            <div className="text-sm font-mono font-bold">OPTIMAL</div>
+                            <div className={`text-sm font-mono font-bold ${isVerified ? 'text-green-500' : 'text-slate-500'}`}>
+                                {isVerified ? 'VERIFIED' : 'UNTESTED'}
+                            </div>
                         </div>
                     </div>
 
@@ -185,16 +224,12 @@ export default function ProductDetailPage() {
                     {product.specs && Object.entries(product.specs).map(([key, value]) => (
                         <div key={key} className="bg-slate-950 p-4 flex justify-between items-center group hover:bg-slate-900/50 transition-colors">
                             <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest">{key}</span>
-                            <span className="text-xs font-mono text-foreground font-bold group-hover:text-accent-blue transition-colors">{value}</span>
+                            <span className="text-xs font-mono text-foreground font-bold group-hover:text-accent-blue transition-colors">{(value as any)}</span>
                         </div>
                     ))}
                     <div className="bg-slate-950 p-4 flex justify-between items-center">
                         <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest">Build_Compatibility</span>
                         <span className="text-xs font-mono text-green-500 font-bold">WHOOP_CLASS // 65-75MM</span>
-                    </div>
-                    <div className="bg-slate-950 p-4 flex justify-between items-center">
-                        <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest">Solder_Required</span>
-                        <span className="text-xs font-mono text-accent-amber font-bold">{product.category === 'Motors' || product.category === 'Flight Controllers' ? 'YES // HIGH_SKILL' : 'NO // PLUG_PLAY'}</span>
                     </div>
                 </div>
             </div>
@@ -206,7 +241,7 @@ export default function ProductDetailPage() {
                         <Box className="w-4 h-4" /> ALTERNATIVE_CONFIGURATIONS
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {relatedProducts.map(rel => (
+                        {relatedProducts.map((rel: any) => (
                             <Link href={`/product/${rel.id}`} key={rel.id} className="block group">
                                 <TechnicalCard className="p-4 border-white/5 hover:border-accent-blue/30 transition-all">
                                     <div className="text-[10px] font-mono text-slate-600 uppercase mb-2">{rel.brand}</div>
