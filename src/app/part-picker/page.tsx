@@ -4,7 +4,7 @@ import React, { useState, useEffect, Suspense } from 'react';
 import { AdBanner } from "@/components/ads/AdBanner";
 import { TechnicalCard } from "@/components/ui/TechnicalCard";
 import { TechnicalButton } from "@/components/ui/TechnicalButton";
-import { Cpu, Settings, Camera, Zap, Radio, Battery, Info, CheckCircle2, Share2, Copy } from "lucide-react";
+import { Cpu, Settings, Camera, Zap, Radio, Battery, Info, CheckCircle2, Share2, Copy, Gamepad2, Glasses, Shield, Crosshair, Map } from "lucide-react";
 import productsData from "@/data/products.json";
 import Image from "next/image";
 import { useSearchParams, useRouter, usePathname } from 'next/navigation';
@@ -28,12 +28,51 @@ const Typewriter = ({ text, delay = 30 }: { text: string; delay?: number }) => {
 };
 
 const categories = [
-    { name: "Frame", icon: Settings, key: "Frame" },
+    { name: "Frame / Model", icon: Settings, key: "Frame" },
     { name: "Motors", icon: Zap, key: "Motors" },
     { name: "Flight Controller", icon: Cpu, key: "Flight Controllers" },
     { name: "Camera", icon: Camera, key: "Camera" },
     { name: "VTX", icon: Radio, key: "VTX" },
     { name: "Battery", icon: Battery, key: "Batteries" },
+    { name: "Radio System", icon: Gamepad2, key: "Radio" },
+    { name: "Goggles / Video", icon: Glasses, key: "Goggles" },
+];
+
+const PRESETS = [
+    {
+        id: "starter",
+        name: "THE STARTER",
+        description: "Zero to Hero. Everything you need to learn without breaking the bank.",
+        parts: {
+            "Frame": "happymodel-mobula6-2-10",
+            "Radio": "radio-03",
+        },
+        icon: Shield,
+        color: "text-green-400"
+    },
+    {
+        id: "bando",
+        name: "THE BANDO BASHER",
+        description: "Designed for impact. Nazgul airframe with robust video link.",
+        parts: {
+            "Frame": "iflight-nazgul-evoqu-46",
+            "Radio": "radio-03",
+            "Goggles": "dji-goggles-integra-34"
+        },
+        icon: Zap,
+        color: "text-accent-amber"
+    },
+    {
+        id: "long_range",
+        name: "THE LONG RANGER",
+        description: "Mountain surfing capability. High efficiency, long endurance.",
+        parts: {
+            "Frame": "flywoo-explorer-lr-4-36",
+            "Batteries": "geprc-vtc6-18650-4s1p-3000mah-148v-li-ion-battery-xt60-71"
+        },
+        icon: Map,
+        color: "text-blue-400"
+    }
 ];
 
 function PartPickerContent() {
@@ -50,6 +89,8 @@ function PartPickerContent() {
             Camera: null,
             VTX: null,
             Batteries: null,
+            Radio: null,
+            Goggles: null
         };
 
         categories.forEach(cat => {
@@ -115,7 +156,10 @@ function PartPickerContent() {
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     {productsData.products
-                                        .filter(p => p.category === cat.key)
+                                        .filter(p => {
+                                            if (cat.key === "Frame") return p.category === "Frame" || p.category === "Drones";
+                                            return p.category === cat.key;
+                                        })
                                         .map((product: any) => (
                                             <TechnicalCard
                                                 key={product.id}
@@ -164,6 +208,38 @@ function PartPickerContent() {
                 {/* Build Summary Sidebar */}
                 <aside className="w-full lg:w-80 shrink-0">
                     <div className="sticky top-24 space-y-6">
+
+                        {/* Verified Loadouts */}
+                        <TechnicalCard accent="blue" title="SYSTEM_VERIFIED_LOADOUTS" subtitle="ONE-CLICK_CONFIG">
+                            <div className="space-y-3 mb-2">
+                                {PRESETS.map((preset) => (
+                                    <div
+                                        key={preset.id}
+                                        onClick={() => {
+                                            const newSelections: Record<string, string | null> = { ...selections };
+                                            Object.entries(preset.parts).forEach(([key, value]) => {
+                                                if (value !== undefined) newSelections[key] = value;
+                                            });
+                                            setSelections(newSelections);
+                                            updateUrl(newSelections);
+                                        }}
+                                        className="group relative border border-white/5 bg-slate-900/50 hover:bg-slate-800/80 p-3 cursor-pointer transition-all hover:border-accent-blue/50"
+                                    >
+                                        <div className="flex items-start gap-3">
+                                            <preset.icon className={`w-5 h-5 mt-1 ${preset.color} shrink-0`} />
+                                            <div>
+                                                <h4 className={`font-mono font-bold text-sm ${preset.color} mb-1 group-hover:underline decoration-1 underline-offset-4`}>{preset.name}</h4>
+                                                <p className="text-[10px] text-slate-400 leading-relaxed">{preset.description}</p>
+                                            </div>
+                                        </div>
+                                        <div className="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                            <CheckCircle2 className="w-4 h-4 text-accent-blue" />
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </TechnicalCard>
+
                         <TechnicalCard accent="amber" title="BUILD_SUMMARY" subtitle="REAL-TIME_ANALYSIS">
                             <div className="space-y-4 mb-6">
                                 {categories.map((cat) => {
